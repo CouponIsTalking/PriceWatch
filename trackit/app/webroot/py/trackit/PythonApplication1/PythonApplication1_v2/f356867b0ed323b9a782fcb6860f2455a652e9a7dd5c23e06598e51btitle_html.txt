@@ -1,0 +1,189 @@
+<div id="productDescription">
+<div class="pdp_productInfo">
+<div class="pdp_descriptionAndPrice">
+<h1 id="productTitle" itemprop="name">Modern Fiction Leather Cap Toe Oxfords</h1>
+<div itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
+<div id="PriceDisplay">
+<div>
+<div class="priceSale">
+<div class="singleTierPrice"><span>PRICE: </span><span itemprop="price" class="priceBig">$285.00</span></div>
+</div>
+<input class="netPrice" value="$285.00" type="hidden">
+</div>
+<meta itemprop="priceCurrency" content="USD">
+</div>
+</div>
+</div>
+<div id="pdp_reviews">
+<span itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating">
+<meta itemprop="ratingValue" content="">
+<meta itemprop="ratingCount" content="">
+</span>
+<div class="BVBrowserFF" id="BVRRSummaryContainer"> <div class="BVRRRootElement">
+<div class="BVRRRatingSummary BVRRPrimarySummary BVRRPrimaryRatingSummary"><div class="BVRRRatingSummaryStyle2"><div class="BVRRRatingSummaryNoReviews"> <div id="BVRRRatingSummaryNoReviewsWriteImageLinkID" class="BVRRRatingSummaryLink BVRRRatingSummaryNoReviewsWriteImageLink">
+<a title="write a review" data-bvcfg="495544884" data-bvjsref="http://bloomingdales.ugc.bazaarvoice.com/7130aa/831579/writereview.djs?format=embeddedhtml&amp;campaignid=BV_RATING_SUMMARY_ZERO_REVIEWS&amp;sessionparams=__BVSESSIONPARAMS__&amp;return=http%3A%2F%2Fwww1.bloomingdales.com%2Fshop%2Fproduct%2Fmodern-fiction-leather-cap-toe-oxfords%3FID%3D831579%26CategoryID%3D1001314%23fn%3Dspp%253D1%2526ppp%253D96%2526sp%253D1%2526rid%253D82%2526spc%253D139&amp;innerreturn=http%3A%2F%2Fbloomingdales.ugc.bazaarvoice.com%2F7130aa%2F831579%2Freviews.djs%3Fformat%3Dembeddedhtml&amp;user=__USERID__&amp;authsourcetype=__AUTHTYPE__&amp;submissionparams=__BVSUBMISSIONPARAMETERS__&amp;submissionurl=http%3A%2F%2Fwww1.bloomingdales.com%2Fshop%2Fproduct%2Fmodern-fiction-leather-cap-toe-oxfords%3FID%3D831579%26CategoryID%3D1001314" name="BV_TrackingTag_Rating_Summary_1_WriteReview_831579" onclick="bvShowContent('PRR','7130aa','831579','BVRRWidgetID');bvShowContentOnReturnPRR('7130aa', '831579', 'BVRRWidgetID');" href="javascript://"> <img src="http://bloomingdales.ugc.bazaarvoice.com/static/7130aa/translucent.gif" alt="Write a review">
+</a> </div>
+ <div id="BVRRRatingSummaryLinkWriteFirstID" class="BVRRRatingSummaryLink BVRRRatingSummaryLinkWriteFirst">
+ <span class="BVRRRatingSummaryLinkWriteFirstPrefix">Be the first to </span>
+<a data-bvcfg="495544884" data-bvjsref="http://bloomingdales.ugc.bazaarvoice.com/7130aa/831579/writereview.djs?format=embeddedhtml&amp;campaignid=BV_RATING_SUMMARY_ZERO_REVIEWS&amp;sessionparams=__BVSESSIONPARAMS__&amp;return=http%3A%2F%2Fwww1.bloomingdales.com%2Fshop%2Fproduct%2Fmodern-fiction-leather-cap-toe-oxfords%3FID%3D831579%26CategoryID%3D1001314%23fn%3Dspp%253D1%2526ppp%253D96%2526sp%253D1%2526rid%253D82%2526spc%253D139&amp;innerreturn=http%3A%2F%2Fbloomingdales.ugc.bazaarvoice.com%2F7130aa%2F831579%2Freviews.djs%3Fformat%3Dembeddedhtml&amp;user=__USERID__&amp;authsourcetype=__AUTHTYPE__&amp;submissionparams=__BVSUBMISSIONPARAMETERS__&amp;submissionurl=http%3A%2F%2Fwww1.bloomingdales.com%2Fshop%2Fproduct%2Fmodern-fiction-leather-cap-toe-oxfords%3FID%3D831579%26CategoryID%3D1001314" name="BV_TrackingTag_Rating_Summary_1_WriteReview_831579" onclick="bvShowContent('PRR','7130aa','831579','BVRRWidgetID');bvShowContentOnReturnPRR('7130aa', '831579', 'BVRRWidgetID');" href="javascript://">write a review</a><span class="BVRRRatingSummaryLinkWriteFirstSuffix"></span> </div>
+</div><div style="display: none;" class="BVRRSocialBookmarkingLinks"><div class="BVRRProductBookmarkingLabel">Share:</div>
+<a style="display: none;" name="BV_TrackingTag_Rating_Summary_1_SocialBookmarkFacebook_831579" target="_blank" class="BVRRSocialBookmarkingSharingLink BVRRSocialBookmarkingSharingLinkFacebook" onclick="this.href=bvReplaceTokensInSocialURL(this.href);window.open(this.href,'','left=0,top=0,width=626,height=436,toolbar=1,location=0,resizable=1,scrollbars=1'); return false;" onfocus="this.href=bvReplaceTokensInSocialURL(this.href);" rel="nofollow" href="http://reviews.bloomingdales.com/7130aa/share.htm?site=Facebook&amp;url=http%3A%2F%2Fwww1.bloomingdales.com%2Fshop%2Fproduct%2Fmodern-fiction-leather-cap-toe-oxfords%3FID%3D831579%26CategoryID%3D3864&amp;title=__TITLE__&amp;robot=__ROBOT__&amp;image=http%3A%2F%2Fimages.bloomingdales.com%2Fis%2Fimage%2FBLM%2Fproducts%2F5%2Foptimized%2F8395995_fpx.tif%3Fbgc%3D255%2C255%2C255%26wid%3D134%26qlt%3D90%2C0%26layer%3Dcomp%26op_sharpen%3D0%26resMode%3Dbicub%26op_usm%3D0.7%2C1.0%2C0.5%2C0%26fmt%3Djpeg" onmouseover="this.href=bvReplaceTokensInSocialURL(this.href);"><img class="BVRRSocialBookmarkLinkImage" src="http://bloomingdales.ugc.bazaarvoice.com/static/7130aa/link-facebook.gif" alt="Facebook" title="Add to Facebook" height="16" width="16"></a>
+
+<a style="display: none;" name="BV_TrackingTag_Rating_Summary_1_SocialBookmarkTwitter_831579" target="_blank" class="BVRRSocialBookmarkingSharingLink BVRRSocialBookmarkingSharingLinkTwitter" onclick="this.href=bvReplaceTokensInSocialURL(this.href);window.open(this.href,'','left=0,top=0,width=795,height=700,toolbar=1,location=0,resizable=1,scrollbars=1'); return false;" onfocus="this.href=bvReplaceTokensInSocialURL(this.href);" rel="nofollow" href="http://reviews.bloomingdales.com/7130aa/share.htm?site=Twitter&amp;url=http%3A%2F%2Fwww1.bloomingdales.com%2Fshop%2Fproduct%2Fmodern-fiction-leather-cap-toe-oxfords%3FID%3D831579%26CategoryID%3D3864&amp;title=__TITLE__&amp;robot=__ROBOT__&amp;image=http%3A%2F%2Fimages.bloomingdales.com%2Fis%2Fimage%2FBLM%2Fproducts%2F5%2Foptimized%2F8395995_fpx.tif%3Fbgc%3D255%2C255%2C255%26wid%3D134%26qlt%3D90%2C0%26layer%3Dcomp%26op_sharpen%3D0%26resMode%3Dbicub%26op_usm%3D0.7%2C1.0%2C0.5%2C0%26fmt%3Djpeg" onmouseover="this.href=bvReplaceTokensInSocialURL(this.href);"><img class="BVRRSocialBookmarkLinkImage" src="http://bloomingdales.ugc.bazaarvoice.com/static/7130aa/link-twitter.gif" alt="Twitter" title="Tweet this" height="16" width="16"></a>
+</div>
+<div style="display: none;" class="BVDI_SBFacebookLikeButtonContainer BVRRProductSocialBookmarkFacebookLikeButtonContainer">
+
+ <fb:like fb-xfbml-state="rendered" href="http://www1.bloomingdales.com/shop/product/modern-fiction-leather-cap-toe-oxfords?ID=831579&amp;CategoryID=3864&amp;FBLike" send="false" class="BVRRSocialBookmark BVRRSocialBookmarkFacebookLikeButton fb_edge_widget_with_comment fb_iframe_widget" layout="button_count" show_faces="true" width="100" action="like" font="arial" colorscheme="light" name="BV_TrackingTag_Rating_Summary_1_FacebookLike_831579"><span style="height: 0px; width: 0px;"><iframe src="http://www.facebook.com/plugins/like.php?action=like&amp;api_key=373264681151&amp;channel_url=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D27%23cb%3Df3201075c33df72%26domain%3Dwww1.bloomingdales.com%26origin%3Dhttp%253A%252F%252Fwww1.bloomingdales.com%252Ff1059fc9dc6a266%26relation%3Dparent.parent&amp;colorscheme=light&amp;extended_social_context=false&amp;font=arial&amp;href=http%3A%2F%2Fwww1.bloomingdales.com%2Fshop%2Fproduct%2Fmodern-fiction-leather-cap-toe-oxfords%3FID%3D831579%26CategoryID%3D3864%26FBLike&amp;layout=button_count&amp;locale=en_US&amp;node_type=link&amp;sdk=joey&amp;send=false&amp;show_faces=false&amp;width=100" class="fb_ltr" title="Like this content on Facebook." style="border: medium none; overflow: hidden; height: 0px; width: 0px;" name="f227401ededac8e" id="f2fd929f047c42c" scrolling="no"></iframe></span></fb:like>
+</div></div></div><a id="BVSubmissionLink" data-bvcfg="495544884" style="display: none;" data-bvjsref="http://bloomingdales.ugc.bazaarvoice.com/7130aa/831579/writereview.djs?format=embeddedhtml&amp;campaignid=BV_SUBMISSIONLINK&amp;sessionparams=__BVSESSIONPARAMS__&amp;return=http%3A%2F%2Fwww1.bloomingdales.com%2Fshop%2Fproduct%2Fmodern-fiction-leather-cap-toe-oxfords%3FID%3D831579%26CategoryID%3D1001314%23fn%3Dspp%253D1%2526ppp%253D96%2526sp%253D1%2526rid%253D82%2526spc%253D139&amp;innerreturn=http%3A%2F%2Fbloomingdales.ugc.bazaarvoice.com%2F7130aa%2F831579%2Freviews.djs%3Fformat%3Dembeddedhtml&amp;user=__USERID__&amp;authsourcetype=__AUTHTYPE__&amp;submissionparams=__BVSUBMISSIONPARAMETERS__&amp;submissionurl=http%3A%2F%2Fwww1.bloomingdales.com%2Fshop%2Fproduct%2Fmodern-fiction-leather-cap-toe-oxfords%3FID%3D831579%26CategoryID%3D1001314" onclick="bvShowContent('PRR','7130aa','831579','');bvShowContentOnReturnPRR('7130aa', '831579', '');" href="javascript://"></a>
+ </div>
+</div>
+</div>
+</div>
+<div id="productContainer" class="pdp_member_area">
+<div class="pdp_member_colorSize">
+<div class="pdp_member_color">
+<div id="colorHeadersDiv">	
+<span id="pdpColorLabel831579">COLOR: </span><span id="selectedColorNameID831579" class="pdpColorDesc">Dark Brown</span>
+</div>
+</div>
+<div class="pdp_member_size">
+<div class="pdp_atb_dotted_line"></div>
+<div id="sizes831579">
+<span id="pdpSizeLabel831579" class="pdpSizeLabel">size: </span>
+<span id="selectedSizeOption831579" class="pdpSizeDesc">
+select size
+</span>
+<div id="sizesListDiv831579" class="pdpMemberSizes">
+<ul id="sizeList831579">
+<li title="8.5" class="size regular">
+<span>8.5</span>
+<input value="8.5" type="hidden">
+</li>
+<li title="9" class="size regular">
+<span>9</span>
+<input value="9" type="hidden">
+</li>
+<li title="9.5" class="size regular">
+<span>9.5</span>
+<input value="9.5" type="hidden">
+</li>
+<li title="10" class="size regular">
+<span>10</span>
+<input value="10" type="hidden">
+</li>
+<li title="10.5" class="size ">
+<span>10.5</span>
+<input value="10.5" type="hidden">
+</li>
+<li title="11" class="size regular">
+<span>11</span>
+<input value="11" type="hidden">
+</li>
+<li title="11.5" class="size ">
+<span>11.5</span>
+<input value="11.5" type="hidden">
+</li>
+<li title="12" class="size regular">
+<span>12</span>
+<input value="12" type="hidden">
+</li>
+</ul>
+<div class="clearBoth"></div>
+</div>
+</div>
+<div id="sizeChart_831579" class="sizeChartLinkContainer">
+<img alt="Size Chart" class="sizeChartLink" src="http://assets.bloomingdales.com/navapp/web20/assets/img/catalog/product/size_chart.png">	
+<div class="hidden">
+<div id="productSizeChart_831579_container">	
+<!-- International size chart -->
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td>
+<img src="http://assets.bloomingdales.com/navapp/img/intl_size/INTL_SizeChart_MEN_SHOES.jpg" border="0">
+</td>
+</tr>
+</tbody></table>
+</div>
+<div id="productSizeChart_831579" class="productSizeChart">
+<div class="bd">
+</div>
+</div>
+</div>
+</div>
+<div class="pdp_atb_dotted_line"></div>
+</div>
+<div id="pdpShipDays831579" class="pdpShipDays masterPdpShipDays"></div>
+<div id="pdpBopsAvailabilityMsg831579" class="pdp_bopsAvailabilityMsg" area-live="polite"></div>
+</div>
+<div class="pdp_member_buttons">
+<div class="pdp_qty" id="pdpQty">
+<div class="floatLeft pdp_qty_label">
+<label for="productQuantity">QUANTITY:</label>
+</div>
+<div class="floatRight rightAlign">
+<form action="#">
+<select id="productQuantity" class="pdp_dropdown_qty" name="productQuantity">
+<option selected="selected" value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+</select>
+</form>
+</div>
+</div>
+<div class="pdp_add_to_bag">
+<div id="pdp_atbOverlay" style="display: none">
+<div class="pdp_atb_main">
+<div class="pdp_atb_top_link">
+<div class="floatLeft">
+<a style="display: none;" href="http://www1.bloomingdales.com/bag/index.ognc">
+<img src="http://assets.bloomingdales.com/navapp/img/catalog/brown_bag.jpg">
+</a>
+</div>
+<div class="pdp_atb_prodDesc">
+<div class="pdp_atb_got_it">
+<span id="itemsAddedMessage"></span>
+</div>
+<div class="pdp_atb_items_in_bag">
+<span id="pdp_atb_bagTotal"></span> in
+Bag&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Subtotal :
+<span id="pdp_atb_bagSubTotal"></span>
+</div>
+</div>
+<div class="clearBoth"></div>
+</div>
+<div class="pdp_atb_dotted_line"></div>
+<div id="pdp_atb_items"></div>
+<div class="pdp_atb_dotted_line"></div>
+<div class="pdp_atb_offers">
+<div id="pdp_atb_offer_msgs"></div>
+</div>
+<div id="atb_yaqfMessageContainer" class="yaqf_messageContainer">
+<div id="atb_yaqfMessagePrimary" class="yaqf_messagePrimary highlightText"></div>
+<div id="atb_yaqfMessageSecondary" class="yaqf_messageSecondary"></div>
+</div>
+<div class="pdp_atb_buttons">
+<img src="http://assets.bloomingdales.com/navapp/img/checkout2/buttons/ch_b_continueShopping.gif" alt="Continue Shopping" id="pdp_atb_cont_shopping">
+<a style="display: none;" id="pdp_atb_checkout" href="http://www1.bloomingdales.com/bag/index.ognc?CategoryID=">
+<img src="http://assets.bloomingdales.com/navapp/img/checkout2/buttons/b_checkout.gif" alt="CHECKOUT">
+</a>
+</div>
+</div>
+<div id="product_recommendations" class="hidden"><img class="prodRecLoading" src="http://assets.bloomingdales.com/navapp/web20/assets/img/ajax-loader.gif"></div>
+</div>
+<input id="ADDTOBAG_BUTTON" value="" class="pdp_add_to_bag_right addToBagBtn" type="submit">
+</div>
+<div class="pdp_wishlist_copy">
+<span class="pdp_wishlist_link" id="ADDTOWISHLIST_LINK831579"> + ADD TO WISHLIST</span>
+</div>
+<div class="clearBoth"></div>
+</div>
+<div class="clearBoth"></div>
+</div>
+<div id="wishlistMessagePanel" class="shadow hidden">
+<div id="wishlistMessageBody"></div>
+<div id="wishlistMessagePointer"><img src="http://assets.bloomingdales.com/navapp/web20/assets/img/catalog/product/pointer.png"></div>
+</div>
+</div>

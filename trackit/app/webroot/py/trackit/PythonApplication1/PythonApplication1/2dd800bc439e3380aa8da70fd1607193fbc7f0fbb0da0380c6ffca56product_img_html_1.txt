@@ -1,0 +1,491 @@
+<div id="product-details" class="ProductBody EntityBody catalog-product fill-height clearfix">
+			<div class="prodSelector">
+
+				<div class="main-item fill-height">
+					<div class="item-container inner-wrapper clearfix">
+						<form action="http://www.lanebryant.com/checkout/add_item.cmd" method="get" name="productForm"><input name="form_state" value="productForm" type="hidden"><input name="productId" value="193524" type="hidden"><input name="productName" value="Striped+active+hoodie" type="hidden"><input name="categoryId" value="20233" type="hidden"><input name="parentCategoryId" value="20230" type="hidden"><input name="subCategoryId" value="0" type="hidden"><input name="itemGUID" type="hidden"><input name="addTo" type="hidden"><input name="dest" value="/user/add_item_to_wishlist.cmd" type="hidden"><input name="showBreadcrumb" type="hidden"><input name="readonly" value="false" type="hidden"><input name="editonly" value="false" type="hidden"><input value="1045996" id="product193524_VariantId" name="productVariantId" type="hidden"><input value="Heather charcoal" id="colorName_193524" name="colorName" type="hidden"><input value="26/28" id="sizeName_193524" name="sizeName" type="hidden"><input name="altImageTag" value="Striped active hoodie" type="hidden"><input name="fromZafu" type="hidden"><input class="callCenterEdit" id="cartSelectedColor" name="cartSelectedColor" value="Heather charcoal" type="hidden"><input id="selImg_193524" name="selImg" value="LaneBryant/2013-octobr-terry-hoodie" type="hidden"><div class="content-left">
+                                <div class="image-container">
+                                    <div class="main-item-image">
+                                        <div class="entity-image" id="flyout" style="position: relative; z-index: 499; -moz-user-select: none; width: 354px; height: 460px;">
+                                            <div id="entityImageWidget__widget1280224729002" class="Image common-image widget-root">
+
+   
+
+   <img style="position: absolute; left: 0px; top: 0px;" id="flyzoom" src="http://assets.charmingshoppes.com/is/image/LaneBryant/pr_193524_IQ?$product_main$&amp;wid=354&amp;hei=460&amp;op_sharpen=1" alt="Striped active hoodie"><input class="selectedColor" value="" type="hidden">
+
+</div>
+
+<div class="s7flyoutStaticImage"><div style="width: 100%; height: 100%;"><div style="position: absolute; visibility: inherit; opacity: 1;"><div style="position: absolute; width: 100%; height: 100%;"></div><img src="http://assets.charmingshoppes.com/is/image/LaneBryant/pr_193524_IQ?$product_main$&amp;wid=354&amp;hei=460&amp;op_sharpen=1&amp;iv=h2Sfn0&amp;wid=354&amp;hei=460" style="position: absolute; left: 0px; top: 0px; visibility: inherit;" id="i1"></div><div style="position: absolute; visibility: hidden; opacity: 0;"><div style="position: absolute; width: 100%; height: 100%;"></div><img src="http://assets.charmingshoppes.com/is/image/LaneBryant/2013-octobr-terry-hoodie?$product_main$&amp;wid=354&amp;hei=460&amp;op_sharpen=1&amp;iv=7U9gu1&amp;wid=354&amp;hei=460" style="position: absolute; left: 0px; top: 0px; visibility: inherit;" id="i2"></div></div><div style="position: absolute; visibility: hidden; left: 369px; top: 0px;"><div style="position: absolute; width: 520px; height: 570px; left: -1px; top: -1px;" class="s7flyoutFlyoutViewBorder"></div><div style="position: absolute; overflow: hidden; left: 0px; top: 0px;" class="s7flyoutFlyoutView"><div style="position: absolute; overflow: hidden; width: 520px; height: 570px;"><div style="position: absolute;"><img src="http://assets.charmingshoppes.com/is/image/LaneBryant/pr_193524_IQ?$product_main$&amp;wid=354&amp;hei=460&amp;op_sharpen=1&amp;iv=h2Sfn0&amp;wid=1416&amp;hei=1840&amp;fit=fit,1"></div></div></div></div><div style="position: absolute; top: 0px; left: 0px; overflow: hidden; width: 354px; height: 460px;"><div style="position: absolute; visibility: hidden;"><div style="position: absolute;"><div style="position: absolute; top: -317.5px; left: -224px; width: 578px; height: 317.5px;" class="s7flyoutShading"></div><div style="position: absolute; top: 0px; left: -224px; width: 224px; height: 142.5px;" class="s7flyoutShading"></div><div style="position: absolute; top: 0px; left: 130px; width: 224px; height: 142.5px;" class="s7flyoutShading"></div><div style="position: absolute; top: 142.5px; left: -224px; width: 578px; height: 317.5px;" class="s7flyoutShading"></div></div><div class="s7flyoutFrame" style="position: absolute; width: 128px; height: 140.5px; left: 0px; top: -0.25px;"></div><div style="position: absolute;" class="s7flyoutCursorDesktop"></div></div></div></div></div><!-- /entity-image -->
+
+                                        <div style="z-index: 498; border: 0px none;" class="product-video">
+                                            
+                                            null<script>
+												var invodoProductNumber = 193524;
+												var invodoProductName = "Striped+active+hoodie";
+											</script>
+                                        <div id="close2" onclick="closeInvodoPlayer();" align="center">X</div></div>
+                                    </div><!-- /main-item-image -->
+
+                                    
+                                    
+                                    <div id="altImagesWrapper" class="carousel horizontal clearfix no-slider">
+                                        <div id="more-images" class="main-item-more-images">
+                                                <div id="altImages__widget1280224729002" class="EntityAltImages widget-root product">
+   
+   <div class="alternate-images">
+			<div style="visibility: visible;" id="image-container" class="jCarouselWrapper">
+			<ul class="image-list2">
+                  <li class="image-item active">
+                              
+										<div id="_widget1280224729004" class="Image common-image widget-root">
+
+   
+
+   <img src="http://assets.charmingshoppes.com/is/image/LaneBryant/2013-octobr-terry-hoodie?$product_alt_image$&amp;wid=50&amp;hei=64&amp;op_sharpen=1" alt="Striped active hoodie"><input class="selectedColor" value="" type="hidden">
+
+</div>
+
+<div class="alternateImageOverlay ie6png"><!-- --></div>
+                           </li>
+                        <li class="image-item">
+                              
+										<div id="_widget1280224729005" class="Image common-image widget-root">
+
+   
+
+   <img src="http://assets.charmingshoppes.com/is/image/LaneBryant/pr_193524_IQ_B?$product_alt_image$&amp;wid=50&amp;hei=64&amp;op_sharpen=1" alt="Striped active hoodie"><input class="selectedColor" value="" type="hidden">
+
+</div>
+
+<div class="alternateImageOverlay ie6png"><!-- --></div>
+                           </li>
+                        <li class="image-item">
+                              
+										<div id="_widget1280224729006" class="Image common-image widget-root">
+
+   
+
+   <img src="http://assets.charmingshoppes.com/is/image/LaneBryant/pr_193524_IQ_OUTFIT?$product_alt_image$&amp;wid=50&amp;hei=64&amp;op_sharpen=1" alt="Striped active hoodie"><input class="selectedColor" value="" type="hidden">
+
+</div>
+
+<div class="alternateImageOverlay ie6png"><!-- --></div>
+                           </li>
+                        <li class="image-item">
+                              
+										<div id="_widget1280224729007" class="Image common-image widget-root">
+
+   
+
+   <img src="http://assets.charmingshoppes.com/is/image/LaneBryant/pr_193524_IQ?$product_alt_image$&amp;wid=50&amp;hei=64&amp;op_sharpen=1" alt="Striped active hoodie"><input class="selectedColor" value="" type="hidden">
+
+</div>
+
+<div class="alternateImageOverlay ie6png"><!-- --></div>
+                           </li>
+                        </ul>
+	         <div class="clr"><!-- --></div>
+         </div>
+	      <div class="clr"><!-- --></div>
+      </div>
+   <div class="clr"><!-- --></div>
+</div>
+<span id="altImages__widget1280224729002_trigger" class="trigger"></span></div>
+
+                                            </div><!-- /altImagesWrapper -->
+
+                                    <div class="contentArea productCms">
+                                        <style>
+.ProductBody div#altImagesWrapper .EntityAltImages .image-list2 .image-item, .quicklook-miniproduct .EntityAltImages .image-list2 .image-item {
+    float: left;
+    position: relative;
+}
+.EntityAltImages .image-list2 .hover .alternateImageOverlay {
+    background: url("http://new.staging2.lanebryant.com/assets/lb/assets/images/common/alt-hover-frame.png") no-repeat scroll 0 0 transparent;
+    display: block;
+}
+.EntityAltImages .image-list2 .active .alternateImageOverlay {
+    background: url("http://new.staging2.lanebryant.com/assets/lb/assets/images/common/alt-selected-frame.png") no-repeat scroll 0 0 transparent;
+    display: block;
+}
+.ProductBody .EntityAltImages .image-list2 .image-item.active {
+    border: medium none !important;
+}
+.ProductBody .EntityAltImages .image-list2 .image-item {
+    border: medium none !important;
+}
+.ProductBody div#altImagesWrapper .EntityAltImages .image-list2 .image-item {
+    cursor: pointer;
+    height: 64px;
+    margin: 0;
+    width: 51px;
+}
+#invodoVideoLinkPDP {display:none;}
+</style>
+<script>
+	$("#product-details .carousel .video-icon-link").attr("id","invodoVideoLinkPDP");
+	$("#product-details .product-video div").removeAttr("id");	
+	$("#product-details .product-video div").attr("id","product-videoPDP");	
+	$("#invodoVideoLinkPDP").attr("onClick","loadInvodoPlayer()");	
+	var ctrInvodoPlayer = 0;
+	$("#product-details .product-video").append('<div id="close2" onclick="closeInvodoPlayer();" align="center">X</div>');
+	$("#product-details .product-video .close").remove();
+	$("#flyout").css("zIndex","499");
+	$("#product-details .product-video").css("zIndex","498");
+	$("#product-details .product-video").css("border","0");
+	if($("#product-details .carousel .video-icon-link").length != 0) {
+		$("#product-details .product-video").css("display","block");
+	}
+	$("#altImagesWrapper .image-list").addClass("image-list2");
+	$("#altImagesWrapper .image-list2").removeClass("image-list");
+	var invodoDate,invodoTime,invodoWidgetID,invodoMPDValue;
+	var invodoCurrentStatus = 0;
+	$(document).ready(function(){
+		$('#altImagesWrapper .image-list2 > li').click( function(e) {
+			if (invodoCurrentStatus != 0){
+				$("#product-details .product-video").css("zIndex","498");
+				$("#product-details .product-video").css("display","block");
+				Invodo.Widget.get(invodoWidgetID).stop();
+				invodoCurrentStatus = 0;
+			}
+		});
+		invodoDate = new Date();
+		invodoTime = invodoDate.getTime(); 
+		invodoWidgetID = "player"+invodoTime;
+		invodoMPDValue = "item"+invodoProductNumber;
+		Invodo.Widget.add({type:"cta", mpd:invodoMPDValue, widgetId:"ProductPageCTA", parentDomId:"invodoVideoLinkPDP", data:"http://www.lanebryant.com/assets/images/common/video-icon.png"});		
+		Invodo.Widget.add({mpd:invodoMPDValue, widgetId:invodoWidgetID, mode:"embedded", parentDomId:"product-videoPDP", type:"inplayer", autoplay:false, onpodload:displayVideoLink});			
+	});
+	function displayVideoLink(){
+		$("#invodoVideoLinkPDP").css("display","inline-block");
+	}
+	function loadInvodoPlayer(){
+			//PLAY ON CLICK
+			$("#product-details .product-video").css("display","block");
+			$("#product-details .product-video").css("zIndex","500");
+			Invodo.Widget.get(invodoWidgetID).play();
+			invodoCurrentStatus = 1;
+	}
+	function closeInvodoPlayer(){
+		$("#product-details .product-video").css("zIndex","498");
+		$("#product-details .product-video").css("display","block");
+		Invodo.Widget.get(invodoWidgetID).stop();
+		invodoCurrentStatus = 0;
+	}
+</script>
+<style>
+#close2 {
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 700;
+    height: 30px;
+    line-height: 30px;
+    right: 0;
+	top: 0;
+    text-transform: uppercase;
+    width: 42px;
+	background-color: #C5D8E6;
+	cursor:pointer;
+	float:right;
+	position:absolute;
+
+}
+</style><div class="clr"> </div>
+                                    </div><!-- /productCms -->
+                                </div><!-- /image-container -->
+                            </div><!-- .content-left -->
+
+                            <div class="content-right">
+                                <div class="description-container">
+                                    <h1>Striped active hoodie</h1>
+
+                                    <span class="catalog-display-price-text">
+                                        <span class="price">$59.95</span>
+                                            </span><!-- /catalog-display-price-text -->
+
+                                    <div class="prodInfo">
+                                        <div class="BVBrowserFF" id="BVCustomerRatings"> <div class="BVRRRootElement">
+<div class="BVRRRatingSummary BVRRPrimarySummary BVRRPrimaryRatingSummary"><div class="BVRRRatingSummaryStyle2"><div class="BVRRRatingSummaryNoReviews"> <div id="BVRRRatingSummaryNoReviewsWriteImageLinkID" class="BVRRRatingSummaryLink BVRRRatingSummaryNoReviewsWriteImageLink">
+<a style="display: none;" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;http://reviews.lanebryant.com/6344/193524/writereview.htm?format=embedded&amp;campaignid=BV_RATING_SU_1&quot;;return this.s_oc?this.s_oc(e):true" title="write a review" name="BV_TrackingTag_Rating_Summary_1_WriteReview_193524" target="BVFrame" href="http://reviews.lanebryant.com/6344/193524/writereview.htm?format=embedded&amp;campaignid=BV_RATING_SUMMARY_ZERO_REVIEWS&amp;sessionparams=__BVSESSIONPARAMS__&amp;return=http%3A%2F%2Fwww.lanebryant.com%2Fcatalog%2Fproduct.jsp%3FproductId%3D193524&amp;innerreturn=http%3A%2F%2Freviews.lanebryant.com%2F6344%2F193524%2Freviews.htm%3Fformat%3Dembedded&amp;user=__USERID__&amp;authsourcetype=__AUTHTYPE__&amp;submissionparams=__BVSUBMISSIONPARAMETERS__&amp;submissionurl=http%3A%2F%2Fwww.lanebryant.com%2Fcatalog%2Freviews.jsp"> <img src="http://lanebryant.ugc.bazaarvoice.com/static/6344/translucent.gif" alt="Write a review">
+</a> </div>
+<div id="BVRRRatingSummaryLinkWriteFirstID" class="BVRRRatingSummaryLink BVRRRatingSummaryLinkWriteFirst">
+<span class="BVRRRatingSummaryLinkWriteFirstPrefix">Be the first to</span>
+<a style="display: none;" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;http://reviews.lanebryant.com/6344/193524/writereview.htm?format=embedded&amp;campaignid=BV_RATING_SU_2&quot;;return this.s_oc?this.s_oc(e):true" name="BV_TrackingTag_Rating_Summary_1_WriteReview_193524" target="BVFrame" href="http://reviews.lanebryant.com/6344/193524/writereview.htm?format=embedded&amp;campaignid=BV_RATING_SUMMARY_ZERO_REVIEWS&amp;sessionparams=__BVSESSIONPARAMS__&amp;return=http%3A%2F%2Fwww.lanebryant.com%2Fcatalog%2Fproduct.jsp%3FproductId%3D193524&amp;innerreturn=http%3A%2F%2Freviews.lanebryant.com%2F6344%2F193524%2Freviews.htm%3Fformat%3Dembedded&amp;user=__USERID__&amp;authsourcetype=__AUTHTYPE__&amp;submissionparams=__BVSUBMISSIONPARAMETERS__&amp;submissionurl=http%3A%2F%2Fwww.lanebryant.com%2Fcatalog%2Freviews.jsp">write a review</a><span class="BVRRRatingSummaryLinkWriteFirstSuffix"></span> </div>
+</div><div style="display: none;" class="BVRRSocialBookmarkingLinks"><div class="BVRRProductBookmarkingLabel">Share this product:</div>
+<a style="display: none;" name="BV_TrackingTag_Rating_Summary_1_SocialBookmarkFacebook_193524" target="_blank" class="BVRRSocialBookmarkingSharingLink BVRRSocialBookmarkingSharingLinkFacebook" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;http://reviews.lanebryant.com/6344/share.htm?site=Facebook&amp;url=http%3A%2F%2Fwww.lanebryant.com%2F_1&quot;;return this.s_oc?this.s_oc(e):true" onfocus="this.href=bvReplaceTokensInSocialURL(this.href);" rel="nofollow" href="http://reviews.lanebryant.com/6344/share.htm?site=Facebook&amp;url=http%3A%2F%2Fwww.lanebryant.com%2Fstriped-active-hoodie%2Fp193524%2Findex.pro&amp;title=__TITLE__&amp;robot=__ROBOT__&amp;image=http%3A%2F%2Fassets.charmingshoppes.com%2Fis%2Fimage%2FLaneBryant%2F2013-octobr-terry-hoodie%3Fwid%3D300%26hei%3D400" onmouseover="this.href=bvReplaceTokensInSocialURL(this.href);"><img class="BVRRSocialBookmarkLinkImage" src="http://lanebryant.ugc.bazaarvoice.com/static/6344/link-facebook.gif" alt="Facebook" title="Add to Facebook" height="24" width="24"></a>
+<a style="display: none;" name="BV_TrackingTag_Rating_Summary_1_SocialBookmarkDigg_193524" target="_blank" class="BVRRSocialBookmarkingSharingLink BVRRSocialBookmarkingSharingLinkDigg" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;http://reviews.lanebryant.com/6344/share.htm?site=Digg&amp;url=http%3A%2F%2Fwww.lanebryant.com%2Fstri_1&quot;;return this.s_oc?this.s_oc(e):true" onfocus="this.href=bvReplaceTokensInSocialURL(this.href);" rel="nofollow" href="http://reviews.lanebryant.com/6344/share.htm?site=Digg&amp;url=http%3A%2F%2Fwww.lanebryant.com%2Fstriped-active-hoodie%2Fp193524%2Findex.pro&amp;title=__TITLE__&amp;robot=__ROBOT__&amp;image=http%3A%2F%2Fassets.charmingshoppes.com%2Fis%2Fimage%2FLaneBryant%2F2013-octobr-terry-hoodie%3Fwid%3D300%26hei%3D400" onmouseover="this.href=bvReplaceTokensInSocialURL(this.href);"><img class="BVRRSocialBookmarkLinkImage" src="http://lanebryant.ugc.bazaarvoice.com/static/6344/link-digg.gif" alt="Digg" title="Digg this" height="24" width="24"></a>
+<a style="display: none;" name="BV_TrackingTag_Rating_Summary_1_SocialBookmarkDelIcioUs_193524" target="_blank" class="BVRRSocialBookmarkingSharingLink BVRRSocialBookmarkingSharingLinkDelIcioUs" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;http://reviews.lanebryant.com/6344/share.htm?site=DelIcioUs&amp;url=http%3A%2F%2Fwww.lanebryant.com%2_1&quot;;return this.s_oc?this.s_oc(e):true" onfocus="this.href=bvReplaceTokensInSocialURL(this.href);" rel="nofollow" href="http://reviews.lanebryant.com/6344/share.htm?site=DelIcioUs&amp;url=http%3A%2F%2Fwww.lanebryant.com%2Fstriped-active-hoodie%2Fp193524%2Findex.pro&amp;title=__TITLE__&amp;robot=__ROBOT__&amp;image=http%3A%2F%2Fassets.charmingshoppes.com%2Fis%2Fimage%2FLaneBryant%2F2013-octobr-terry-hoodie%3Fwid%3D300%26hei%3D400" onmouseover="this.href=bvReplaceTokensInSocialURL(this.href);"><img class="BVRRSocialBookmarkLinkImage" src="http://lanebryant.ugc.bazaarvoice.com/static/6344/link-delicious.gif" alt="DelIcioUs" title="Save to del.icio.us" height="24" width="24"></a>
+<a style="display: none;" name="BV_TrackingTag_Rating_Summary_1_SocialBookmarkTwitter_193524" target="_blank" class="BVRRSocialBookmarkingSharingLink BVRRSocialBookmarkingSharingLinkTwitter" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;http://reviews.lanebryant.com/6344/share.htm?site=Twitter&amp;url=http%3A%2F%2Fwww.lanebryant.com%2Fs_1&quot;;return this.s_oc?this.s_oc(e):true" onfocus="this.href=bvReplaceTokensInSocialURL(this.href);" rel="nofollow" href="http://reviews.lanebryant.com/6344/share.htm?site=Twitter&amp;url=http%3A%2F%2Fwww.lanebryant.com%2Fstriped-active-hoodie%2Fp193524%2Findex.pro&amp;title=__TITLE__&amp;robot=__ROBOT__&amp;image=http%3A%2F%2Fassets.charmingshoppes.com%2Fis%2Fimage%2FLaneBryant%2F2013-octobr-terry-hoodie%3Fwid%3D300%26hei%3D400" onmouseover="this.href=bvReplaceTokensInSocialURL(this.href);"><img class="BVRRSocialBookmarkLinkImage" src="http://lanebryant.ugc.bazaarvoice.com/static/6344/link-twitter.gif" alt="Twitter" title="Tweet this" height="24" width="24"></a>
+<a style="display: none;" name="BV_TrackingTag_Rating_Summary_1_SocialBookmarkMySpace_193524" target="_blank" class="BVRRSocialBookmarkingSharingLink BVRRSocialBookmarkingSharingLinkMySpace" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;http://reviews.lanebryant.com/6344/share.htm?site=MySpace&amp;url=http%3A%2F%2Fwww.lanebryant.com%2Fs_1&quot;;return this.s_oc?this.s_oc(e):true" onfocus="this.href=bvReplaceTokensInSocialURL(this.href);" rel="nofollow" href="http://reviews.lanebryant.com/6344/share.htm?site=MySpace&amp;url=http%3A%2F%2Fwww.lanebryant.com%2Fstriped-active-hoodie%2Fp193524%2Findex.pro&amp;title=__TITLE__&amp;robot=__ROBOT__&amp;image=http%3A%2F%2Fassets.charmingshoppes.com%2Fis%2Fimage%2FLaneBryant%2F2013-octobr-terry-hoodie%3Fwid%3D300%26hei%3D400" onmouseover="this.href=bvReplaceTokensInSocialURL(this.href);"><img class="BVRRSocialBookmarkLinkImage" src="http://lanebryant.ugc.bazaarvoice.com/static/6344/link-myspace.gif" alt="MySpace" title="Post to MySpace" height="24" width="24"></a>
+</div></div></div><a onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;http://reviews.lanebryant.com/6344/193524/writereview.htm?format=embedded&amp;campaignid=BV_SUBMISSIO_1&quot;;return this.s_oc?this.s_oc(e):true" id="BVSubmissionLink" style="display: none;" target="BVFrame" href="http://reviews.lanebryant.com/6344/193524/writereview.htm?format=embedded&amp;campaignid=BV_SUBMISSIONLINK&amp;sessionparams=__BVSESSIONPARAMS__&amp;return=http%3A%2F%2Fwww.lanebryant.com%2Fcatalog%2Fproduct.jsp%3FproductId%3D193524&amp;innerreturn=http%3A%2F%2Freviews.lanebryant.com%2F6344%2F193524%2Freviews.htm%3Fformat%3Dembedded&amp;user=__USERID__&amp;authsourcetype=__AUTHTYPE__&amp;submissionparams=__BVSUBMISSIONPARAMETERS__&amp;submissionurl=http%3A%2F%2Fwww.lanebryant.com%2Fcatalog%2Freviews.jsp"></a>
+</div>
+</div>
+                                            <script type="text/javascript">
+                                                function showTab() {
+                                                    $('ul.tabUL li.tabLI a').each(function(index) {
+                                                        var productTabId = $(this).attr("href"); // #productTabs_3
+                                                        if (productTabId == "#productTabs_tab3") { // todo: e.srcelement.attr("href")?
+                                                            //show;
+                                                            $(productTabId).removeClass("ui-tabs-hide");
+                                                            $(this).parent().addClass("ui-tabs-selected");
+                                                        } else {
+                                                            // hide;
+                                                            $(productTabId).addClass("ui-tabs-hide");
+                                                            $(this).parent().removeClass("ui-tabs-selected");
+                                                        }
+                                                    });
+                                                }
+
+                                                function bvShowContent(application, displayCode, subject, deepLinkId) {
+                                                    if (application == "PRR") {
+                                                        showTab(); // TODO: Implement jumpToTab function
+                                                        } else if (application == "QA") {
+                                                        // we don't have this product
+                                                        } else if (application == "SY") {
+                                                        // we don't have stories
+                                                    }
+                                                }
+                                            </script>
+                                        </div><!-- /prodInfo -->
+
+                                    <div id="error-no-color-wrap">
+                                                <div id="swatches" class="swatches">
+                                                        <div class="colorText" id="colorText_193524">
+                                                            
+                                                            Color: <span>Heather charcoal</span>
+                                                        </div><!-- /colorText -->
+
+                                                        <input value="Heather charcoal" class="color-selection-value product-193524-variant" id="COLOR_NAME-193524" name="COLOR_NAME-193524" type="hidden"><input value="Heather char" class="display-color-selection-value product-193524-variant" id="DISPLAY_COLOR_NAME-193524" name="DISPLAY_COLOR_NAME-193524" type="hidden"><div data-original-title="" id="swatches_193524" class="EntitySwatches widget-root product">
+	
+    <div class="swatch-group">
+			<div class="swatch-item firstXXX currentColor active">
+					
+					<div class="swatch-image-wrap">
+						<div id="_widget1280224729008" class="Image common-image widget-root">
+
+   
+
+   <img title="Heather charcoal" class="aColor activeColor" src="http://assets.charmingshoppes.com/is/image/LaneBryant/sw_193524_IQ?$swatch$&amp;wid=28&amp;hei=15&amp;op_sharpen=1" alt="Heather charcoal"><input class="selectedColor" value="" type="hidden">
+
+</div>
+
+</div>
+				 </div>
+				 <div class="clr"><!-- CLEAR --></div>
+		</div>
+		
+		
+		 <p class="moreColorsMsg" style="display:none;"><img title="more" src="http://www.lanebryant.com/assets/univ/assets/images/common/swatch_more.png" alt="more" border="0"></p>
+		 </div>
+
+
+<script type="text/javascript">
+	$(document).ready(function() {
+      
+         $(".swatch-item img").each(function() {
+            $(this).attr("title",trim($(this).attr("alt")));
+            $(this).attr("alt",trim($(this).attr("alt")));
+		   });
+      
+	});
+</script>
+<span id="swatches_193524_trigger" class="trigger"></span></div><!-- /swatches -->
+                                                <div class="clr"><!-- --></div>
+                                                <div id="error-color-msg" style="display:none" class="error">Please select a color before adding an item to your bag</div>
+                                                <div id="error-color-msg-wishlist" style="display:none" class="error">Please select a color before adding an item to your Wish List</div>
+                                                </div><!-- /error-no-color-wrap -->
+
+                                            <div id="error-no-size-wrap">
+                                                <div id="vMatrix_193524">
+        
+    </div>
+<!-- SIZE OPTIONS -->
+<div class="sizeSelectionContainer">
+    <input class="sizeGroupCount" id="sizeGroupCount" name="sizeGroupCount" value="1" type="hidden"><div class="singleSizeAvail productSelectionInformation fl">Only Available In:
+		            </div>
+		  <div class="sizeChartLink fl"><a style="display: none;" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;http://www.lanebryant.com/content_popup.jsp?pageName=SizeChart#size_chart_tops_1&quot;;return this.s_oc?this.s_oc(e):true" class="openAjaxLayer layerWidth820" href="/content_popup.jsp?pageName=SizeChart#size_chart_tops">(view size guide)</a></div>
+        <div class="clr"><!-- --></div>
+        <input class="priceSelectedForOneSize" id="priceSelectedForOneSize" name="priceSelectedForOneSize" value="$59.95" type="hidden"><input class="product-193524-variant size-selection-value" id="SIZE_NAME-193524" name="SIZE_NAME-193524" value="26/28" type="hidden"><div data-original-title="" id="productSizes-193524" class="productSizes">
+            <!-- hidden from user - needed for size/color widget to function -->
+            <a onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;http://www.lanebryant.com/active/active-view-all/striped-active-hoodie/20230c20233p193524/index.p_2&quot;;return this.s_oc?this.s_oc(e):true" class="aSize activeSize singleSize" id="size26/28" href="#SelectThisSize">26/28</a></div>
+    <div class="clr"><!-- --></div>
+</div>
+<div id="error-size-msg" style="display:none" class="error">Please select a size before adding an item to your bag</div>
+
+                                                <!-- Added for BUG00097 start -->
+                                                <div id="error-size-msg-wishlist" style="display:none" class="error">Please select a size before adding an item to your Wish List</div>
+                                                <!-- Added for BUG00097 end -->
+
+                                            </div><!-- /error-no-size-wrap -->
+                                            <div class="addToBagContainer clearfix">
+                                                    <div class="clearfix">
+                                                        <div id="error-quantity" class="error">
+                                                            </div><!-- /error-quantity -->
+                                                        <div class="fl qtyContainer">
+                                                            <label for="quantity">Quantity:</label><br>
+																			  <div id="quantityPD">
+                                                            <div class="increment"><input class="vert-align-middle ffNorm" id="quantity" name="quantity" value="1" size="2" maxlength="2" type="number"><div class="inc">+</div><div class="dec disabled">-</div></div></div>
+                                                        </div><!-- .qtyContainer -->
+                                                        <script type="text/javascript">
+                                                        $('#quantity').incrementButtons({ minVal:1, maxVal:99 }).focus();
+                                                        </script>
+
+                                                        <div class="fr add-item-container">
+                                                                <button type="button" class="item-selection-info pie" title="Add Striped active hoodie to bag" onclick="addToCart('.EntityBody', this);">
+	                                                                <div class="varColorSizeText">
+                                                                    <span class="cart-colorName" id="product193524-selected-colorname">Heather ch</span>
+                                                                    <span class="cart-sizeName" id="product193524-selected-sizename">26/28</span>
+                                                                   </div>
+                                                                    <span class="price selected-price" id="product193524-selected-price">$59.95</span>
+
+                                                                    <input class="selected-price-value" id="PRICE_DISPLAY-193524" name="PRICE_DISPLAY-193524" value="$59.95" type="hidden"></button>
+
+                                                                <button type="button" class="add-update-cart pie" title="AddStriped active hoodie to bag" onclick="addToCart('.EntityBody', this);">Add to Bag</button>
+                                                                            </div><!-- /add-item-container -->
+                                                        </div><!-- /addToBagContainer -->
+                                                </div><!-- .clearfix -->
+                                            <div class="inv-qty-no-display">
+                                                    <div class="clr"></div>
+                                                    <br>
+                                                    <label><b>Inventory Level:&nbsp;</b></label>
+                                                    <label id="invQty"><br>Heather charcoal-26/28:42<br></label>
+                                                </div>
+                                            <div style="display: none;" id="shareButtons_gig_containerParent" class="shareBox clearfix">
+                                        <div style="visibility: visible; display: none;" gigid="showShareBarUI" id="shareButtons" class="share-buttons"><div style="display: none;" class="gig-bar-container gig-share-bar-container"><table cellpadding="0" cellspacing="0"><tbody><tr><td style="vertical-align:middle; white-space:nowrap;zoom:1;"><div style="display: none;" class="gig-button-container gig-button-container-count-right gig-button-container-facebook gig-button-container-facebook-count-right gig-share-button-container"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="gig-button-td"><div style="display: none;" class="gig-button gig-share-button gig-button-up gig-button-count-right" id="shareButtons-reaction0" title="" alt="" onclick="gigya.services.socialize.plugins.reactions.instances['shareButtons'].buttonInstances['shareButtons-reaction0'].onClick()" onmouseover="gigya.services.socialize.plugins.reactions.instances['shareButtons'].buttonInstances['shareButtons-reaction0'].changeState('over')" onmouseout="gigya.services.socialize.plugins.reactions.instances['shareButtons'].buttonInstances['shareButtons-reaction0'].changeState('up')"><table cellpadding="0" cellspacing="0"><tbody><tr><td id="shareButtons-reaction0-left"></td><td id="shareButtons-reaction0-icon" style="zoom:1;vertical-align:middle;text-align:left;background-repeat:repeat-x;"><div style="background-image: url(&quot;http://cdn.gigya.com/gs/GetSprite.ashx?path=%2FshareBar%2Fbutton%2Fbutton%5Bleft%2Cright%5DImg%5Bup%2Cover%5D.png%7C2%2C20%5E%2FshareBar%2Fbutton%2FrightCountImg.png%7C38%2C20%5E%2Fsharebar%2Ficons%2F%5Bfacebook%2Cpinterest%5D.png%7C16%2C16&quot;); background-position: -46px 0px; width: 16px; height: 16px; line-height: 16px; background-repeat: no-repeat; position: static; display: none;" id="shareButtons-reaction0-facebook_img"></div></td><td id="shareButtons-reaction0-right"></td></tr></tbody></table></div></td><td><div class="gig-counter gig-share-counter gig-counter-$rid gig-counter-right" id="shareButtons-reaction0-count" style="background-image: url(&quot;http://cdn.gigya.com/gs/GetSprite.ashx?path=%2FshareBar%2Fbutton%2Fbutton%5Bleft%2Cright%5DImg%5Bup%2Cover%5D.png%7C2%2C20%5E%2FshareBar%2Fbutton%2FrightCountImg.png%7C38%2C20%5E%2Fsharebar%2Ficons%2F%5Bfacebook%2Cpinterest%5D.png%7C16%2C16&quot;); background-position: -8px 0px; width: 38px; height: 20px; line-height: 20px; background-repeat: no-repeat; position: static; text-align: center; vertical-align: middle; display: none;"><span class="gig-counter-text gig-share-counter-text gig-counter-text-right gig-share-counter-text-right" id="shareButtons-reaction0-count-value">0</span></div></td></tr></tbody></table></div></td><td style="vertical-align:middle; white-space:nowrap;zoom:1;"><div style="display: none;" class="gig-button-container gig-button-container-count-right gig-button-container-pinterest gig-button-container-pinterest-count-right gig-share-button-container"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="gig-button-td"><div style="display: none;" class="gig-button gig-share-button gig-button-up gig-button-count-right" id="shareButtons-reaction1" title="" alt="" onclick="gigya.services.socialize.plugins.reactions.instances['shareButtons'].buttonInstances['shareButtons-reaction1'].onClick()" onmouseover="gigya.services.socialize.plugins.reactions.instances['shareButtons'].buttonInstances['shareButtons-reaction1'].changeState('over')" onmouseout="gigya.services.socialize.plugins.reactions.instances['shareButtons'].buttonInstances['shareButtons-reaction1'].changeState('up')"><table cellpadding="0" cellspacing="0"><tbody><tr><td id="shareButtons-reaction1-left"></td><td id="shareButtons-reaction1-icon" style="zoom:1;vertical-align:middle;text-align:left;background-repeat:repeat-x;"><div style="background-image: url(&quot;http://cdn.gigya.com/gs/GetSprite.ashx?path=%2FshareBar%2Fbutton%2Fbutton%5Bleft%2Cright%5DImg%5Bup%2Cover%5D.png%7C2%2C20%5E%2FshareBar%2Fbutton%2FrightCountImg.png%7C38%2C20%5E%2Fsharebar%2Ficons%2F%5Bfacebook%2Cpinterest%5D.png%7C16%2C16&quot;); background-position: -62px 0px; width: 16px; height: 16px; line-height: 16px; background-repeat: no-repeat; position: static; display: none;" id="shareButtons-reaction1-pinterest_img"></div></td><td id="shareButtons-reaction1-right"></td></tr></tbody></table></div></td><td><div class="gig-counter gig-share-counter gig-counter-$rid gig-counter-right" id="shareButtons-reaction1-count" style="background-image: url(&quot;http://cdn.gigya.com/gs/GetSprite.ashx?path=%2FshareBar%2Fbutton%2Fbutton%5Bleft%2Cright%5DImg%5Bup%2Cover%5D.png%7C2%2C20%5E%2FshareBar%2Fbutton%2FrightCountImg.png%7C38%2C20%5E%2Fsharebar%2Ficons%2F%5Bfacebook%2Cpinterest%5D.png%7C16%2C16&quot;); background-position: -8px 0px; width: 38px; height: 20px; line-height: 20px; background-repeat: no-repeat; position: static; text-align: center; vertical-align: middle; display: none;"><span class="gig-counter-text gig-share-counter-text gig-counter-text-right gig-share-counter-text-right" id="shareButtons-reaction1-count-value">12</span></div></td></tr></tbody></table></div></td></tr></tbody></table></div></div> <!-- Share Bar Plugin div Container -->
+                                    </div> <!-- .sharebox -->
+
+
+                                    <a name="productTabs_tab3"></a>
+
+                                    <div class="tab-container">
+                                        <ul class="nav nav-tabs" id="product-tabs">
+                                            <li class="active"><a onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;http://www.lanebryant.com/active/active-view-all/striped-active-hoodie/20230c20233p193524/index.p_3&quot;;return this.s_oc?this.s_oc(e):true" class="pie" href="#product-info">Product Details</a></li>
+                                            <li><a onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;http://www.lanebryant.com/active/active-view-all/striped-active-hoodie/20230c20233p193524/index.p_4&quot;;return this.s_oc?this.s_oc(e):true" class="pie" href="#product-reviews">Reviews</a></li>
+                                        </ul><!-- #product-tabs .nav-tabs -->
+
+                                        <div class="tab-content">
+                                            <div class="tab-pane active" id="product-info">
+                                                    <div class="split50 clearfix">
+                                                        <div class="contentRight">
+                                                            <div class="description">
+                                                                <div>Top off active or casual day ensembles with our striped zip-up hoodie. Fun, fashion and function come together with this soft, French terry layering piece detailed with a drawstring hood, banded cuffs and side-entry pockets.</div>
+                                                                <br>
+                                                                </div><!-- .description -->
+                                                        </div><!-- .contentRight -->
+
+                                                        <div class="contentLeft">
+                                                             <ul class="bullet">
+                                                                 <li>Item #193524</li>
+                                                                <li>Cotton / polyester / spandex</li>
+                                                                <li>Machine wash</li>
+                                                                <li>Imported</li>
+                                                                <li>Length: 28"</li>
+                                                                </ul>
+                                                        </div><!-- .contentLeft -->
+                                                    </div><!-- .split50 -->
+                                                </div><!-- #product-info .tab-pane -->
+                                            <div class="tab-pane" id="product-reviews">
+                                                <div id="reveiwsTabContentWrapper">
+                                                    <div class="BVBrowserFF" id="BVReviewsContainer"> <div id="BVRRWidgetID" class="BVRRRootElement BVRRWidget">
+<div id="BVRRContentContainerID" class="BVRRContainer">
+<div id="BVRRDisplayContentID" class="BVRRDisplayContent"><div id="BVRRDisplayContentHeaderID" class="BVRRHeader BVRRDisplayContentHeader"><div class="BVRRDisplayContentHeaderContent"><span id="BVRRDisplayContentTitleID" class="BVRRTitle BVRRDisplayContentTitle">Product Reviews</span><span id="BVRRDisplayContentSubtitleID" class="BVRRSubtitle BVRRDisplayContentSubtitle"><span id="BVRRDisplayContentLinkWriteID" class="BVRRContentLink BVRRDisplayContentLinkWrite"><a style="display: none;" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;http://reviews.lanebryant.com/6344/193524/writereview.htm?format=embedded&amp;campaignid=BV_REVIEW_DI_1&quot;;return this.s_oc?this.s_oc(e):true" title="Write a review" name="BV_TrackingTag_Review_Display_WriteReview" target="BVFrame" href="http://reviews.lanebryant.com/6344/193524/writereview.htm?format=embedded&amp;campaignid=BV_REVIEW_DISPLAY&amp;sessionparams=__BVSESSIONPARAMS__&amp;return=http%3A%2F%2Fwww.lanebryant.com%2Fcatalog%2Fproduct.jsp%3FproductId%3D193524&amp;innerreturn=http%3A%2F%2Freviews.lanebryant.com%2F6344%2F193524%2Freviews.htm%3Fformat%3Dembedded&amp;user=__USERID__&amp;authsourcetype=__AUTHTYPE__&amp;submissionparams=__BVSUBMISSIONPARAMETERS__&amp;submissionurl=http%3A%2F%2Fwww.lanebryant.com%2Fcatalog%2Freviews.jsp">Write a review</a></span></span><span class="BVRRSortAndSearch"></span></div></div><div id="BVRRDisplayContentBodyID" class="BVRRDisplayContentBody"><div id="BVRRDisplayContentNoReviewsID" class="BVRRDisplayContentNoReviews"></div></div><div id="BVRRDisplayContentFooterID" class="BVRRFooter BVRRDisplayContentFooter"></div><div class="BVRRSpacer BVRRDisplayContentSpacer"></div></div>
+<div id="BVRRFilteringBusyOverlayHighlightID" class="BVDI_FBOverlayHighlight BVDIOverlay BVDIHidden"><div class="BVDI_FBImage"><img src="http://lanebryant.ugc.bazaarvoice.com/static/6344/filteringBusy.gif" alt="Filtering is in progress. Please wait until it completes." title="Filtering is in progress. Please wait until it completes."></div></div></div>
+</div>
+</div>
+
+                                                    <div id="BVSVPLinkContainer"><a style="display: none;" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;http://reviews.lanebryant.com/6344/193524/reviews.htm_1&quot;;return this.s_oc?this.s_oc(e):true" href="http://reviews.lanebryant.com/6344/193524/reviews.htm">Printable Reviews</a></div>
+                                                    <script type="text/javascript" language="javascript">
+                                                        <!--
+                                                            var BVisLoaded = false;
+                                                            function BVcheckLoadState() {
+                                                                if(!BVisLoaded) {
+                                                                    var page = document.getElementById('BVFrame').src;
+                                                                    document.getElementById('BVFrame').src='http://reviews.lanebryant.com/logging?page=' + escape(page);
+                                                                    document.getElementById('BVReviewsContainer').innerHTML = '<!-- Review retrieval timed out -->';
+                                                                }
+                                                            }
+                                                        //-->
+                                                    </script>
+                                                    <div id="BVSubmissionParameters" style="display: none;"></div>
+                                                    <div id="BVContainerPageURL" style="display: none;">http://www.lanebryant.com/catalog/reviews.jsp</div>
+                                                    <div id="BVReturnURL" style="display: none;"><a style="display: none;" onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;http://www.lanebryant.com/catalog/product.jsp?productId=193524_1&quot;;return this.s_oc?this.s_oc(e):true" href="http://www.lanebryant.com/catalog/product.jsp?productId=193524">/catalog/product.jsp?productId=193524</a></div>
+                                                    <iframe id="BVFrame" name="BVFrame" src="http://reviews.lanebryant.com/6344/193524/reviews.htm?format=embedded" style="visibility: hidden; width: 1px; height: 1px; position: absolute; left: -999px; top: -999px;"></iframe>
+                                                    <script type="text/javascript" language="javascript">
+                                                        <!--
+                                                        function bvLoadRR() {
+                                                            var bvPage = 'http://reviews.lanebryant.com/6344/193524/reviews.htm?format=embedded';
+                                                            var bvReviewIDName = 'featurereview';
+
+                                                            var bvReviewIDRegex = new RegExp('[?&]' + bvReviewIDName + '=([^&#]+)');
+                                                            var bvReviewIDMatch = bvReviewIDRegex.exec(window.location.search);
+                                                            var bvReviewID = bvReviewIDMatch ? decodeURIComponent(bvReviewIDMatch[1]) : null;
+
+                                                            document.getElementById('BVFrame').src = /^[0-9]+$/.test(bvReviewID) ? bvPage + '&reviewid=' + bvReviewID : bvPage;
+
+                                                            //Timeout for review load.  Consider reviews unavailable if not loaded within 15 seconds
+                                                            setTimeout("BVcheckLoadState()", 15000);
+                                                        }
+                                                        bvLoadRR();
+                                                        //-->
+                                                    </script>
+                                                    </div><!-- #reveiwsTabContentWrapper -->
+                                            </div>
+
+                                        </div><!-- .tab-content -->
+                                    </div><!-- .tab-container -->
+                                </div><!-- /description-container -->
+                            </div><!-- .content-right -->
+						</form><div class="sidebar">
+                            <div class="related-items fill-height">
+                                        <div style="visibility: visible; display: block;" id="mboxImported-default-LB_Rec_Dsp_Prod_Rt-0"><div id="mboxClick-LB_Rec_Dsp_Prod_Rt" onclick="mboxFactories.get('default').getSignaler().signal('click', 'LB_Rec_Dsp_Prod_Rt-clicked', 'mboxTarget=32183.56643')"><!-- Offer Id: 173849  --><style>
+	.ql-thumbnail.qv-product .qv-related-items {
+		margin:15px 5px 0 0;
+		width:110px;
+	}
+	.ProductBody #nextPrevProductContainer {
+		margin-bottom:10px;
+	}
+	#quicklook_wrap .inner-wrapper .sidebar {
+		margin: 0;
+	}
+</style>
+<div style="width:104px;" align="center">
+	<div style="border:1px solid #e4e8ea;border-right:0px;border-left:0px;font:300 11px/12px 'Lato',sans-serif;text-transform:uppercase;color: #163950;padding:3px 0px;margin-bottom:7px;">
+    	You May Also Like
+    </div>
+    <div style="margin-bottom:10px;width:90px;" align="center">
+        <a onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:showQV({entityId:189309,ymalFlag:true});_1&quot;;return this.s_oc?this.s_oc(e):true" style="text-decoration:none" href="javascript:showQV({entityId:189309,ymalFlag:true});">
+        <img src="http://assets.charmingshoppes.com/is/image/LaneBryant/2013-october-yoga-pants?$cross_sell$&amp;wid=100&amp;hei=130" width="86"></a><br>
+    	<a onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:showQV({entityId:189309,ymalFlag:true});_2&quot;;return this.s_oc?this.s_oc(e):true" href="javascript:showQV({entityId:189309,ymalFlag:true});">
+        <span style="color:#163950;font:300 11px/12px 'Lato',sans-serif;">Yoga pant with contrasting waist</span></a>
+    </div>
+    <div style="margin-bottom:10px;width:90px;" align="center">
+	    <a onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:showQV({entityId:193560,ymalFlag:true});_1&quot;;return this.s_oc?this.s_oc(e):true" style="text-decoration:none" href="javascript:showQV({entityId:193560,ymalFlag:true});">
+	    <img src="http://assets.charmingshoppes.com/is/image/LaneBryant/pr_193560_IQ?$cross_sell$&amp;wid=100&amp;hei=130" width="86"></a><br>
+		<a onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:showQV({entityId:193560,ymalFlag:true});_2&quot;;return this.s_oc?this.s_oc(e):true" href="javascript:showQV({entityId:193560,ymalFlag:true});">
+    	<span style="color:#163950;font:300 11px/12px 'Lato',sans-serif;">French terry relaxed fit active pant</span></a>
+    </div>
+    <div style="margin-bottom:10px;width:90px;" align="center">
+		<a onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:showQV({entityId:193475,ymalFlag:true});_1&quot;;return this.s_oc?this.s_oc(e):true" style="text-decoration:none" href="javascript:showQV({entityId:193475,ymalFlag:true});">
+    	<img src="http://assets.charmingshoppes.com/is/image/LaneBryant/rc_193475_NX_B?$cross_sell$&amp;wid=100&amp;hei=130" width="86"></a><br>
+ 		<a onclick="var x=&quot;.tl(&quot;;s_objectID=&quot;javascript:showQV({entityId:193475,ymalFlag:true});_2&quot;;return this.s_oc?this.s_oc(e):true" href="javascript:showQV({entityId:193475,ymalFlag:true});">
+    	<span style="color:#163950;font:300 11px/12px 'Lato',sans-serif;">Crown embellished hoodie</span></a>
+   	</div>        
+</div></div><!-- Offer Id: 200980  --><script type="text/javascript">window.ttMETA=(typeof(window.ttMETA)!='undefined')?window.ttMETA:[];window.ttMETA.push({'mbox':'LB_Rec_Dsp_Prod_Rt','campaign':'Recommendations: LB Prd Rt 1x3 QV New','experience':'17774','offer':'Recommendations Offer ContentKeyId[17774]'});window.ttMBX=function(x){var mbxList=[];for(i=0;i<ttMETA.length;i++){if(ttMETA[i].mbox==x.getName()){mbxList.push(ttMETA[i])}}return mbxList[x.getId()]}</script><!-- Offer Id: 22585  --><script type="text/javascript">
+if (typeof(s_tnt) == 'undefined') {
+var s_tnt = '';
+}
+s_tnt += '32183:2:0,';
+</script></div>
+                                        <script language="javascript" type="text/javascript">
+                                            mboxCreate('LB_Rec_Dsp_Prod_Rt', 'entity.id=193524','entity.categoryId=Tops');
+                                        </script><div id="mboxMarker-default-LB_Rec_Dsp_Prod_Rt-0" style="visibility:hidden;display:none">&nbsp;</div><script src="http://charmingshoppesinter.tt.omtrdc.net/m2/charmingshoppesinter/mbox/standard?mboxHost=www.lanebryant.com&amp;mboxSession=1382425284851-90989&amp;mboxPage=1382425284851-90989&amp;screenHeight=900&amp;screenWidth=1600&amp;browserWidth=1188&amp;browserHeight=534&amp;browserTimeOffset=-360&amp;colorDepth=24&amp;mboxCount=3&amp;entity.id=193524&amp;entity.categoryId=Tops&amp;mbox=LB_Rec_Dsp_Prod_Rt&amp;mboxId=0&amp;mboxTime=1382403685390&amp;mboxURL=http%3A%2F%2Fwww.lanebryant.com%2Factive%2Factive-view-all%2Fstriped-active-hoodie%2F20230c20233p193524%2Findex.pro%3FselectedColor%3DHeather%2520charcoal%26selectedSize%3D26%252F28&amp;mboxReferrer=&amp;mboxVersion=41" language="JavaScript"></script>
+                                        </div>
+                                </div><!-- .sidebar -->
+					</div><!-- .item-container .inner-wrapper -->
+
+                    <div id="recentlyViewedWrapper" class="carousel horizontal clearfix"></div>
+				</div><!-- /main-item fill-height -->
+            
+			</div><!-- /prodSelector -->
+		</div>

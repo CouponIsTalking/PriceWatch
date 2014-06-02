@@ -1,0 +1,1 @@
+javascript:(function(){var s = document.createElement('script');s.src = '<?php echo SITE_NAME;?>js/tracker/bookmarklet.js';document.body.appendChild(s);})();

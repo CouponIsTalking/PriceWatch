@@ -1,0 +1,7 @@
+<div id="entityImageWidget__widget1280224729002" class="Image common-image widget-root">
+
+   
+
+   <img style="position: absolute; left: 0px; top: 0px;" id="flyzoom" src="http://assets.charmingshoppes.com/is/image/LaneBryant/pr_193524_IQ?$product_main$&amp;wid=354&amp;hei=460&amp;op_sharpen=1" alt="Striped active hoodie"><input class="selectedColor" value="" type="hidden">
+
+</div>

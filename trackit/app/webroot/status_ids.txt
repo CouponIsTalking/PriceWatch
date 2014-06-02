@@ -1,0 +1,42 @@
+Object { id="100001666415739_553044771427732"}
+fbinf.js (line 258)
+Object { id="100001666415739_553045268094349"}
+fbinf.js (line 258)
+Object { id="100001666415739_553048708094005"}
+fbinf.js (line 258)
+getme enter
+
+FB.api({
+    method: 'fql.query',
+    query: 'SELECT like_info, comment_info FROM stream WHERE post_id = 553048708094005'
+}, function(data) {
+    console.log(data);
+    /*var res = data[0].name;
+    alert(res);*/
+    }
+);
+
+FB.api({
+    method: 'fql.query',
+    query: 'SELECT like_info, comment_info FROM stream WHERE post_id = 100001666415739'
+}, function(data) {
+    console.log(data);
+    /*var res = data[0].name;
+    alert(res);*/
+    }
+);
+
+FB.api({
+    method: 'fql.query',
+    query: "SELECT like_info, comment_info FROM stream WHERE post_id = '100001666415739_553048708094005'"
+}, function(data) {
+    console.log(data);
+    /*var res = data[0].name;
+    alert(res);*/
+    }
+);
+
+
+get_stream_post_details('100001666415739_553044771427732');
+get_stream_post_details('100001666415739_553045268094349');
+get_stream_post_details('100001666415739_553048708094005');

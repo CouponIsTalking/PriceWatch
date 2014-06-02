@@ -1,0 +1,14 @@
+login cases
+
+fb login cases
+1. user is logged in with email, no fb account added, different email as with fb
+	- add fb account to the logged in user account
+2. user is logged in with email, no fb account added, same email as with fb
+	- add fb account to the logged in user account
+3. user is logged in with email, with fb account added with different email
+	- replace existing fb account with new fb account
+4. user is logged in with email, with fb account added with same email
+	- replace existing fb account with new fb account
+5. user is not logged in, and there is a user in db with email same as fb account email, but has a different fb account associated
+6. user is not logged in, and there is a user in db with fbid same as fb account id
+7. user is not logged in, and there is no user in db with email same as fb account email

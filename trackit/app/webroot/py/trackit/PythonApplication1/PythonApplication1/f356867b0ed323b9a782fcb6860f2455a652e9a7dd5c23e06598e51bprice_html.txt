@@ -1,0 +1,9 @@
+<div id="PriceDisplay">
+<div>
+<div class="priceSale">
+<div class="singleTierPrice"><span>PRICE: </span><span itemprop="price" class="priceBig">$285.00</span></div>
+</div>
+<input class="netPrice" value="$285.00" type="hidden">
+</div>
+<meta itemprop="priceCurrency" content="USD">
+</div>

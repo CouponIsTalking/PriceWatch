@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<!-- Site Crafted Using PageLines - WordPress - HTML5 ( not logged in ) - www.PageLines.com -->
+
+<!-- Title -->
+<title>Page not found | ApriliaLove.com</title>
+
+<!-- Start >> Meta Tags and Inline Scripts -->
+<link rel="alternate" type="application/rss+xml" title="ApriliaLove.com &raquo; Feed" href="http://www.aprilialove.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="ApriliaLove.com &raquo; Comments Feed" href="http://www.aprilialove.com/comments/feed/" />
+
+<!-- Styles -->
+<link rel='stylesheet' id='xc_pinterest_style-css'  href='http://www.aprilialove.com/wp-content/plugins/pinterest-pin-it-button-for-images/xc_pinterest.css?ver=3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='thickbox-css'  href='http://www.aprilialove.com/wp-includes/js/thickbox/thickbox.css?ver=3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='instapress-css'  href='http://www.aprilialove.com/wp-content/plugins/instapress/instapress.css?ver=3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox-css'  href='http://www.aprilialove.com/wp-content/plugins/instapress/fancybox/jquery.fancybox.css?ver=1.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='Shopbop-widget-customjs-css'  href='http://www.aprilialove.com/wp-content/plugins/shopbop-widget/css/public_widget.css?where=blog&#038;ver=3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='pagelines-framework-css'  href='http://www.aprilialove.com/wp-content/themes/pagelines/style.css?ver=221-0706122309' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.aprilialove.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='gallery_style-css'  href='http://www.aprilialove.com/wp-content/plugins/image-gallery-reloaded/themes/classic/galleria.theme.css?ver=3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='slider-css'  href='http://www.aprilialove.com/wp-content/plugins/easing-slider/css/slider.css?ver=1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='pagelines-less-css'  href='http://www.aprilialove.com/wp-content/themes/pagelines/pagelines-compiled-css-1379121160/' type='text/css' media='all' />
+
+<!-- Scripts -->
+<script type='text/javascript' src='http://www.aprilialove.com/wp-content/plugins/easing-slider/js/jquery.js?ver=1.4.2'></script>
+<script type='text/javascript' src='http://www.aprilialove.com/wp-content/plugins/instapress/fancybox/jquery.fancybox-1.3.4.pack.js?ver=1.3.4'></script>
+<script type='text/javascript' src='http://www.aprilialove.com/wp-content/plugins/shopbop-widget/js/lib/jquery.carouFredSel-6.1.0-packed.js?where=blog&#038;ver=3.4'></script>
+<script type='text/javascript' src='http://www.aprilialove.com/wp-content/plugins/shopbop-widget/js/public_widget.js?where=blog&#038;ver=3.4'></script>
+<script type='text/javascript' src='http://www.aprilialove.com/wp-content/plugins/image-gallery-reloaded/galleria-1.2.8.min.js?ver=3.4'></script>
+<script type='text/javascript' src='http://www.aprilialove.com/wp-content/themes/pagelines/sections/navbar/navbar.js?ver=3.4'></script>
+<script type='text/javascript' src='http://www.aprilialove.com/wp-content/plugins/easing-slider/js/jquery.easing.js?ver=1.3'></script>
+<script type='text/javascript' src='http://www.aprilialove.com/wp-content/plugins/easing-slider/js/script.js?ver=1.2'></script>
+<link rel="shortcut icon" href="http://www.aprilialove.com/wp-content/uploads/2013/04/Fav.png" type="image/x-icon" />
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.aprilialove.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.aprilialove.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.4" />
+
+<!-- Start of Easing Slider -->
+<style type="text/css">ul.lof-navigator li{background: url(http://www.aprilialove.com/wp-content/plugins/easing-slider/images/pagination.png) 0 0 no-repeat;} ul.lof-navigator li.active{background: url(http://www.aprilialove.com/wp-content/plugins/easing-slider/images/pagination_current.png) 0 0 no-repeat;}
+.lof-opacity{width:1000px;height:px;}
+.lof-opacity li{width:1000px;height:px;}
+</style>
+
+<script type="text/javascript">
+jQuery.noConflict();
+jQuery(document).ready( function($){	
+	var buttons = { previous:$('#lofslidecontent45 .lof-previous') , next:$('#lofslidecontent45 .lof-next') };
+	$obj = $('#lofslidecontent45')
+	.lofJSidernews( { interval : 4000,
+	direction : 'opacity',
+	duration : 1200,
+	auto : true,
+	maxItemDisplay : 10,
+	startItem:0,
+	navPosition     : 'horizontal', // horizontal
+	navigatorHeight : 15,
+	navigatorWidth  : 25,
+	buttons : buttons,
+	mainWidth:1000} );	
+});</script>
+<!-- End of Easing Slider -->
+<!-- HeadSpace SEO 3.6.41 by John Godley - urbangiraffe.com -->
+<!-- HeadSpace -->
+
+<style type="text/css" id="pagelines-custom">
+ #footer { background:#000 !important; }
+.navbar .plbrand-text { display:none; }
+#site .section-navbar.fixed-top .navline {
+  text-align:center;
+  float:none;
+}
+#site .section-navbar.fixed-top .navline > li {
+  float:none;
+  display:inline-block;
+}
+#site .section-navbar.fixed-top .navline > li > a { padding:10px 25px 10px; }
+h1, .fpost .entry-title { text-align:center; }
+.metabar { text-align:center; } 
+</style>
+
+</head>
+
+<!-- Start >> HTML Body -->
+<body class="error404 custom static pagelines 404_page full_width navbar_fixed">
+<div id="site" class="one-sidebar-right">
+
+<!-- Fixed NavBar Section -->
+<section id="navbar" class="container no_clone section-navbar  fixed-top fix">	<div class="navbar fix navbar-full-width  pl-color-black-trans">
+	  <div class="navbar-inner content">
+	    <div class="navbar-content-pad fix">
+	      <a href="javascript:void(0)" class="nav-btn nav-btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </a>
+							<a class="plbrand" href="http://www.aprilialove.com">
+					<h2 class="plbrand-text">ApriliaLove.com</h2>				</a>
+			
+	      		<div class="nav-collapse collapse">
+	       <ul id="menu-main-menu" class="font-sub navline pldrop pull-left"><li id="menu-item-7999" class="ppr-rewrite menu-item menu-item-type-post_type menu-item-object-page menu-item-7999"><a href="http://aprilialove.com">HOME</a></li>
+<li id="menu-item-8011" class="ppr-new-window menu-item menu-item-type-post_type menu-item-object-page menu-item-8011"><a target="_blank" href="http://www.aprilialove.com/follow-bloglovin/">BLOGLOVIN&#8217;</a></li>
+<li id="menu-item-8002" class="ppr-new-window menu-item menu-item-type-post_type menu-item-object-page menu-item-8002"><a target="_blank" href="http://www.aprilialove.com/facebook/">FACEBOOK</a></li>
+<li id="menu-item-8000" class="ppr-new-window menu-item menu-item-type-post_type menu-item-object-page menu-item-8000"><a target="_blank" href="http://www.aprilialove.com/instagram/">INSTAGRAM</a></li>
+<li id="menu-item-8001" class="ppr-new-window menu-item menu-item-type-post_type menu-item-object-page menu-item-8001"><a target="_blank" href="http://www.aprilialove.com/twitter/">TWITTER</a></li>
+<li id="menu-item-8471" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8471"><a href="http://www.aprilialove.com/shop/">SHOP</a></li>
+<li id="menu-item-7289" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7289"><a href="http://www.aprilialove.com/contact/">CONTACT</a></li>
+</ul>				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+</section>	<div id="page" class="thepage">
+				<div class="page-canvas">
+						<header id="header" class="container-group">
+				<div class="outline">
+					
+
+<!-- Branding | Section Template -->
+<section id="branding" class="container no_clone section-branding fix"><div class="texture"><div class="content"><div class="content-pad"><div class="branding_wrap"><a class="plbrand mainlogo-link" href="http://www.aprilialove.com" title="ApriliaLove.com"><img class="mainlogo-img" src="http://www.aprilialove.com/wp-content/uploads/2013/07/aprilialove1.jpg" alt="ApriliaLove.com" /></a><div class="icons" style="bottom: 12px; right: 1px;"></div></div>		
+			<script type="text/javascript"> 
+				jQuery('.icons a').hover(function(){ jQuery(this).fadeTo('fast', 1); },function(){ jQuery(this).fadeTo('fast', 0.5);});
+			</script>
+</div></div></div></section>
+
+<!-- Universal Sidebar | Section Template -->
+<section id="sb_universal" class="container no_clone section-sb_universal fix"><div class="texture"><div class="content"><div class="content-pad"><ul id="list_sb_universal" class="sidebar_widgets fix"><li id="text-47" class="widget_text widget fix"><div class="widget-pad">			<div class="textwidget"><center>
+<i><a href="http://instagram.com/aprilialove">@APRILIALOVE ON INSTAGRAM</a></i>
+<br></br>
+<!-- SnapWidget -->
+<iframe src="http://snapwidget.com/in/?u=YXByaWxpYWxvdmV8aW58MTUwfDV8MXx8bm98Mnxub25l" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:760px; height: 152px" ></iframe>
+</center></div>
+		</div></li></ul></div></div></div></section>				</div>
+			</header>
+						<div id="page-main" class="container-group">
+				<div id="dynamic-content" class="outline">	
+
+
+<!-- No Posts | Section Template -->
+<section id="noposts" class="container no_clone section-noposts fix"><div class="texture"><div class="content"><div class="content-pad">	<div id="notfound">
+				
+				<h2 class="notfound-splash center">404!</h2>
+				<p class="subhead center">Sorry, This Page Does not exist.<br/>Go <a href="http://www.aprilialove.com">home</a> or try a search?</p>
+			
+			<div class="center fix"><form method="get" class="searchform" onsubmit="this.submit();return false;" action="http://www.aprilialove.com/" ><fieldset><input type="text" value="" name="s" class="searchfield" placeholder="Search" /></fieldset></form> </div>
+	</div>
+	</div></div></div></section>				</div>
+								<div id="morefoot_area" class="container-group">
+					
+
+<!-- Morefoot Sidebars | Section Template -->
+<section id="morefoot" class="container no_clone section-morefoot fix"><div class="texture"><div class="content"><div class="content-pad"><div class="morefoot fix"><div class="morefoot-pad"><div class="plgrid pagelines-grid"><div class="plgrid-pad"><div class="pprow grid-row fix "><div class="grid-element pp3 img_grid "><div class="grid-element-pad"><div class="morefoot-col"><div class="morefoot-col-pad blocks"><div id="text-33" class="widget_text widget fix"><div class="widget-pad">			<div class="textwidget"></div>
+		</div></div></div></div></div></div><div class="grid-element pp3 img_grid "><div class="grid-element-pad"><div class="morefoot-col"><div class="morefoot-col-pad blocks"><div id="text-32" class="widget_text widget fix"><div class="widget-pad">			<div class="textwidget"></div>
+		</div></div></div></div></div></div><div class="grid-element pp3 img_grid pplast"><div class="grid-element-pad"><div class="morefoot-col"><div class="morefoot-col-pad blocks"><div id="text-5" class="widget_text widget fix"><div class="widget-pad">			<div class="textwidget"></div>
+		</div></div></div></div></div></div></div></div></div></div></div></div></div></div></section>				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+
+	<footer id="footer" class="container-group">
+		<div class="outline fix">
+		
+
+<!-- Footer Columns Sidebar | Section Template -->
+<section id="sb_footcols" class="container no_clone section-sb_footcols fix"><div class="texture"><div class="content"><div class="content-pad"><div class="fcolumns ppfull pprow"><div class="fcolumns-pad fix"><div class="pp1 footcol"><div class="footcol-pad">			<div class="textwidget"><center><i>All content remains the property of ApriliaLove.com unless stated otherwise. © 2011- 2013 of ApriliaLove.com</i></center>
+</div>
+		</div></div></div></div><div class="clear"></div></div></div></div></section>		</div>
+	</footer>
+</div>
+    <script type="text/javascript">
+    // <![CDATA[
+        var disqus_shortname = 'aprilialove';
+        (function () {
+            var nodes = document.getElementsByTagName('span');
+            for (var i = 0, url; i < nodes.length; i++) {
+                if (nodes[i].className.indexOf('dsq-postid') != -1) {
+                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('rel'));
+                    url = nodes[i].parentNode.href.split('#', 1);
+                    if (url.length == 1) url = url[0];
+                    else url = url[1]
+                    nodes[i].parentNode.href = url + '#disqus_thread';
+                }
+            }
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = 'http://disqus.com/forums/' + disqus_shortname + '/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    //]]>
+    </script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-21442893-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+	<script type='text/javascript'>
+		
+		Galleria.configure({
+			debug			: false, // debug is now off for deployment
+			imageCrop		: true,
+			thumbCrop		: true,
+			carousel		: true,
+			thumbnails		: true,
+			transition		: 'fade',
+			transitionSpeed	: 400,
+			thumbEventType	: 'click',
+			autoplay		: false,
+			clicknext		: false,
+			showImagenav	: false,
+			showCounter		: true,
+			lightbox		: false,
+			imagePan		: false,
+			width			: 680,
+			height			: 4680,
+			showInfo		: true,
+			_toggleInfo		: true
+		});
+	</script>
+	<style type="text/css" media="screen" rel="stylesheet">
+	#galleria
+	{
+		height:4680px;
+	}
+	.galleria-container 
+	{
+		background:#000000;
+	}
+	.galleria-stage
+	{
+		left: 10px;
+		right: 10px;
+		top: 10px;
+		bottom: 60px;
+	}
+	.galleria-thumbnails-container
+	{
+		left:10px;
+		right:10px;
+	}
+	.galleria-thumbnails .galleria-image
+	{
+		border: 1px solid #000000;
+		height:60px;
+		width:80px;
+	}
+	.galleria-info-link
+	{
+		background-color: #000000; 
+	}
+	.galleria-info-text
+	{
+		background-color: #000000;
+	}
+	.galleria-lightbox-shadow
+	{
+		background:#000000;
+	}
+	
+	.galleria-lightbox-content
+	{
+		background-color:#FFFFFF;
+		left:10px;
+		right:10px;
+		top:10px;
+		bottom:10px;
+	}
+	.galleria-thumb-nav-right
+	{
+		background-color:#000000;
+	}
+	.galleria-thumb-nav-left
+	{
+		background-color:#000000;
+	}
+	.galleria-lightbox-image
+	{
+		left:0;
+		right:0;
+		bottom:30px;
+		top:0;
+	}
+		</style><script type="text/javascript" src="http://s.skimresources.com/js/43380X1131269.skimlinks.js"></script>
+
+<!-- Footer Scripts -->
+<script type='text/javascript'>
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"http:\/\/www.aprilialove.com\/wp-includes\/js\/thickbox\/loadingAnimation.gif","closeImage":"http:\/\/www.aprilialove.com\/wp-includes\/js\/thickbox\/tb-close.png"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.aprilialove.com/wp-includes/js/thickbox/thickbox.js?ver=3.1-20111117'></script>
+<script type='text/javascript' src='http://www.aprilialove.com/wp-content/plugins/instapress/instapress.js?ver=1.5.3'></script>
+<script type='text/javascript' src='http://www.aprilialove.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.js?ver=3.09'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.aprilialove.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.aprilialove.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.2'></script>
+<script type='text/javascript' src='http://www.aprilialove.com/wp-content/themes/pagelines/js/script.bootstrap.min.js?ver=2.0.3'></script>
+<script type='text/javascript' src='http://www.aprilialove.com/wp-content/themes/pagelines/js/script.blocks.js?ver=1.0.1'></script>
+</body>
+</html>

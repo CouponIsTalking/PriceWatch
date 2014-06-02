@@ -1,0 +1,73 @@
+jQuery.support.cors = true;
+$.ajaxTransport("+*", function( options, originalOptions, jqXHR ) {
+  if(is_ie() && window.XDomainRequest) {
+    var xdr;
+    return {
+        send: function( headers, completeCallback ) {
+            // Use Microsoft XDR
+            xdr = new XDomainRequest();
+            xdr.open("get", options.url);
+            xdr.onload = function() {
+                if(this.contentType.match(/\/xml/)){
+                    var dom = new ActiveXObject("Microsoft.XMLDOM");
+                    dom.async = false;
+                    dom.loadXML(this.responseText);
+                    completeCallback(200, "success", [dom]);
+                }else{
+                    completeCallback(200, "success", [this.responseText]);
+                }
+            };
+            xdr.ontimeout = function(){
+                completeCallback(408, "error", ["The request timed out."]);
+            };
+            xdr.onerror = function(){
+                completeCallback(404, "error", ["The requested resource could not be found."]);
+            };
+            xdr.send();
+      },
+      abort: function() {
+          if(xdr)xdr.abort();
+      }
+    };
+  }
+});
+
+
+
+$page_url = "http://graph.facebook.com/26483215676/videos/uploaded?limit=100";
+
+	$.ajax({
+			type:"GET",
+			dataType: 'json',
+			url: $page_url,
+			success : function(data) {
+				//console.log(data);
+				console.dir(data);
+				var fb_id = 0;
+				try {
+					fb_id = data.id;
+				} catch (e) {
+					// id not present in response.
+				}
+			
+				if (fb_id)
+				{
+					
+					params['fb_id'] = fb_id;
+					vdo_import_from_fb_id(params);
+				}
+				else
+				{
+					show_success_message("FB page Url does not seem right.");
+				}
+			   //alert(data);// will alert "ok"
+				//update_user_register_result(data)
+			},
+			error : function(data) {
+			   //alert("false");
+			   show_success_message("FB page Url does not seem right.");
+			}
+		});
+		
+		
+		

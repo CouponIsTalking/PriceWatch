@@ -1,0 +1,15 @@
+*.graph_container {font: 10px sans-serif;}
+path {fill: #CED8B6;}
+line {stroke: #555;stroke-width: 2px;}
+line#bestfit {stroke: #ddd;stroke-width: 10px;}
+#xAxis path, #yAxis path, #xAxis line, #yAxis line {stroke: #ccc;fill: none;shape-rendering: crispEdges;}
+text {font-size: 12px;fill: #888;}
+*.price_chart_close{border-radius: 50%;-moz-border-radius: 50%;-webkit-border-radius: 50%;color:rgba(0,0,0,0.8);
+font-size:50px;font-family:Helvetica sans-serif;position:absolute;top:0px;right:0px;padding:15px;cursor:pointer;
+width:50px;height:50px;text-align:center;line-height:50px;
+}
+*.price_chart_close:hover{background-color:rgba(0,0,0,0.4);color:rgba(255,255,255,0.8);}
+*.graph_container{background-color: rgb(255,255,255);background-color:rgba(255,255,255,0.97);position:fixed;top:0px;bottom;0px;left:0px;display:block;}
+*.trend_sign{cursor:pointer;background-image: url(../img/trend.png);background-repeat:no-repeat;background-size:auto;background-position:-17px -69px;}
+*.trend_sign_container{background-color:#F5F5F5;position:absolute;left:0px;bottom:0px;margin:3px;width:30px;height:30px;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;}
+*.trend_sign_container:hover{background-color:#C5C5C5;}

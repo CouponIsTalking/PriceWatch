@@ -1,0 +1,602 @@
+>>> import lxml.html
+>>> html = lxml.html.fromstring(doc[0])
+>>> html
+<Element html at 0x2bc2750>
+>>> tree = etree.parse(html, hp)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "lxml.etree.pyx", line 3201, in lxml.etree.parse (src\lxml\lxml.etree.
+5033)
+  File "parser.pxi", line 1596, in lxml.etree._parseDocument (src\lxml\lxml.e
+e.c:93463)
+TypeError: cannot parse from 'HtmlElement'
+>>> str(html)
+'<Element html at 0x2bc2750>'
+>>> tree0 = lxml.html.fromstring(doc[0])
+>>> tree0
+<Element html at 0x2bab960>
+>>> print(tree0)
+<Element html at 0x2bab960>
+>>> print (lxml.etree.tostring(tree0))
+<html><head><title>Page title</title></head></html>
+>>> doc1
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'doc1' is not defined
+>>> doc[1]
+'<body><p id="firstpara" align="center">This is paragraph <b>one</b>.'
+>>> src1 = driver.page_source
+>>> from htmlops import *
+>>> src1 = removeCommentsAndJS(driver1.page_source)
+>>> tree1 = lxml.html.fromstrong(src1)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'module' object has no attribute 'fromstrong'
+>>> tree1 = lxml.html.fromstring(src1)
+>>> driver.get("http://www.express.com")
+>>> src2 = removeCommentsAndJS(driver.page_source)
+>>> tree2 = lxml.html.fromstring(src2)
+>>> len(tree1.getChildren())
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'HtmlElement' object has no attribute 'getChildren'
+>>> list(tree1)
+[<Element head at 0x2c4a1e0>, <Element body at 0x3ac7fc0>]
+q = []
+ri = 0
+q[wi] = tree1
+q.append(tree1)
+xpaths = []
+while ri < len(q):
+    children = list(q[ri])
+    for c in children:
+		c_src = lxml.html.tostring(c)
+		if c_src in src2:
+				xpath = etree1.getpath(c)
+				xpaths.append(xpath)
+		else:
+				q.append(c)
+    ri = ri + 1
+
+def removeSpaceAndNewlineChar(s):
+	s = s.replace(" ", "")
+	s = s.replace("\n", "")
+	s = s.replace("\r", "")
+	
+	return s
+
+def getAllSubElementList(root):
+	q = []
+	ri = 0
+	q.append(root)
+	while ri < len(q):
+		children = list(q[ri])
+		ri = ri + 1
+		for c in children:
+			q.append(c)
+	
+	return q
+
+def getImmediateSubElementList(root):
+	q = []
+	q.append(root)
+	children = list(q[ri])
+	for c in children:
+		q.append(c)
+	
+	return q
+
+	
+q2 = []
+ri = 0
+q2.append(tree2)
+while ri < len(q2):
+	children = list(q2[ri])
+	ri = ri + 1
+	for c in children:
+		q2.append(c)
+
+q1 = []
+ri = 0
+q1.append(tree1)
+while ri < len(q1):
+	children = list(q1[ri])
+	ri = ri + 1
+	for c in children:
+		q1.append(c)
+
+fwrite = open("c1.txt", "w")
+for c1 in q1:
+	fwrite.write(removeSpaceAndNewlineChar(c1.text_content().encode("ascii", "ignore")))
+fwrite = open("c2.txt", "w")
+for c2 in q2:
+	fwrite.write(removeSpaceAndNewlineChar(c2.text_content().encode("ascii", "ignore")))
+
+
+def compareTextContentIgnoreEmpty(c1, c2):
+	str1 = c1.text_content()
+	str2 = c2.text_content()
+#	str1 = removeSpaceAndNewlineChar(str1)
+#	str2 = removeSpaceAndNewlineChar(str2)
+	
+	l1 = len(str1)
+	l2 = len(str2)
+	if l1 == 0 and l2 != 0:
+		return 0
+	if l1 != 0 and l2 == 0:
+		return 0
+	if l1 == 0 and l2 == 0:
+		return 1
+	# non zero length for both strings	
+	if str1 == str2:
+		return 1
+	
+	return 0
+	
+
+def compareTextContent(c1, c2):
+	str1 = c1.text_content().encode("ascii","ignore")
+	str2 = c2.text_content().encode("ascii","ignore")
+#	str1 = removeSpaceAndNewlineChar(str1)
+#	str2 = removeSpaceAndNewlineChar(str2)
+	
+	if str1 and str2 and str1 == str2:
+		return 1
+	
+	return 0
+	
+def compareXPath(c1, etree1, c2, etree2):
+	xpath1 = etree1.getpath(c1)
+	xpath2 = etree2.getpath(c2)
+	if xpath1 and xpath2 and xpath1 == xpath2:
+		return 1
+	else:
+		return 0
+
+def compareATag(c1, etree1, c2, etree2):
+	if c1.tag == 'a' and c2.tag == 'a':
+		if compareTextContent(c1, c2) == 1:
+			return 1
+	
+	return 0
+	
+def compareImgTag(c1, etree1, c2, etree2):
+	
+	if c1.tag != 'img' or c2.tag != 'img':
+		return 0
+		
+	xpath1 = etree1.getpath(c1)
+	xpath2 = etree2.getpath(c2)
+	imgsrc1 = etree1.xpath(xpath1+'/@src')
+	imgsrc2 = etree1.xpath(xpath2+'/@src')
+	
+	#if xpath1 and xpath2 and xpath1 == xpath2 and imgsrc1 == imgsrc2:
+	if xpath1 and xpath2 and imgsrc1 == imgsrc2:
+		return 1
+	else:
+		return 0
+
+
+
+def getMem(div1, etree1, div2, etree2):
+	xpath1 = etree1.getpath(div1)
+	xpath2 = etree2.getpath(div2)
+	
+	if (xpath1, xpath2) in div_compare_mem:
+		return div_compare_mem[(xpath1, xpath2)]
+	else:
+		div_compare_mem[(xpath1, xpath2)] = -1
+		return -1
+
+def setMem(div1, etree1, div2, etree2, result):
+	xpath1 = etree1.getpath(div1)
+	xpath2 = etree2.getpath(div2)	
+	div_compare_mem[(xpath1, xpath2)] = result
+	return div_compare_mem[(xpath1, xpath2)]
+
+# is div1 a subtree of div2 ?
+def containsSubTree(div1, etree1, div2, etree2):
+	
+	relationship = getMem(div1, etree1, div2, etree2)
+	
+	if relationship == 0 or relationship == 1 or relationship == 2:
+		return relationship
+	
+	# by default, no relationship
+	relationship = 0
+	
+	# if elements are equal, then relationship is 1
+	if compareElements(div1, etree1, div2, etree2) == 1:
+		relationship = 1
+		
+	# if a copy of div1 is contained within div2 as ones of its child, then relationship is 2
+	else:
+		childs2 = list(div2)
+		for c2 in childs2:
+			if containsSubTree(div1, etree1, c2, etree2) != 0:
+				relationship = 2
+				break
+	
+	setMem(div1, etree1, div2, etree2, relationship) 
+	
+	return 0
+	
+def compareElements(div1, etree1, div2, etree2):
+	
+	# if we have already compared these 2 divs, then dont compare again
+	# simply return stored comparison result
+	#
+	pre_calc_result = getMem(div1, etree1, div2, etree2) 
+	if pre_calc_result == 0 or pre_calc_result == 2:
+		return 0
+	
+	if pre_calc_result == 1:
+		return pre_calc_result
+	
+	# set the comparison result as true
+	result = 1
+	
+	#few base conditions
+	
+	# if div tags dont match, compare will fail
+	if div1.tag != div2.tag:
+		result = 0
+	
+	# if number of childs dont match, compare will fail
+	childs1 = list(div1)
+	childs2 = list(div2)
+	if len(childs1) != len(childs2):
+		result = 0
+	
+	# if comparision failed, so far, then store the comparison's result
+	# and return
+	if result == 0:
+		setMem(div1, etree1, div2, etree2, result)
+		return 0
+	
+	if len(childs1) == 0:
+		if div1.tag == 'a' and compareATag(div1, etree1, div2, etree2) == 1:
+			result = 1
+		elif div1.tag == 'img' and compareImgTag(div1, etree1, div2, etree2) == 1:
+			result = 1
+		elif compareTextContent(div1, div2) == 1:
+			result = 1
+		else:
+			result = 0
+	
+	else:
+		# except img div, we should compare the text content of divs
+		compareText = 1
+		if div1.tag == 'img':
+			compareText = 0
+		
+		if compareText == 1 and compareTextContent(div1, div2) == 0:
+			result = 0
+		else:
+			result = 1
+			for c1 in childs1:
+				#xpath1 = etree1.getpath(c1)
+				#children2 = etree2.xpath(xpath1)
+				match_found = 0
+				for c2 in childs2:
+					if compareElements(c1, etree1, c2, etree2) == 1:
+						match_found = 1
+						break
+				if match_found == 0:
+					result = 0
+					break
+					
+	setMem(div1, etree1, div2, etree2, result)
+	
+	return result
+	
+def compareLITag(l1, etree1, l2, etree2):
+	
+	children1 = list(l1)
+	for c
+	xpath1 = etree1.getpath(c1)
+	xpath2 = etree2.getpath(c2)
+	if xpath1 and xpath2 and xpath1 == xpath2:
+		return 1
+	else:
+		return 0
+		
+def compareULTag(c1, etree1, c2, etree2):
+	xpath1 = etree1.getpath(c1)
+	xpath2 = etree2.getpath(c2)
+	if xpath1 and xpath2 and xpath1 == xpath2:
+		return 1
+	else:
+		return 0
+
+def print_element_at_xpath(etree, xpath):
+	eles = etree.xpath(xpath)
+	for e in eles:
+		print e.text_content().encode("ascii", "ignore")
+
+	
+def test_on_a_elements():
+	q = []
+	ri = 0
+	q.append(tree1)
+	xpaths = []
+	while ri < len(q):
+		children = list(q[ri])
+		for c1 in children:
+			xpath1 = etree1.getpath(c1)
+			#children2 = etree2.xpath(xpath1)
+			match = 0
+			#for c2 in children2:
+			#for c2 in q2:
+			if 1:
+				#if compareElements(c1, etree1, c2, etree2) == 1:
+				if containsSubTree(c1, etree1, tree2, etree2) > 0:
+					print "\n----\n"
+					print c1.text_content()
+					print "\n----\n"
+					print xpath1
+					xpaths.append(xpath1)
+					match = 1
+					break
+			if match == 0:
+				q.append(c1)
+					
+		ri = ri + 1
+
+def calcRelationships(root1, etree1, root2, etree2):
+	
+	levelSortedChild1List = []
+	nextChildId = 0
+	levelSortedChild1List.append(root1)
+	
+	while nextChildId < len(levelSortedChild1List):
+		nextChild = levelSortedChild1List[nextChildId]
+		
+		# if subtree is not present under root2, then add its childrens to
+		# level sorted child list
+		if containsSubTree(nextChild, etree1, root2, etree2) == 0:
+		
+			itsChildren = list(nextChild)
+			for c in itsChildren:
+				levelSortedChild1List.append(c)
+	
+		nextChildId = nextChildId + 1
+
+
+def compareDocs(driver1, driver2):
+	src1 = removeCommentsAndJS(driver1.page_source)
+	tree1 = lxml.html.fromstring(src1)
+	etree1 = etree.ElementTree(tree1)
+	
+	src2 = removeCommentsAndJS(driver2.page_source)
+	tree2 = lxml.html.fromstring(src2)
+	etree2 = etree.ElementTree(tree2)
+	
+	print "Built both trees\n"
+	
+	div_compare_mem = {}
+	print "Looking for subtrees of first doc in another\n"
+	calcRelationships(tree1, etree1, tree2, etree2)
+	print "Done.\n"
+	xpaths_to_hide1 = []
+	for (x,y) in div_compare_mem:
+		if div_compare_mem[(x,y)] > 0:
+			xpaths_to_hide1.append(x)
+			
+	div_compare_mem_rev = {}
+	for (x,y) in div_compare_mem:
+		if div_compare_mem[(x,y)] == 2:
+			div_compare_mem_rev[(y,x)] = 0
+		
+		elif div_compare_mem[(x,y)] == 1:
+			div_compare_mem_rev[(y,x)] = 1
+			
+		elif div_compare_mem[(x,y)] == 0:
+			div_compare_mem_rev[(y,x)] = 0
+	
+	div_compare_mem = div_compare_mem_rev
+	print "Looking for subtrees of second doc in first\n"
+	calcRelationships(tree2, etree2, tree1, etree1)
+	print "Done.\n"
+	xpaths_to_hide2 = []
+	for (x,y) in div_compare_mem:
+		if div_compare_mem[(x,y)] > 0:
+			xpaths_to_hide2.append(x)
+	
+	print "Setting Opacities\n"
+	dimOpacityFromXpath(driver1, xpaths_to_hide1, '0.2')
+	dimOpacityFromXpath(driver2, xpaths_to_hide2, '0.2')
+	
+	return (xpaths_to_hide1, xpaths_to_hide2)
+
+
+test_on_a_elements()
+
+q = []
+ri = 0
+q.append(tree1)
+xpaths = []
+while ri < len(q):
+    children = list(q[ri])
+    for c1 in children:
+		xpath1 = etree1.getpath(c1)
+		children2 = etree2.xpath(xpath1)
+		match = 0
+		for c2 in children2:
+		#for c2 in q2:
+			if compareImgTag(c1, etree1, c2, etree2) == 1:
+				print "\n----\n"
+				imgsrc1 = etree1.xpath(xpath1+'/@src')
+				print imgsrc1
+				print "\n----\n"
+				print xpath1
+				xpaths.append(xpath1)
+				match = 1
+				break
+		if match == 0:
+			q.append(c1)
+				
+    ri = ri + 1
+
+	
+q = []
+ri = 0
+q.append(tree1)
+xpaths = []
+while ri < len(q):
+    children = list(q[ri])
+    for c1 in children:
+		xpath1 = etree1.getpath(c1)
+		children2 = etree2.xpath(xpath1)
+		match = 0
+		for c2 in children2:
+		#for c2 in q2:
+			if compareATag(c1, etree1, c2, etree2) == 1:
+				print "\n----\n"
+				print c1.text_content()
+				print "\n----\n"
+				print xpath1
+				xpaths.append(xpath1)
+				match = 1
+				break
+		if match == 0:
+			q.append(c1)
+				
+    ri = ri + 1
+
+
+for xpath in xpaths:
+    try:
+            eles = driver1.find_elements_by_xpath(xpath)
+    except Exception, e:
+            print "exception while looking for " + xpath
+    try:
+            for e in eles:
+                    driver1.execute_script("arguments[0].style.display='none';", e)
+    except Exception, e:
+            print "exception while hiding for " + xpath
+
+def isempty(i_str):
+	empty = 1
+	for c in i_str:
+		if c >= 'a' and c <= 'z':
+			empty = 0
+			break
+		if c >= 'A' and c <= 'Z':
+			empty = 0
+			break
+		if c >= '1' and c <= '9':
+			empty = 0
+			break
+	return empty
+	
+
+def dimOpacityFromXpath(driver, xpaths, opacity_value_str):
+	for xpath in xpaths:
+		try:
+			eles = driver1.find_elements_by_xpath(xpath)
+		except Exception, e:
+			print "exception while looking for " + xpath
+		try:
+			for e in eles:
+				driver1.execute_script("\""+ "arguments[0].style.opacity='"+opacity_value_str+"'\"", e)
+		except Exception, e:
+			print "exception while dimming for " + xpath
+
+def hideElementsFromXpath(driver, xpaths):
+	for xpath in xpaths:
+		try:
+			eles = driver1.find_elements_by_xpath(xpath)
+		except Exception, e:
+			print "exception while looking for " + xpath
+		try:
+			for e in eles:
+				driver1.execute_script("arguments[0].style.display='none';", e)
+		except Exception, e:
+			print "exception while hiding for " + xpath
+
+def showElementsFromXpath(driver, xpaths):
+	for xpath in xpaths:
+		try:
+			eles = driver1.find_elements_by_xpath(xpath)
+		except Exception, e:
+			print "exception while looking for " + xpath
+		try:
+			for e in eles:
+				driver1.execute_script("arguments[0].style.display='';", e)
+		except Exception, e:
+			print "exception while hiding for " + xpath
+
+			
+xpaths1 = []
+xpaths2 = []
+it1 = etree1.iter(tag="div")
+for i in it1:
+    it2 = etree2.iter(tag="div")
+    for i2 in it2:
+		i_str = etree.tostring(i)
+
+		if isempty(i_str) == 0 and etree.tostring(i) == etree.tostring(i2):
+			xpath1 = etree1.getpath(i)
+			xpath2 = etree2.getpath(i2)
+			xpaths1.append(xpath1)
+			xpaths2.append(xpath2)
+			print "yes"
+
+Traceback (most recent call last):
+  File "<stdin>", line 6, in <module>
+AttributeError: 'HtmlElement' object has no attribute 'getpath'
+>>> list(tree1)
+[<Element head at 0x3ac7fc0>, <Element body at 0x3b2c810>]
+>>> for c in list(tree1):
+...     print c.xpath()
+...
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+  File "lxml.etree.pyx", line 1468, in lxml.etree._Element.xpath (src\lxml\lxml.
+etree.c:46718)
+TypeError: xpath() takes exactly 1 positional argument (0 given)
+>>> for c in list(tree1):
+...     print c.xpath
+...
+<built-in method xpath of HtmlElement object at 0x03AC7FC0>
+<built-in method xpath of HtmlElement object at 0x03B2C810>
+>>> for c in list(tree1):
+...     print tree1.getpath(c)
+...
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+AttributeError: 'HtmlElement' object has no attribute 'getpath'
+>>> for c in list(tree1):
+...     [c]
+...
+[<Element head at 0x3ac7fc0>]
+[<Element body at 0x3b2c810>]
+>>> xpath_tree1 = etree.ElementTree(tree1)
+>>> xpath_tree1
+<lxml.etree._ElementTree object at 0x039F4AD0>
+>>> tree1
+<Element html at 0x38139c0>
+>>> for c in list(tree1):
+...     print xpath_tree1.getpath(c)
+...
+/html/head
+/html/body
+>>> x= driver.find_elements_by_xpath("/html/head")
+>>> x
+[<selenium.webdriver.remote.webelement.WebElement object at 0x03ACDDD0>]
+
+
+>>> driver1 = webdriver.Firefox()
+>>> driver2 = webdriver.Firefox()
+>>> driver1.get("http://www.express.com")
+>>> driver2.get("http://www.express.com")
+>>> driver2.find_element_by_link_text("WOMEN").click()
+>>> driver2.find_element_by_link_text("WOMEN").click()
+>>> from htmlops import *
+>>> src1 = removeCommentsAndJS(driver1.page_source)
+>>> src2 = removeCommentsAndJS(driver2.page_source)
+>>> import lxml.html
+>>> from lxml.html import etree
+>>> tree1 = lxml.html.fromstring(src1)
+>>> tree2 = lxml.html.fromstring(src2)

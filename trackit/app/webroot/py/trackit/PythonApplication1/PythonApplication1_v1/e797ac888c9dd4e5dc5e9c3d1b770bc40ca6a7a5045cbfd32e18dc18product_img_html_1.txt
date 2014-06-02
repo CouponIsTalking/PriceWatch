@@ -1,0 +1,1 @@
+<div id="product_image_bg"><img style="display: inline;" alt="" id="product_image" src="http://www1.assets-gap.com/webcontent/0006/624/828/cn6624828.jpg"></div>

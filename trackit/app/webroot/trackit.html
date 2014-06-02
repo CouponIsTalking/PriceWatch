@@ -1,0 +1,37 @@
+<script src="http://localhost/AB/js/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+function trackit1234567890showiframe($this)
+{
+	$a = $this.parents("#trackit1234567890A");
+	$iframe_div = $('#trackit1234567890iframe');
+	if ($iframe_div.length == 0)
+	{	
+		$top_of_iframe = $a.position().top + $a.height();
+		$left_of_iframe = Math.max($a.position().left - 500, 10);
+		$body = $("body");
+		$trackit_iframe_url = "http://localhost/trackit/trackit_iframe.php?url="+encodeURIComponent(window.location.href)+"&title="+document.title;
+		$iframe_div = $("<div id='trackit1234567890iframe' style=\"opacity:0; display:block; width:550px; position:absolute; left:"+$left_of_iframe+";top:"+$top_of_iframe+"; z-index:1000;\"> <iframe src=\""+$trackit_iframe_url+"\"id='trackit1234567890iframe2' frameborder='0' width='550' style='width:550px; height:200px; max-height:400px;'></iframe></div>");
+		$body.append($iframe_div);
+		$iframe_div.fadeTo('slow', 1.0);
+		//$iframe = $a.find('iframe');
+		//$iframe.attr('src', $trackit_iframe_url);
+	}
+	else
+	{
+		$iframe_div.fadeTo('slow', 0, function(){$(this).remove();});
+	}
+	
+}
+
+</script>
+
+<a id="trackit1234567890A">
+<img onclick="trackit1234567890showiframe( $(this) );" alt="track this item" src="http://localhost/AB/img/trackit.gif" style="width:30px; height:30px; cursor:pointer;"></img>
+
+</a>
+<div> sadasd sd </div>
+<div> sadasd sd </div>
+<div> sadasd sd </div><div> sadasd sd </div>
+<div> sadasd sdsadasd sdsadasd sdsadasd sdsadasd sd </div>
+<div> sadasd sd sadasd sdsadasd sdsadasd sdsadasd sd</div>
+<div> sadasd sadasd sdsadasd sdsadasd sdsadasd sdsadasd sdsd </div>

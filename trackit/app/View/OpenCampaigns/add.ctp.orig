@@ -1,0 +1,426 @@
+<?php echo $this->Html->script('custom/opencampaign'); ?>
+
+<style>
+.conditions_in_oc_add_form
+{
+left-margin:20%
+}
+</style>
+
+<script type="text/javascript">
+function RunOnLoad()
+{
+	ResetConditions();
+}
+
+function ResetConditions()
+{
+	$con1 = $("#OpenCampaignCondition1");
+	$con2 = $("#OpenCampaignCondition2");
+	$oc_type = $("#OpenCampaignType").val();
+	
+	$con1.val(0);
+	$con2.val(0);
+	
+	$("#OpenCampaignCondition1  option").css('display', 'block'); //.removeAttr("disabled");
+	$("#OpenCampaignCondition2  option").css('display', 'block'); //.removeAttr("disabled","");
+		
+	if ($oc_type == 'fb_post')
+	{
+		//to_disable = ['1','8','9', '10', '12'];
+		to_disable = ['0', '1', '2','3','4', '5', '6','7', '8', '9', '10', '12'];
+		for (x in to_disable)
+		{
+			$("#OpenCampaignCondition1 option[value=" + to_disable[x] + "]").css('display', 'none'); //attr('disabled','disabled');
+			$("#OpenCampaignCondition2 option[value=" + to_disable[x]  + "]").css('display', 'none'); //.attr('disabled','disabled');
+		}
+		
+		$("#OpenCampaignCondition1 option[value=" + '11' + "]").prop('selected', true);
+	}
+	else if ($oc_type == 'tweet')
+	{
+		to_disable = ['0', '1', '2','3','4', '5', '6','7', '8', '9', '10', '11'];
+		for (x in to_disable)
+		{
+			$("#OpenCampaignCondition1 option[value=" + to_disable[x] + "]").css('display', 'none'); //attr('disabled','disabled');
+			$("#OpenCampaignCondition2 option[value=" + to_disable[x]  + "]").css('display', 'none'); //.attr('disabled','disabled');
+		}
+		$("#OpenCampaignCondition1 option[value=" + '12' + "]").prop('selected', true);
+	}
+	else if ($oc_type == 'blog')
+	{
+		to_disable = ['2','3','4','6','7','9', '10', '11', '12'];
+		for (x in to_disable)
+		{
+			$("#OpenCampaignCondition1 option[value=" + to_disable[x]  + "]").css('display', 'none'); //.attr('disabled','disabled');
+			$("#OpenCampaignCondition2 option[value=" + to_disable[x]  + "]").css('display', 'none'); //.attr('disabled','disabled');
+		}
+	}
+	else if ($oc_type == 'reddit')
+	{
+		to_disable = ['1', '2','3','4','6','7', '8', '10', '11', '12'];
+		for (x in to_disable)
+		{
+			$("#OpenCampaignCondition1 option[value=" + to_disable[x]  + "]").css('display', 'none'); //.attr('disabled','disabled');
+			$("#OpenCampaignCondition2 option[value=" + to_disable[x]  + "]").css('display', 'none'); //.attr('disabled','disabled');
+		}
+	}
+	else if ($oc_type == 'imgur')
+	{
+		to_disable = ['1', '2','3','4','6','7', '8', '9', '11', '12'];
+		for (x in to_disable)
+		{
+			$("#OpenCampaignCondition1 option[value=" + to_disable[x]  + "]").css('display', 'none'); //.attr('disabled','disabled');
+			$("#OpenCampaignCondition2 option[value=" + to_disable[x]  + "]").css('display', 'none'); //.attr('disabled','disabled');
+		}
+	}
+	return;
+}
+
+function validate_form($form)
+{
+	//$form = $("."+form_container_class).find('form');
+	
+	$coupon_worth = $form.find("#OpenCampaignCouponWorth").val();
+	$coupon_line = $form.find("#OpenCampaignCouponLine").val();
+	$coupon_code = $form.find("#OpenCampaignCouponCode").val();
+	
+	$coupon_valid_until_day = $form.find("#OpenCampaignCondition3Param1Day").find(":selected").val();
+	$coupon_valid_until_month = $form.find("#OpenCampaignCondition3Param1Month").find(":selected").val();
+	$coupon_valid_until_year = $form.find("#OpenCampaignCondition3Param1Year").find(":selected").val();
+	
+	if (typeof $coupon_worth =='undefined' || $coupon_worth == '')
+	{
+		show_success_message("Please enter total value of this coupon(Coupon worth).");
+		
+		return false;
+	}
+	else if  (typeof $coupon_line == 'undefined' || $coupon_line == '')
+	{
+		show_success_message("Please enter one line for the coupon, which is the headline for the coupon(Coupon line).")
+		
+		return false;
+	}
+	else if  (typeof $coupon_code == 'undefined' || $coupon_code == '')
+	{
+		show_success_message("Please enter coupon code.");
+		
+		return false;
+	}
+	else if  (
+		(typeof $coupon_valid_until_day == 'undefined' || $coupon_valid_until_day == '')
+		||(typeof $coupon_valid_until_month == 'undefined' || $coupon_valid_until_month == '')
+		||(typeof $coupon_valid_until_year == 'undefined' || $coupon_valid_until_year == '')
+		)
+	{
+		show_success_message("Please enter coupon valid until date(last date of coupon validity).");
+		
+		return false;
+	}
+	else 
+	{
+		var today = get_today_mm_dd_yyyy().split("/");
+		var mm = today[0];
+		var dd = today[1];
+		var yyyy = today[2];
+		
+		today = yyyy.toString() + mm.toString() + dd.toString();
+		var $valid_until_date = $coupon_valid_until_year + $coupon_valid_until_month + $coupon_valid_until_day;
+		
+		if ($valid_until_date < today)
+		{
+			show_success_message("'Coupon valid until date' should not be a past date.");
+			return false;
+		}
+	}
+	
+	return true;
+}
+
+function verify_dynamic_social_coupon_and_add($form)
+{
+	
+	var $form_is_correct = validate_form($form);
+	if (!$form_is_correct)
+	{
+		return false;
+	}
+	//$form = $("."+form_container_class).find('form');
+	
+	$coupon_worth = $form.find("#OpenCampaignCouponWorth").val();
+	$coupon_worth_cur = $form.find("#OpenCampaignCouponWorthCur").find(":selected").text();
+	$coupon_line = $form.find("#OpenCampaignCouponLine").val();
+	$coupon_details = $form.find("#OpenCampaignCouponDetails").val();
+	$coupon_code = $form.find("#OpenCampaignCouponCode").val();
+	$product_id = $form.find("#OpenCampaignProductId").val();
+	$condition_name_code = $form.find("#OpenCampaignCondition1").find(":selected").val();
+	$condition_name = $form.find("#OpenCampaignCondition1").find(":selected").text();
+
+	data = {};
+	if ($product_id == '0' || $product_id == 0)
+	{
+		data['is_for_product'] = 0;
+		data['product_name'] = "";
+		data['promotion_for'] = $form.find("#OpenCampaignProductId").find(":selected").text();
+	}
+	else
+	{
+		data['is_for_product'] = 1;
+		data['product_name'] = $form.find("#OpenCampaignProductId").find(":selected").text();
+		data['promotion_for'] = $form.find("#OpenCampaignProductId").find(":selected").text();
+	}
+	
+	data['start_date'] = "";
+	data['active'] = "";
+	data['type'] = $form.find("#OpenCampaignType").val();
+	
+	// add conditions
+	condition = {};
+	condition['con_name'] = $condition_name;
+	condition['param1'] = 0;
+	condition['param2'] = 0;
+	condition['offer_type'] = 'coupon';
+	condition['coupon'] = {};
+	condition['coupon']['coupon_code'] = $coupon_code;
+	condition['coupon']['coupon_worth'] = $coupon_worth;
+	condition['coupon']['coupon_worth_cur'] = $coupon_worth_cur;
+	condition['coupon']['coupon_line'] = $coupon_line;
+	condition['coupon']['coupon_desc'] = $coupon_details;
+
+	$coupon_valid_until_day = $form.find("#OpenCampaignCondition3Param1Day").find(":selected").val();
+	$coupon_valid_until_month = $form.find("#OpenCampaignCondition3Param1Month").find(":selected").val();
+	$coupon_valid_until_year = $form.find("#OpenCampaignCondition3Param1Year").find(":selected").val();
+
+	condition['coupon']['valid_until_date'] = 	$coupon_valid_until_month + "/" + $coupon_valid_until_day + "/" + $coupon_valid_until_year
+	
+	condition['max_count'] = -1;
+	condition['met_so_far'] = -1;
+	
+	data['conditions'] = [condition];
+	//alert(JSON.stringify(data));
+	node = show_dynamic_social_coupon(JSON.stringify(data));
+	
+	node.append("<div style='margin-top:2px; margin-bottom:2px; margin-color'><a style='color:white; cursor:pointer;' onclick=\"$('close_button').click(); $('#OpenCampaignStartNowAswell').val(1); $('#OpenCampaignAddForm').find('.submit').find('input').click(); show_loading_image(); \">Add and Start it now.<a></div>")
+	node.append("<div style='margin-top:2px; margin-bottom:2px; margin-color'><a style='color:white; cursor:pointer;' onclick=\"$('close_button').click(); $('#OpenCampaignStartNowAswell').val(0); $('#OpenCampaignAddForm').find('.submit').find('input').click(); show_loading_image(); \">Save it and Start later.<a></div>")
+	//$('#OpenCampaignAddForm').submit();
+}
+
+</script>
+
+<div class="openCampaigns_add_form">
+<?php echo $this->Form->create('OpenCampaign', array('onsubmit' => "validate_form('openCampaigns_add_form');")); ?>
+	<fieldset>
+		<legend><?php 
+			//echo __('Create an Advertising Campaign'); 
+			echo __('Add a dynamic social coupon.'); 
+			?></legend>
+	<?php
+		/*
+		$company_data_select_list = array();
+		
+		foreach ($company_data as $company_id => $company)
+		{
+			$company_data_select_list[$company_id] = $company['name'] . " " . $company['website'];
+		}
+		*/
+		
+		echo $this->Form->input('start_now_aswell', array('default' => '0', 'type'=>'hidden', 'label' => 'Start the coupon after it is added'));
+			
+		$product_data_select_list = array();
+		$enabled_plats = SOCIAL_PLATS::$enabled_plats['dynamic'];
+		
+		foreach ($product_data as $product_id => $product)
+		{
+			if (!empty($company_data[$product['company_id']]['name']))
+				$product_data_select_list[$product_id] = $product['name'] . ' by ' . $company_data[$product['company_id']]['name'];
+			else
+				$product_data_select_list[$product_id] = $product['name'];
+		}
+		$product_data_select_list[0] = 'Promote our company';
+		
+		/*
+		echo $this->Form->input('company_id', array(
+            'options' => $company_data_select_list
+        ));
+		*/
+		
+		echo "<div style='clear:both'></div>";
+		echo "<section>";
+			//echo "<div style='position:relative; float:left;'>";
+			echo $this->Form->input('product_id', array(
+				'options' => $product_data_select_list,
+				'default' => 0,
+				'label' => 'Promote'
+			));
+			//echo "</div>";
+			
+			$oc_type_list = array();
+			if ($enabled_plats['blog'])
+			{
+				$oc_type_list['blog'] = 'Blog Post';
+			}
+			if ($enabled_plats['fb'])
+			{
+				$oc_type_list['fb_post'] = 'Facebook';
+			}
+			if ($enabled_plats['reddit'])
+			{
+				$oc_type_list['reddit'] = 'Reddit';
+			}
+			if ($enabled_plats['imgur'])
+			{
+				$oc_type_list['imgur'] = 'Imgur';
+			}
+			if ($enabled_plats['tw'])
+			{
+				$oc_type_list['tweet'] = 'Twitter';
+			}
+			
+			//echo "<div style='position:relative;float:left;'>";
+			echo $this->Form->input('type', array(
+				'options' => $oc_type_list,
+				'label' => 'On',
+				'onchange' => 'ResetConditions();'
+			));
+			//echo "</div>";
+		echo "</section>";
+		
+		// echo $this->Form->input('type');
+		
+		// echo $this->Form->input('active');
+		
+		$conditions_list = array();
+		foreach ($conditions as $id => $name)
+		{
+			if ($id == 5) continue;
+			$conditions_list[$id] = $name['name'];
+		}
+		$conditions_list[0] = '----None----';
+		$offer_type['coupon'] = "Coupon worth";
+		//$offer_type['dollar'] = "Dollar amount worth";
+		
+		echo "<div style='clear:both'></div>";
+		echo "<section>";
+			//echo "<label>Pick offers to promoters</label>";
+			echo "<label>Coupon Details</label>";
+			
+			/*
+			echo $this->Form->input('condition1', array(
+				'options' => $conditions_list, 'label' => 'For following condition (choose condition) ', 'default' => 0,
+				//'style'=>'left-margin:10%;',
+				//'css'=>'left-margin:10%;'
+			));
+			echo $this->Form->input('condition1_param1', array('label' => 'Of (enter a target for the condition in left)'));
+			echo "<div style='clear:both'></div>";
+			echo $this->Form->input('condition1_offer_type', array('options' => $offer_type, 'label' => 'You offer promoters'));
+			echo $this->Form->input('condition1_offer_worth', array('label' => 'worth (enter total worth of each offering)'));
+			
+			echo $this->Form->input('max_count1', array('label' => 'how many of such offers you are giving?'));
+			*/
+			
+			echo "<div style='display:none'>";
+				echo $this->Form->input('condition1_param1', array('default' => '1', 'label' => 'Of (enter a target for the condition in left)'));
+				echo $this->Form->input('condition1_offer_type', array('options' => $offer_type, 'default' => 'coupon', 'label' => 'You offer promoters'));
+			echo "</div>";
+			
+			echo $this->Form->input('condition1', array(
+				'options' => $conditions_list, 'label' => 'Coupon opens when users do following :', 'default' => 0,
+				//'style'=>'left-margin:10%;',
+				//'css'=>'left-margin:10%;'
+			));
+			
+			echo "<div style='clear:both'></div>";
+			$discount_type_list = array('percent_off' => '% off', 'dollar_off' => '$ off', 'sale' => 'sale');
+			echo $this->Form->input('coupon_type', array(
+				'options' => $discount_type_list, 'label' => 'Coupon type (dollar off / percent off / sale) ', 'default' => 0,
+				//'style'=>'left-margin:10%;',
+				//'css'=>'left-margin:10%;'
+			));
+			
+			//echo "<div style='clear:both'></div>";
+			//echo $this->Form->input('condition1_offer_type', array('options' => $offer_type, 'label' => ''));//You offer promoters'));
+			echo "<div style='clear:both'></div>";
+			echo "<section>";
+				echo $this->Form->input('coupon_worth', array('type' => 'numeric', 'label' => 'Coupon worth (enter total dollar value or savings with coupon.)'));
+				$cur_types = CUR_CODES::$currencies;
+				echo $this->Form->input('coupon_worth_cur', array(
+					'options' => $cur_types, 'label' => '', 'default' => 0,
+					//'style'=>'left-margin:10%;',
+					//'css'=>'left-margin:10%;'
+				));
+			echo "</section>";
+			
+			echo "<div style='clear:both'></div>";
+			
+			echo "<section>";
+				echo $this->Form->input('coupon_code', array('label' => 'Coupon Code (max 30 characters).', 'maxlength' => '30'));
+				echo $this->Form->input('coupon_line', array('label' => 'One line for coupon offer (max 30 characters).', 'maxlength' => '30'));
+				echo "<div style='clear:both'></div>";
+				echo $this->Form->input('coupon_details', array('type'=>'textarea', 'label' => 'Optional details for the coupon (max 300 characters).', 'maxlength' => '500'));
+			echo "</section>";
+			
+		echo "</section>";
+		
+		echo "<div style='clear:both'></div>";
+		/*
+		echo "<section>";
+			echo "<label>Pick another type of offer (optional)</label>";
+		
+			echo $this->Form->input('condition2', array(
+				'options' => $conditions_list, 'label' => 'For following condition (choose condition) ', 'default' => 0,
+				//'style'=>'left-margin:10%;',
+				//'css'=>'left-margin:10%;'
+			));
+			echo $this->Form->input('condition2_param1', array('label' => 'Of (enter a target for the condition in left)'));
+			echo "<div style='clear:both'></div>";
+			echo $this->Form->input('condition2_offer_type', array('options' => $offer_type, 'label' => 'You offer promoters'));
+			echo $this->Form->input('condition2_offer_worth', array('label' => 'worth (enter total worth of each offering)'));
+			
+			echo $this->Form->input('max_count2', array('label' => 'how many of such offers you are giving?'));
+		echo "</section>";
+		echo "<div style='clear:both'></div>";
+		*/
+		
+		$valid_date_conditions_list = array();
+		foreach ($conditions as $id => $name)
+		{
+			if ($id != 5) continue;
+			$valid_date_conditions_list[$id] = $name['name'];
+		}
+		echo "<section>";
+		
+		/*
+		echo $this->Form->input('condition3', array(
+            'options' => $valid_date_conditions_list, 'label' => 'Pick the last date for promoters to fulfill above requirements.', 'default' => 5, 'disabled' => TRUE
+        ));
+		*/
+		
+		//echo $this->Form->input('condition3_param1', array('label' => 'Enter MM/DD/YYYY format'));
+		echo $this->Form->input('condition3_param1', array(
+			//'label' => 'Date',
+			'label' => 'Coupon valid until',
+			'type'=>'date',
+			'dateFormat' => 'DMY',
+			'minYear' => date('Y'),
+			'maxYear' => date('Y')+1
+		));
+		echo "</section>";
+	?>
+	</fieldset>
+	<div onclick="verify_dynamic_social_coupon_and_add($(this).closest('form'));"><green_button>Add Social Coupon</green_button></div>
+	
+	<div class="submit" style='display:none;'>
+		<input type="submit" value="submit"></input>
+	</div>
+	
+<?php echo $this->Form->end();//__('Add Social Coupon')); ?>
+</div>
+<!--div class="actions">
+	<h3><?php //echo __('Actions'); ?></h3>
+	<ul>
+
+		<li><?php //echo $this->Html->link(__('List Open Campaigns'), array('action' => 'index')); ?></li>
+	</ul>
+</div-->
+<div class="oc_activate_result" style="display:none"></div>
+<div class="opencampaign_details_click_response" style="display:none"></div>

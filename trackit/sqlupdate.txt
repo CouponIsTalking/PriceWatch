@@ -1,0 +1,115 @@
+INSERT INTO  `trackit_db_test`.`conditions` (
+`id` ,
+`name`
+)
+VALUES (
+NULL ,  'Like a Facebook Page'
+);
+
+INSERT INTO  `trackit_db_test`.`conditions` (
+`id` ,
+`name`
+)
+VALUES (
+NULL ,  'Like a Photo on Facebook'
+);
+
+ALTER TABLE  `oc_responses` ADD  `like_count` INT NOT NULL DEFAULT  '0',
+ADD  `comment_count` INT NOT NULL DEFAULT  '0',
+ADD  `share_count` INT NOT NULL DEFAULT  '0',
+ADD  `retweet_count` INT NOT NULL DEFAULT  '0';
+
+ALTER TABLE  `content_promotions` ADD  `like_count` INT NOT NULL DEFAULT  '0',
+ADD  `comment_count` INT NOT NULL DEFAULT  '0',
+ADD  `share_count` INT NOT NULL DEFAULT  '0',
+ADD  `retweet_count` INT NOT NULL DEFAULT  '0';
+
+ALTER TABLE  `contents` ADD  `fbobjectid` VARCHAR( 40 ) NOT NULL DEFAULT  '' AFTER  `desc` ;
+
+ALTER TABLE  `contents` ADD INDEX (  `link` ) ;
+
+ALTER TABLE  `products` ADD  `high_price` FLOAT NOT NULL DEFAULT  '-1',
+ADD  `low_price` FLOAT NOT NULL DEFAULT  '-1',
+ADD  `start_price` FLOAT NOT NULL DEFAULT  '-1',
+ADD  `end_price` FLOAT NOT NULL DEFAULT  '-1',
+ADD  `price_date_history` VARCHAR( 200 ) NOT NULL DEFAULT  '';
+
+ALTER TABLE  `products` DROP  `end_price` ;
+UPDATE  `products` SET  `high_price` =  `cur_price` WHERE 1
+UPDATE  `products` SET  `low_price` =  `cur_price` WHERE 1
+UPDATE `products` SET `start_price`=`cur_price` WHERE 1
+UPDATE `products` SET `price_date_history`=`cur_price` WHERE 1
+UPDATE  `products` SET  `price_date_history` = CONCAT( CONCAT(  `price_date_history` ,  "," ) , UNIX_TIMESTAMP( ) ) WHERE 1
+
+ALTER TABLE  `products` ADD  `add_timestamp` VARCHAR( 20 ) NOT NULL DEFAULT  'UNIX_TIMESTAMP()',
+ADD  `lastpriceupdate_timestamp` VARCHAR( 20 ) NOT NULL DEFAULT  'UNIX_TIMESTAMP()';
+UPDATE  `products` SET  `add_timestamp` = UNIX_TIMESTAMP() WHERE 1
+UPDATE  `products` SET  `lastpriceupdate_timestamp` = UNIX_TIMESTAMP() WHERE 1
+
+
+ALTER TABLE  `users` ADD  `user_can_be_admin` INT( 2 ) NOT NULL DEFAULT  '0' AFTER  `role` ;
+
+ALTER TABLE  `open_campaigns` CHANGE  `type`  `type` ENUM(  'blog',  'fb_post',  'reddit',  'imgur',  'mixed',  'tweet',  'fb_like_page',  'fb_like_pic',  'fb_like_video' ) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL ;
+ALTER TABLE  `oc_responses` CHANGE  `response_type`  `response_type` ENUM(  'blog',  'fb_post',  'reddit',  'imgur',  'tweet',  'fb_like_page',  'fb_like_pic',  'fb_like_video' ) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL ;
+ALTER TABLE  `content_promotions` CHANGE  `response_type`  `response_type` ENUM(  'blog',  'fb_post',  'reddit',  'imgur',  'tweet',  'fb_like_page',  'fb_like_pic',  'fb_like_video' ) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL ;
+
+
+ALTER TABLE  `open_campaigns` CHANGE  `type`  `type` ENUM(  'single_email_ns_signup',  'dual_email_ns_signup',  'blog',  'fb_post',  'reddit',  'imgur',  'mixed',  'tweet',  'fb_like_page', 'fb_like_pic',  'fb_like_video',  'fb_post_video' ) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL ;
+ALTER TABLE  `content_promotions` CHANGE  `response_type`  `response_type` ENUM(  'single_email_ns_signup',  'dual_email_ns_signup',  'blog',  'fb_post',  'reddit',  'imgur',  'tweet', 'fb_like_page',  'fb_like_pic',  'fb_like_video',  'fb_post_video' ) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL ;
+ALTER TABLE  `oc_responses` CHANGE  `response_type`  `response_type` ENUM(  'single_email_ns_signup',  'dual_email_ns_signup',  'blog',  'fb_post',  'reddit',  'imgur',  'tweet', 'fb_like_page',  'fb_like_pic',  'fb_like_video',  'fb_post_video' ) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL ;
+
+
+ALTER TABLE  `oc_responses` ADD  `used` INT( 2 ) NOT NULL DEFAULT  '0';
+ALTER TABLE  `content_promotions` ADD  `used` INT( 2 ) NOT NULL DEFAULT  '0';
+INSERT INTO  `conditions` (`id` ,`name` ,`enabled`) VALUES (NULL ,  'Share Facebook Event',  '1')
+
+ALTER TABLE  `open_campaigns` CHANGE  `type`  `type` ENUM(  'single_email_ns_signup',  'dual_email_ns_signup',  'blog',  'fb_post',  'reddit',  'imgur',  'mixed',  'tweet',  'fb_like_page', 'fb_like_pic',  'fb_like_video',  'fb_post_video',  'fb_share_event' ) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL ;
+
+UPDATE  `conditions` SET  `enabled` =  '1' WHERE  `conditions`.`id` =17;
+INSERT INTO  `conditions` (`id` ,`name` ,`enabled`) VALUES (NULL ,  'Join Your Facebook Event',  '1');
+
+
+
+ALTER TABLE  `oc_responses` CHANGE  `response_type`  `response_type` ENUM(  'single_email_ns_signup',  'dual_email_ns_signup',  'blog',  'fb_post',  'reddit',  'imgur',  'tweet', 'fb_like_page',  'fb_like_pic',  'fb_like_video',  'fb_post_video',  'fb_share_event' ) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL ;
+ALTER TABLE  `content_promotions` CHANGE  `response_type`  `response_type` ENUM(  'single_email_ns_signup',  'dual_email_ns_signup',  'blog',  'fb_post',  'reddit',  'imgur',  'tweet', 'fb_like_page',  'fb_like_pic',  'fb_like_video',  'fb_post_video',  'fb_share_event' ) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL ;
+
+ALTER TABLE  `open_campaigns` CHANGE  `type`  `type` ENUM(  'single_email_ns_signup',  'dual_email_ns_signup',  'blog',  'fb_post',  'reddit',  'imgur',  'mixed',  'tweet',  'fb_like_page', 'fb_like_pic',  'fb_like_video',  'fb_post_video',  'fb_share_event',  'fb_event_join' ) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL ;
+ALTER TABLE  `content_promotions` CHANGE  `response_type`  `response_type` ENUM(  'single_email_ns_signup',  'dual_email_ns_signup',  'blog',  'fb_post',  'reddit',  'imgur',  'tweet', 'fb_like_page',  'fb_like_pic',  'fb_like_video',  'fb_post_video',  'fb_share_event',  'fb_event_join' ) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL ;
+ALTER TABLE  `oc_responses` CHANGE  `response_type`  `response_type` ENUM(  'single_email_ns_signup',  'dual_email_ns_signup',  'blog',  'fb_post',  'reddit',  'imgur',  'tweet', 'fb_like_page',  'fb_like_pic',  'fb_like_video',  'fb_post_video',  'fb_share_event',  'fb_event_join' ) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL ;
+
+ALTER TABLE  `users` ADD  `firstname` VARCHAR( 20 ) NOT NULL DEFAULT  '' AFTER  `user_can_be_admin` ,
+ADD  `fullname` VARCHAR( 50 ) NOT NULL DEFAULT  '' AFTER  `firstname` ;
+
+
+ALTER TABLE  `tracker_info` ADD  `saleprxpath_onsale` VARCHAR( 100 ) NOT NULL DEFAULT  '' COMMENT  '// sale price xpath when item is on sale' AFTER  `oldpricexpath` ,
+ADD  `regprxpath_onsale` VARCHAR( 100 ) NOT NULL DEFAULT  '' COMMENT  '// regular price xpath when item is on sale' AFTER  `saleprxpath_onsale` ,
+ADD  `wasprxpath_onsale` VARCHAR( 100 ) NOT NULL DEFAULT  '' COMMENT  '// was price xpath when item is on sale' AFTER  `regprxpath_onsale` ;
+ALTER TABLE  `tracker_info` ADD  `pricerootxpath` VARCHAR( 100 ) NOT NULL DEFAULT  '' AFTER  `wasprxpath_onsale` ;
+ALTER TABLE  `tracker_info` ADD  `priceofferxpath` VARCHAR( 100 ) NOT NULL DEFAULT  '' AFTER  `pricerootxpath` ;
+ALTER TABLE  `tracker_info` ADD  `saleprxpath_onsale_regex` VARCHAR( 100 ) NOT NULL DEFAULT  '',
+ADD  `regprxpath_onsale_regex` VARCHAR( 100 ) NOT NULL DEFAULT  '',
+ADD  `wasprxpath_onsale_regex` VARCHAR( 100 ) NOT NULL DEFAULT  '',
+ADD  `pricerootxpath_regex` VARCHAR( 100 ) NOT NULL DEFAULT  '',
+ADD  `priceofferxpath_regex` VARCHAR( 100 ) NOT NULL DEFAULT  '';
+
+ALTER TABLE  `products` ADD  `lastpricedrop_timestamp` VARCHAR( 20 ) NOT NULL DEFAULT  'UNIX_TIMESTAMP()',
+ADD INDEX (  `lastpricedrop_timestamp` ) ;
+UPDATE  `products` SET  `lastpricedrop_timestamp` = -1 WHERE 1
+ALTER TABLE  `products` ADD  `lastpriceup_timestamp` VARCHAR( 20 ) NOT NULL DEFAULT  '-1';
+ALTER TABLE `products` ADD INDEX(`lastpriceup_timestamp`);
+
+// Adding fb status update
+INSERT INTO  `trackit_db_test`.`conditions` (`id` ,`name` ,`enabled`)
+VALUES ('22' ,  'Update FB Status',  '1');
+
+// product tracker
+ALTER TABLE  `user_products` ADD  `uid_pid` VARCHAR( 50 ) NOT NULL DEFAULT  '',
+ADD INDEX (  `uid_pid` ) ;
+UPDATE  `user_products` SET  `uid_pid` = CONCAT( CONCAT( CONCAT(  `user_id` ,  "u" ) ,  `product_id` ) ,  'p' ) WHERE 1
+ALTER TABLE  `user_products` ADD INDEX (  `uid_pid` ) ;
+
+// price update notification
+ALTER TABLE  `backend_ops` ADD  `pid` BIGINT( 22 ) NOT NULL DEFAULT  '0' AFTER  `url` ,
+ADD INDEX (  `pid` ) ;
+ALTER TABLE  `backend_ops` CHANGE  `type`  `type` ENUM(  'gen_pr_notf',  'get_rp',  'get_prod_detail',  'classify_page' ) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL ;
+ALTER TABLE  `priceupdate_notifications` CHANGE  `id`  `id` VARCHAR( 50 ) NOT NULL ;

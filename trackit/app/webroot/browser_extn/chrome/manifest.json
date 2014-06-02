@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+
+  "name": "CollectIt",
+  "short_name": "CollectIt",
+  "description": "Collect the shopping items you like across the web, build collection, share those with friends and know when prices drop for those.",
+  "version": "1.1",
+
+  "permissions": [
+    "http://alpha.couponistalking.com/",
+	"http://ajax.googleapis.com/",
+	"http://*/*",
+	"https://*/*",
+	"tabs",
+	"unlimitedStorage",
+	"bookmarks",
+	"browsingData"
+  ],
+  "browser_action": {
+    "default_icon": "logo.png",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [{
+        "js": ["contentscript.js"],
+        "matches": ["http://*.couponistalking.com/*"]
+    }],
+  "web_accessible_resources":[
+	"script.js"
+  ]
+}

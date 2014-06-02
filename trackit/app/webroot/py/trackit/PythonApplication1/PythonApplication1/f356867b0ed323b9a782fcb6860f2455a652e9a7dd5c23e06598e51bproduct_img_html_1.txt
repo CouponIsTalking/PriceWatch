@@ -1,0 +1,4 @@
+<div id="zoomerDiv">
+<img id="productImage" itemprop="image" class="PDPImageDisplayMain" src="http://images.bloomingdales.com/is/image/BLM/products/5/optimized/8395995_fpx.tif?wid=356&amp;qlt=90,0&amp;layer=comp&amp;op_sharpen=0&amp;resMode=sharp2&amp;op_usm=0.7,1.0,0.5,0&amp;fmt=jpeg">
+<div style="background-image: none;" id="jumboSwatch1" class="jumboMainImgSwatchHolder"></div>
+</div>

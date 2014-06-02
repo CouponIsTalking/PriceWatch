@@ -1,0 +1,50 @@
+          a
+
+	c1 		c2 			c3
+ d1   d2  d3 d4..d6     d7...d10
+ 
+ 
+ 
+ <div1>
+ <div2>
+ <div3> 
+ </div3>
+ </div2>
+ ...
+ ..
+ ...
+ </div1> 
+ 
+ 
+           div1
+ div2             divx divy divz
+ div3             .....................
+ 
+ 
+ 
+ 
+ 
+ 
+links <a>
+images  <img>
+divs <div>
+ 
+ 
+ 
+==
+<a> compare link text and hyperlink
+<img> the img src is same (if img link is same and their aspect ratio is same)
+
+<text1> == <text2>, if the text1.str == text2.str, non case sensitive comparison
+
+<list> <map> 
+<div1> == <div2> 
+	all childs or div1 and div2 should be equal
+
+<select1> == <select2> 
+	all childs or div1 and div2 should be equal
+	
+
+	
+	
+> < 

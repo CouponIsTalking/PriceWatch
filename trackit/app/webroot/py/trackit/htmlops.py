@@ -1,0 +1,29 @@
+import BeautifulSoup
+from BeautifulSoup import BeautifulSoup, Comment
+
+def removeComments(htmlpage):
+	soup = BeautifulSoup(htmlpage)
+	comments = soup.findAll(text=lambda text:isinstance(text, Comment))
+	for comment in comments:
+		comment.extract()
+		
+	return str(soup)
+
+def removeJS(htmlpage):
+	soup = BeautifulSoup(htmlpage)
+	scripts = soup('script')
+	for script in scripts:
+		script.extract()
+		
+	return str(soup)
+
+def removeCommentsAndJS(htmlpage):
+	htmlpage = removeComments(htmlpage)
+	htmlpage = removeJS(htmlpage)
+	return htmlpage
+	
+
+def getAllDivs(htmlpage):
+	soup = BeautifulSoup(htmlpage)
+	divs = soup('div');
+	return divs;

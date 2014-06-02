@@ -1,0 +1,3917 @@
+{
+  "data": [
+    {
+      "id": "10152151959385677", 
+      "from": {
+        "category": "Clothing", 
+        "category_list": [
+          {
+            "id": "186230924744328", 
+            "name": "Clothing Store"
+          }
+        ], 
+        "name": "LOFT", 
+        "id": "26483215676"
+      }, 
+      "description": "In honor of International Women’s Day, we’re on a mission to increase access to healthcare, financial well-being and equal working conditions for women around the world. Here’s how: http://bit.ly/1mVnnsk", 
+      "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn2/t15/1542402_10152151961740677_10152151959385677_23506_2113_t.jpg", 
+      "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10152151959385677\" width=\"1280\" height=\"720\" frameborder=\"0\"></iframe>", 
+      "icon": "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yD/r/DggDhA4z4tO.gif", 
+      "source": "https://fbcdn-video-a.akamaihd.net/hvideo-ak-ash1/v/t43/1618778_10152151961670677_1413227762_n.mp4?oh=217722a9b5dc5997453a5c95f1cdc004&oe=5325207B&__gda__=1394950963_3f1a291736f55b16ad00e4981c712af0", 
+      "created_time": "2014-03-05T22:02:18+0000", 
+      "updated_time": "2014-03-05T23:48:23+0000", 
+      "format": [
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10152151959385677\" width=\"130\" height=\"73\" frameborder=\"0\"></iframe>", 
+          "width": 130, 
+          "height": 73, 
+          "filter": "130x130", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn2/t15/s130x130/1542402_10152151961740677_10152151959385677_23506_2113_t.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10152151959385677\" width=\"480\" height=\"270\" frameborder=\"0\"></iframe>", 
+          "width": 480, 
+          "height": 270, 
+          "filter": "480x480", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn2/t15/s480x480/1542402_10152151961740677_10152151959385677_23506_2113_b.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10152151959385677\" width=\"720\" height=\"405\" frameborder=\"0\"></iframe>", 
+          "width": 720, 
+          "height": 405, 
+          "filter": "720x720", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn2/t15/s720x720/1542402_10152151961740677_10152151959385677_23506_2113_b.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10152151959385677\" width=\"1280\" height=\"720\" frameborder=\"0\"></iframe>", 
+          "width": 1280, 
+          "height": 720, 
+          "filter": "native", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn2/t15/1542402_10152151961740677_10152151959385677_23506_2113_b.jpg"
+        }
+      ]
+    }, 
+    {
+      "id": "10152148249815677", 
+      "from": {
+        "category": "Clothing", 
+        "category_list": [
+          {
+            "id": "186230924744328", 
+            "name": "Clothing Store"
+          }
+        ], 
+        "name": "LOFT", 
+        "id": "26483215676"
+      }, 
+      "description": "Now playing: We’re Feeling Indigo. \nShop now. http://bit.ly/1okqoxO", 
+      "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash4/t15/1394682_10152148251210677_10152148249815677_40498_2677_t.jpg", 
+      "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10152148249815677\" width=\"1280\" height=\"720\" frameborder=\"0\"></iframe>", 
+      "icon": "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yD/r/DggDhA4z4tO.gif", 
+      "source": "https://fbcdn-video-a.akamaihd.net/hvideo-ak-frc1/v/t43/10000766_10152148251135677_107596600_n.mp4?oh=7e6d1c2127cd3922259654192867bfa1&oe=532537EF&__gda__=1394952069_d21fd2f22b691d72265c955a0d457bb3", 
+      "created_time": "2014-03-03T22:01:15+0000", 
+      "updated_time": "2014-03-03T22:03:23+0000", 
+      "format": [
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10152148249815677\" width=\"130\" height=\"73\" frameborder=\"0\"></iframe>", 
+          "width": 130, 
+          "height": 73, 
+          "filter": "130x130", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash4/t15/s130x130/1394682_10152148251210677_10152148249815677_40498_2677_t.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10152148249815677\" width=\"480\" height=\"270\" frameborder=\"0\"></iframe>", 
+          "width": 480, 
+          "height": 270, 
+          "filter": "480x480", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash4/t15/s480x480/1394682_10152148251210677_10152148249815677_40498_2677_b.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10152148249815677\" width=\"720\" height=\"405\" frameborder=\"0\"></iframe>", 
+          "width": 720, 
+          "height": 405, 
+          "filter": "720x720", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash4/t15/s720x720/1394682_10152148251210677_10152148249815677_40498_2677_b.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10152148249815677\" width=\"1280\" height=\"720\" frameborder=\"0\"></iframe>", 
+          "width": 1280, 
+          "height": 720, 
+          "filter": "native", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash4/t15/1394682_10152148251210677_10152148249815677_40498_2677_b.jpg"
+        }
+      ], 
+      "comments": {
+        "data": [
+          {
+            "id": "10152148249815677_29518140", 
+            "from": {
+              "name": "Carla Barker", 
+              "id": "1564940539"
+            }, 
+            "message": "Don't like!", 
+            "can_remove": false, 
+            "created_time": "2014-03-04T00:05:22+0000", 
+            "like_count": 2, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10152148249815677_29523014", 
+            "from": {
+              "name": "Dawn Waters St James", 
+              "id": "1489502246"
+            }, 
+            "message": "LOVE!!!! <3", 
+            "can_remove": false, 
+            "created_time": "2014-03-04T13:23:30+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "MQ==", 
+            "before": "Mg=="
+          }
+        }
+      }
+    }, 
+    {
+      "id": "10152099352785677", 
+      "from": {
+        "category": "Clothing", 
+        "category_list": [
+          {
+            "id": "186230924744328", 
+            "name": "Clothing Store"
+          }
+        ], 
+        "name": "LOFT", 
+        "id": "26483215676"
+      }, 
+      "description": "Now playing: The New Dress Code. http://bit.ly/1kLCVdR", 
+      "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn2/t15/1542218_10152099355100677_10152099352785677_47378_754_t.jpg", 
+      "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10152099352785677\" width=\"1280\" height=\"720\" frameborder=\"0\"></iframe>", 
+      "icon": "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yD/r/DggDhA4z4tO.gif", 
+      "source": "https://fbcdn-video-a.akamaihd.net/hvideo-ak-prn1/v/t43/1605902_10152099355010677_707349391_n.mp4?oh=1acfa4cfb0b6cfacfcff5c6dfd922ffb&oe=53256821&__gda__=1394956673_2acd5766cc0dade43feea1aa9855c5e0", 
+      "created_time": "2014-02-04T23:00:00+0000", 
+      "updated_time": "2014-02-04T23:03:05+0000", 
+      "format": [
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10152099352785677\" width=\"130\" height=\"73\" frameborder=\"0\"></iframe>", 
+          "width": 130, 
+          "height": 73, 
+          "filter": "130x130", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn2/t15/s130x130/1542218_10152099355100677_10152099352785677_47378_754_t.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10152099352785677\" width=\"480\" height=\"270\" frameborder=\"0\"></iframe>", 
+          "width": 480, 
+          "height": 270, 
+          "filter": "480x480", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn2/t15/s480x480/1542218_10152099355100677_10152099352785677_47378_754_b.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10152099352785677\" width=\"720\" height=\"405\" frameborder=\"0\"></iframe>", 
+          "width": 720, 
+          "height": 405, 
+          "filter": "720x720", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn2/t15/s720x720/1542218_10152099355100677_10152099352785677_47378_754_b.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10152099352785677\" width=\"1280\" height=\"720\" frameborder=\"0\"></iframe>", 
+          "width": 1280, 
+          "height": 720, 
+          "filter": "native", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn2/t15/1542218_10152099355100677_10152099352785677_47378_754_b.jpg"
+        }
+      ], 
+      "comments": {
+        "data": [
+          {
+            "id": "10152099352785677_29197818", 
+            "from": {
+              "category": "Clothing", 
+              "category_list": [
+                {
+                  "id": "186230924744328", 
+                  "name": "Clothing Store"
+                }
+              ], 
+              "name": "LOFT", 
+              "id": "26483215676"
+            }, 
+            "message": "Hi Courtney. We are very sorry to hear of any difficulties you may have had using a gift card. Please call 1-888-LOFT-444 and our customer service team will look into this immediately. ", 
+            "can_remove": false, 
+            "created_time": "2014-02-05T13:44:51+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10152099352785677_29191526", 
+            "from": {
+              "name": "Jen B. Maglalang", 
+              "id": "1635235651"
+            }, 
+            "message": "You can check my closet...90% is Loft! Lahhhveeet! 💋", 
+            "can_remove": false, 
+            "created_time": "2014-02-05T01:37:16+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10152099352785677_29192635", 
+            "from": {
+              "name": "Courtney Pence McLaurin", 
+              "id": "1001751957"
+            }, 
+            "message": "Ate up my gift card, but then wouldn't process my order..and now it says that gc balance is 0...wtheck???", 
+            "can_remove": false, 
+            "created_time": "2014-02-05T03:05:35+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10152099352785677_29190038", 
+            "from": {
+              "name": "Alison Tuck", 
+              "id": "31302586"
+            }, 
+            "message": "Are you inside my brain? I was hoping for a spring line like this.", 
+            "can_remove": false, 
+            "created_time": "2014-02-04T23:34:58+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10152099352785677_29191767", 
+            "from": {
+              "name": "Mary Blue Helmbrecht", 
+              "id": "1203181112"
+            }, 
+            "message": "Yup, mine too Jen", 
+            "can_remove": false, 
+            "created_time": "2014-02-05T01:51:26+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "MQ==", 
+            "before": "NQ=="
+          }
+        }
+      }
+    }, 
+    {
+      "id": "10152065632635677", 
+      "from": {
+        "category": "Clothing", 
+        "category_list": [
+          {
+            "id": "186230924744328", 
+            "name": "Clothing Store"
+          }
+        ], 
+        "name": "LOFT", 
+        "id": "26483215676"
+      }, 
+      "description": "Popped collar. Scrunched sleeves. Tucked. Untucked. Buttoned all the way up, or unbuttoned down to there. The options are endless. How do you button up in blue? http://bit.ly/1fzmsKU", 
+      "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn1/t15/1535248_10152065634110677_10152065632635677_38898_1550_t.jpg", 
+      "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10152065632635677\" width=\"1280\" height=\"720\" frameborder=\"0\"></iframe>", 
+      "icon": "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yD/r/DggDhA4z4tO.gif", 
+      "source": "https://scontent.xx.fbcdn.net/hvideo-ash3/v/t43/950573_10152065634050677_1775381921_n.mp4?oh=1aa127e70f0f00ca38e5b31487a3a719&oe=53250337", 
+      "created_time": "2014-01-16T15:00:00+0000", 
+      "updated_time": "2014-01-16T15:00:00+0000", 
+      "format": [
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10152065632635677\" width=\"130\" height=\"73\" frameborder=\"0\"></iframe>", 
+          "width": 130, 
+          "height": 73, 
+          "filter": "130x130", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn1/t15/s130x130/1535248_10152065634110677_10152065632635677_38898_1550_t.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10152065632635677\" width=\"480\" height=\"270\" frameborder=\"0\"></iframe>", 
+          "width": 480, 
+          "height": 270, 
+          "filter": "480x480", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn1/t15/s480x480/1535248_10152065634110677_10152065632635677_38898_1550_b.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10152065632635677\" width=\"720\" height=\"405\" frameborder=\"0\"></iframe>", 
+          "width": 720, 
+          "height": 405, 
+          "filter": "720x720", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn1/t15/s720x720/1535248_10152065634110677_10152065632635677_38898_1550_b.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10152065632635677\" width=\"1280\" height=\"720\" frameborder=\"0\"></iframe>", 
+          "width": 1280, 
+          "height": 720, 
+          "filter": "native", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn1/t15/1535248_10152065634110677_10152065632635677_38898_1550_b.jpg"
+        }
+      ], 
+      "comments": {
+        "data": [
+          {
+            "id": "10152065632635677_28939414", 
+            "from": {
+              "name": "Martina O'Rourke", 
+              "id": "100002208057636"
+            }, 
+            "message": "is there a store near Lindenhurst, NY?", 
+            "can_remove": false, 
+            "created_time": "2014-01-16T15:40:49+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10152065632635677_29114749", 
+            "from": {
+              "name": "Vjollca Kryeziu", 
+              "id": "601647488"
+            }, 
+            "message": "love loft", 
+            "can_remove": false, 
+            "created_time": "2014-01-29T22:45:29+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10152065632635677_29085419", 
+            "from": {
+              "name": "Sara Hart", 
+              "id": "596667624"
+            }, 
+            "message": "LOVE THIS! and LOVE LOFT!!", 
+            "can_remove": false, 
+            "created_time": "2014-01-27T19:50:03+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10152065632635677_28948523", 
+            "from": {
+              "name": "Magdalena Pedraza", 
+              "id": "1230111498"
+            }, 
+            "message": "Me gusta!", 
+            "can_remove": false, 
+            "created_time": "2014-01-17T07:07:22+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10152065632635677_28945319", 
+            "from": {
+              "name": "Angie Martin", 
+              "id": "1739920754"
+            }, 
+            "message": "Love these!", 
+            "can_remove": false, 
+            "created_time": "2014-01-17T00:34:19+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10152065632635677_28942502", 
+            "from": {
+              "name": "Amy Humphrey Stiefel", 
+              "id": "1491116063"
+            }, 
+            "message": "Love.", 
+            "can_remove": false, 
+            "created_time": "2014-01-16T20:17:15+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "MQ==", 
+            "before": "Ng=="
+          }
+        }
+      }
+    }, 
+    {
+      "id": "10152011552435677", 
+      "from": {
+        "category": "Clothing", 
+        "category_list": [
+          {
+            "id": "186230924744328", 
+            "name": "Clothing Store"
+          }
+        ], 
+        "name": "LOFT", 
+        "id": "26483215676"
+      }, 
+      "description": "There’s no moment like the present. Shop our gift guide: http://bit.ly/1fqHyHR", 
+      "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-frc1/t15.0-10/1096748_10152011554590677_10152011552435677_15794_794_t.jpg", 
+      "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10152011552435677\" width=\"1280\" height=\"720\" frameborder=\"0\"></iframe>", 
+      "icon": "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yD/r/DggDhA4z4tO.gif", 
+      "source": "https://fbcdn-video-a.akamaihd.net/hvideo-ak-prn2/v/t43/1466774_10152011554295677_1570648371_n.mp4?oh=d73d4ce0f8d9bc1623b2febc29995a83&oe=53254C6B&__gda__=1394948992_441a4c65595c8549becfbb4a7c2e6826", 
+      "created_time": "2013-12-17T14:00:00+0000", 
+      "updated_time": "2013-12-17T14:00:00+0000", 
+      "format": [
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10152011552435677\" width=\"130\" height=\"73\" frameborder=\"0\"></iframe>", 
+          "width": 130, 
+          "height": 73, 
+          "filter": "130x130", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-frc1/t15.0-10/s130x130/1096748_10152011554590677_10152011552435677_15794_794_t.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10152011552435677\" width=\"480\" height=\"270\" frameborder=\"0\"></iframe>", 
+          "width": 480, 
+          "height": 270, 
+          "filter": "480x480", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-frc1/t15.0-10/s480x480/1096748_10152011554590677_10152011552435677_15794_794_b.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10152011552435677\" width=\"720\" height=\"405\" frameborder=\"0\"></iframe>", 
+          "width": 720, 
+          "height": 405, 
+          "filter": "720x720", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-frc1/t15.0-10/s720x720/1096748_10152011554590677_10152011552435677_15794_794_b.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10152011552435677\" width=\"1280\" height=\"720\" frameborder=\"0\"></iframe>", 
+          "width": 1280, 
+          "height": 720, 
+          "filter": "native", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-frc1/t15.0-10/1096748_10152011554590677_10152011552435677_15794_794_b.jpg"
+        }
+      ], 
+      "comments": {
+        "data": [
+          {
+            "id": "10152011552435677_28579630", 
+            "from": {
+              "name": "LaToya Kelly", 
+              "id": "30307888"
+            }, 
+            "message": "Really disappointed with my online shopping experience with your company.", 
+            "can_remove": false, 
+            "created_time": "2013-12-17T23:25:24+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10152011552435677_28583713", 
+            "from": {
+              "name": "Pamela Vanderford", 
+              "id": "1305526778"
+            }, 
+            "message": "I don't know what that Raphael guy is talking about.  So negative.  Maybe they just didn't like you.  I don't think they sell men's clothes there unless you're a cross dresser.  I love loft and have been shopping there for years.", 
+            "can_remove": false, 
+            "created_time": "2013-12-18T09:00:29+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10152011552435677_28575022", 
+            "from": {
+              "name": "Pharael AndSons", 
+              "id": "521291166"
+            }, 
+            "message": "twice too much expensive, out of fashion, you can't change your cloth except in the shop you bought it, people aren't nice, but why the hell my wife did buy me something at loft? why does anyone shop there?!!?! (Raphael from Paris)", 
+            "can_remove": false, 
+            "created_time": "2013-12-17T16:29:44+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "MQ==", 
+            "before": "Mw=="
+          }
+        }
+      }
+    }, 
+    {
+      "id": "10152002877235677", 
+      "from": {
+        "category": "Clothing", 
+        "category_list": [
+          {
+            "id": "186230924744328", 
+            "name": "Clothing Store"
+          }
+        ], 
+        "name": "LOFT", 
+        "id": "26483215676"
+      }, 
+      "description": "In case you missed it, here is a clip from The View featuring LOFT. Our favorite daytime TV hosts modeled their picks for under $100. Check out the major surprise the audience received at the end.", 
+      "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn2/t15/1096597_10152002877630677_10152002877235677_19122_2639_t.jpg", 
+      "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10152002877235677\" width=\"400\" height=\"224\" frameborder=\"0\"></iframe>", 
+      "icon": "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yD/r/DggDhA4z4tO.gif", 
+      "source": "https://fbcdn-video-a.akamaihd.net/hvideo-ak-ash3/v/t42.1790-2/1226180_10152002877515677_1397650451_n.mp4?oh=a29261ead09f04a17c01b7f41144f7e2&oe=53254CE6&__gda__=1394931120_b165c4817f07df9c3c88100a41219fa3", 
+      "created_time": "2013-12-12T19:30:00+0000", 
+      "updated_time": "2013-12-12T19:30:00+0000", 
+      "format": [
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10152002877235677\" width=\"130\" height=\"73\" frameborder=\"0\"></iframe>", 
+          "width": 130, 
+          "height": 73, 
+          "filter": "130x130", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn2/t15/s130x130/1096597_10152002877630677_10152002877235677_19122_2639_t.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10152002877235677\" width=\"400\" height=\"224\" frameborder=\"0\"></iframe>", 
+          "width": 400, 
+          "height": 224, 
+          "filter": "native", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn2/t15/1096597_10152002877630677_10152002877235677_19122_2639_b.jpg"
+        }
+      ], 
+      "comments": {
+        "data": [
+          {
+            "id": "10152002877235677_28534243", 
+            "from": {
+              "name": "Patrick David Wall", 
+              "id": "1039417957"
+            }, 
+            "message": "Can you link to the sweater Whoopi is wearing, please?", 
+            "can_remove": false, 
+            "created_time": "2013-12-13T22:46:37+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10152002877235677_28517119", 
+            "from": {
+              "name": "June Killian Watson", 
+              "id": "1554103424"
+            }, 
+            "message": "Can I please have the name (or link) to the blouse Barbara is wearing.", 
+            "can_remove": false, 
+            "created_time": "2013-12-12T20:01:43+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10152002877235677_28517922", 
+            "from": {
+              "name": "Noemi Lemus", 
+              "id": "100000638670416"
+            }, 
+            "message": "It's better give than receive. Did you see the audience happy faces. God bless you LOFT & Ann Taylor", 
+            "can_remove": false, 
+            "created_time": "2013-12-12T21:08:03+0000", 
+            "like_count": 2, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10152002877235677_28517554", 
+            "from": {
+              "name": "Daniel Hook", 
+              "id": "100005043002780"
+            }, 
+            "message": "June the blouse runs alittle big just so you know & I'm full on top. Good luck!", 
+            "can_remove": false, 
+            "created_time": "2013-12-12T20:36:16+0000", 
+            "like_count": 2, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10152002877235677_28523938", 
+            "from": {
+              "name": "Maria Ljuboja", 
+              "id": "100001595808766"
+            }, 
+            "message": "Hello from Europe!!! Love you guys!!!!", 
+            "can_remove": false, 
+            "created_time": "2013-12-13T09:11:09+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10152002877235677_28521656", 
+            "from": {
+              "name": "Grace Dowling OHanlon", 
+              "id": "1029747055"
+            }, 
+            "message": "Jealous. Live the Loft.", 
+            "can_remove": false, 
+            "created_time": "2013-12-13T03:03:45+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10152002877235677_28537117", 
+            "from": {
+              "name": "Katie Tinker", 
+              "id": "1410550821"
+            }, 
+            "message": "I saw this episode a week ago. I WISH I had been in the audience. SO jealous", 
+            "can_remove": false, 
+            "created_time": "2013-12-14T05:02:38+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10152002877235677_28533166", 
+            "from": {
+              "name": "Christine Sokulsky", 
+              "id": "100006161225952"
+            }, 
+            "message": "Hi from Australia! I love shopping at the Loft,great store!", 
+            "can_remove": false, 
+            "created_time": "2013-12-13T21:12:58+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10152002877235677_28521667", 
+            "from": {
+              "name": "Grace Dowling OHanlon", 
+              "id": "1029747055"
+            }, 
+            "message": "Love the loft. Sorry about mistake.", 
+            "can_remove": false, 
+            "created_time": "2013-12-13T03:04:43+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10152002877235677_28520606", 
+            "from": {
+              "name": "Daniel Hook", 
+              "id": "100005043002780"
+            }, 
+            "message": "Hi June, you can call the 800 # or ask your local store to find it for ya. My son keeps yellin at me to get my own page. I try to stay incognito. Good luck, Lana", 
+            "can_remove": false, 
+            "created_time": "2013-12-13T01:17:49+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10152002877235677_28519300", 
+            "from": {
+              "name": "June Killian Watson", 
+              "id": "1554103424"
+            }, 
+            "message": "Aww shucks, only XL left in red.  This would have been perfect for my Mom.  I'll keep looking tho.  @Daniel, thank you for letting me know this runs big - that's very kind of you.", 
+            "can_remove": false, 
+            "created_time": "2013-12-12T23:04:52+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10152002877235677_28519101", 
+            "from": {
+              "name": "Debra Bonifacio Balot", 
+              "id": "1675807817"
+            }, 
+            "message": "$100 gift card!!!  Damn their lucky.  Loft is my store.", 
+            "can_remove": false, 
+            "created_time": "2013-12-12T22:44:46+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10152002877235677_28518538", 
+            "from": {
+              "name": "Brenda Higgins", 
+              "id": "100001011250529"
+            }, 
+            "message": "That's awesome !!", 
+            "can_remove": false, 
+            "created_time": "2013-12-12T21:56:07+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10152002877235677_28517987", 
+            "from": {
+              "name": "Krystal Lynn Kropp", 
+              "id": "1239176867"
+            }, 
+            "message": " I work at loft and love loft!!!! I have the dress the second girl was wearing I got it got Christmas Eve! I love it!! I buy so much at loft it's crazy! So happy to be working there and be called a loftie!! ", 
+            "can_remove": false, 
+            "created_time": "2013-12-12T21:14:30+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10152002877235677_28517534", 
+            "from": {
+              "name": "Daniel Hook", 
+              "id": "100005043002780"
+            }, 
+            "message": "Love the Loft was there today! I brought the red blouse last week, that Barbara had on it looks amazing on. Love it!", 
+            "can_remove": false, 
+            "created_time": "2013-12-12T20:35:00+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "MQ==", 
+            "before": "MTY="
+          }
+        }
+      }
+    }, 
+    {
+      "id": "10151963065195677", 
+      "from": {
+        "category": "Clothing", 
+        "category_list": [
+          {
+            "id": "186230924744328", 
+            "name": "Clothing Store"
+          }
+        ], 
+        "name": "LOFT", 
+        "id": "26483215676"
+      }, 
+      "description": "Heat things up this holiday in burgundy, crimson, & ruby red. http://bit.ly/HOMVo1", 
+      "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn2/t15/1096568_10151963065520677_10151963065195677_11970_2473_t.jpg", 
+      "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10151963065195677\" width=\"960\" height=\"540\" frameborder=\"0\"></iframe>", 
+      "icon": "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yD/r/DggDhA4z4tO.gif", 
+      "source": "https://fbcdn-video-a.akamaihd.net/hvideo-ak-ash3/v/t43.1792-2/877227_10151963065445677_1176811868_n.mp4?oh=3bfd86ba4c18dfbf81b273e2f55e5eff&oe=53257511&__gda__=1394970395_1133b4b0e3157b89cc11c1b35c5f2fa2", 
+      "created_time": "2013-11-23T18:00:01+0000", 
+      "updated_time": "2013-11-23T18:00:01+0000", 
+      "format": [
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10151963065195677\" width=\"130\" height=\"73\" frameborder=\"0\"></iframe>", 
+          "width": 130, 
+          "height": 73, 
+          "filter": "130x130", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn2/t15/s130x130/1096568_10151963065520677_10151963065195677_11970_2473_t.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10151963065195677\" width=\"480\" height=\"270\" frameborder=\"0\"></iframe>", 
+          "width": 480, 
+          "height": 270, 
+          "filter": "480x480", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn2/t15/s480x480/1096568_10151963065520677_10151963065195677_11970_2473_b.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10151963065195677\" width=\"720\" height=\"405\" frameborder=\"0\"></iframe>", 
+          "width": 720, 
+          "height": 405, 
+          "filter": "720x720", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn2/t15/s720x720/1096568_10151963065520677_10151963065195677_11970_2473_b.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10151963065195677\" width=\"960\" height=\"540\" frameborder=\"0\"></iframe>", 
+          "width": 960, 
+          "height": 540, 
+          "filter": "native", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn2/t15/1096568_10151963065520677_10151963065195677_11970_2473_b.jpg"
+        }
+      ], 
+      "comments": {
+        "data": [
+          {
+            "id": "10151963065195677_28291968", 
+            "from": {
+              "name": "Valarie Lynn", 
+              "id": "100001321885345"
+            }, 
+            "message": "Why is it so hard to find a dress for the winter season, that has long sleeves? Why must everything be sleeveless?", 
+            "can_remove": false, 
+            "created_time": "2013-11-23T19:21:28+0000", 
+            "like_count": 10, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151963065195677_28295646", 
+            "from": {
+              "name": "Sara Williamson", 
+              "id": "1378213162"
+            }, 
+            "message": "Just stopped by The Loft in Rochester hills Michigan. I usually love shopping there. I walked in at 8:55 and they close at 9:00. At exactly 9:00 the cashier walked over and said \"we close at 9:00 please check out\". I've worked retail and we would never turn down a customer! Very disappointed!!!", 
+            "can_remove": false, 
+            "created_time": "2013-11-24T02:10:00+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151963065195677_28299357", 
+            "from": {
+              "name": "Hüseyin Bayraktutar", 
+              "id": "100003351126941"
+            }, 
+            "message": "https://www.facebook.com/pages/Ne-%C3%87ektiniz-be/576110802428533", 
+            "can_remove": false, 
+            "created_time": "2013-11-24T14:26:54+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151963065195677_28291312", 
+            "from": {
+              "name": "Saima Qasim", 
+              "id": "100000478851536"
+            }, 
+            "message": "I want burgundy shirt", 
+            "can_remove": false, 
+            "created_time": "2013-11-23T18:22:36+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151963065195677_28291828", 
+            "from": {
+              "name": "Prince Amit", 
+              "id": "100004043949137"
+            }, 
+            "message": "Hello. I am looking for models for fashion shows, photoshoots as I have clothing industry.\nWe also provide professional makeup artists.\nIf you wanna be a model contact me as soon as possible.", 
+            "can_remove": false, 
+            "created_time": "2013-11-23T19:10:13+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "MQ==", 
+            "before": "NQ=="
+          }
+        }
+      }
+    }, 
+    {
+      "id": "10151888258205677", 
+      "from": {
+        "category": "Clothing", 
+        "category_list": [
+          {
+            "id": "186230924744328", 
+            "name": "Clothing Store"
+          }
+        ], 
+        "name": "LOFT", 
+        "id": "26483215676"
+      }, 
+      "description": "Our new blouse collection comes in 35 prints and colors that are so easy to layer. Toss a little romance into your look. Shop now: http://bit.ly/1aSjDNX", 
+      "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn2/t15/1394486_10151888258540677_10151888258205677_11378_1163_t.jpg", 
+      "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10151888258205677\" width=\"720\" height=\"404\" frameborder=\"0\"></iframe>", 
+      "icon": "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yD/r/DggDhA4z4tO.gif", 
+      "source": "https://fbcdn-video-a.akamaihd.net/hvideo-ak-prn1/v/t43.1792-2/869382_10151888258500677_1020023307_n.mp4?oh=19d54b16e1cf847f730fc11ced7839ff&oe=5324F862&__gda__=1394928873_d28c4e9c48303be7dfa0750b9656c478", 
+      "created_time": "2013-10-21T16:00:00+0000", 
+      "updated_time": "2013-10-21T16:00:00+0000", 
+      "format": [
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10151888258205677\" width=\"130\" height=\"73\" frameborder=\"0\"></iframe>", 
+          "width": 130, 
+          "height": 73, 
+          "filter": "130x130", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn2/t15/s130x130/1394486_10151888258540677_10151888258205677_11378_1163_t.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10151888258205677\" width=\"480\" height=\"269\" frameborder=\"0\"></iframe>", 
+          "width": 480, 
+          "height": 269, 
+          "filter": "480x480", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn2/t15/s480x480/1394486_10151888258540677_10151888258205677_11378_1163_b.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10151888258205677\" width=\"720\" height=\"404\" frameborder=\"0\"></iframe>", 
+          "width": 720, 
+          "height": 404, 
+          "filter": "native", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn2/t15/1394486_10151888258540677_10151888258205677_11378_1163_b.jpg"
+        }
+      ], 
+      "comments": {
+        "data": [
+          {
+            "id": "10151888258205677_27905121", 
+            "from": {
+              "name": "Mary Kay Kuitems Appleby", 
+              "id": "1508475196"
+            }, 
+            "message": "Oh I love them all!  Im off to Loft!", 
+            "can_remove": false, 
+            "created_time": "2013-10-21T15:27:41+0000", 
+            "like_count": 2, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151888258205677_27905169", 
+            "from": {
+              "name": "Maria Guarino", 
+              "id": "100002243160148"
+            }, 
+            "message": "love them all", 
+            "can_remove": false, 
+            "created_time": "2013-10-21T15:34:12+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151888258205677_27905440", 
+            "from": {
+              "name": "Tatiana Tchernova", 
+              "id": "665852060"
+            }, 
+            "message": "Very lovely!", 
+            "can_remove": false, 
+            "created_time": "2013-10-21T16:05:47+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151888258205677_27905579", 
+            "from": {
+              "name": "Beth Morton", 
+              "id": "596782325"
+            }, 
+            "message": "Please make them in tall sizes.", 
+            "can_remove": false, 
+            "created_time": "2013-10-21T16:19:21+0000", 
+            "like_count": 3, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151888258205677_27905669", 
+            "from": {
+              "name": "Barbara Brenda", 
+              "id": "100001805000728"
+            }, 
+            "message": "and", 
+            "can_remove": false, 
+            "created_time": "2013-10-21T16:27:05+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151888258205677_27905671", 
+            "from": {
+              "name": "Barbara Brenda", 
+              "id": "100001805000728"
+            }, 
+            "message": "for ladies who actually have curves", 
+            "can_remove": false, 
+            "created_time": "2013-10-21T16:27:20+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151888258205677_27906252", 
+            "from": {
+              "name": "Jennifer Olivares", 
+              "id": "1182079723"
+            }, 
+            "message": "The feature model at the TOPS ad, has a blue floral print blouse that is not listed on the site", 
+            "can_remove": false, 
+            "created_time": "2013-10-21T17:25:36+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151888258205677_27906878", 
+            "from": {
+              "name": "Patricia Nesbit", 
+              "id": "614867885"
+            }, 
+            "message": "Nice!", 
+            "can_remove": false, 
+            "created_time": "2013-10-21T18:23:47+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151888258205677_27906923", 
+            "from": {
+              "name": "Linda Davis", 
+              "id": "100001145141821"
+            }, 
+            "message": "Longer would be nice.", 
+            "can_remove": false, 
+            "created_time": "2013-10-21T18:28:16+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151888258205677_27906933", 
+            "from": {
+              "name": "Kim Aubrey Thompson", 
+              "id": "100006682443575"
+            }, 
+            "message": "Shop there all the time!  Wished my daughter still worked there....miss that discount!!", 
+            "can_remove": false, 
+            "created_time": "2013-10-21T18:29:56+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151888258205677_27907510", 
+            "from": {
+              "name": "Linda Schifano", 
+              "id": "100004936178382"
+            }, 
+            "message": "Regina and Stephanie spoiled at the Loft  Love it", 
+            "can_remove": false, 
+            "created_time": "2013-10-21T19:23:09+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151888258205677_27907707", 
+            "from": {
+              "category": "Clothing", 
+              "category_list": [
+                {
+                  "id": "186230924744328", 
+                  "name": "Clothing Store"
+                }
+              ], 
+              "name": "LOFT", 
+              "id": "26483215676"
+            }, 
+            "message": "Hi Jennifer. Guess we got a little ahead of ourselves. This top will be available on 11/11. Happy shopping!", 
+            "can_remove": false, 
+            "created_time": "2013-10-21T19:44:54+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151888258205677_27908285", 
+            "from": {
+              "name": "Karin Marie", 
+              "id": "100005753251198"
+            }, 
+            "message": "That is cute", 
+            "can_remove": false, 
+            "created_time": "2013-10-21T20:35:25+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151888258205677_27908473", 
+            "from": {
+              "name": "Brenda Bridges", 
+              "id": "1351336369"
+            }, 
+            "message": "I love this store.", 
+            "can_remove": false, 
+            "created_time": "2013-10-21T20:51:03+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151888258205677_27908586", 
+            "from": {
+              "name": "Peggy Cole", 
+              "id": "1142625343"
+            }, 
+            "message": "G, not until November 11th? I wanted a new top for my class reunion on Saturday. Is there one at the Jefferson Valley Mall", 
+            "can_remove": false, 
+            "created_time": "2013-10-21T21:02:34+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151888258205677_27908895", 
+            "from": {
+              "category": "Clothing", 
+              "category_list": [
+                {
+                  "id": "186230924744328", 
+                  "name": "Clothing Store"
+                }
+              ], 
+              "name": "LOFT", 
+              "id": "26483215676"
+            }, 
+            "message": "Hi Peggy. Which one are you looking for?", 
+            "can_remove": false, 
+            "created_time": "2013-10-21T21:32:05+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151888258205677_27908916", 
+            "from": {
+              "name": "Karin Marie", 
+              "id": "100005753251198"
+            }, 
+            "message": "I love this form of advertisement simple but captive", 
+            "can_remove": false, 
+            "created_time": "2013-10-21T21:33:36+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151888258205677_27908942", 
+            "from": {
+              "name": "Karin Marie", 
+              "id": "100005753251198"
+            }, 
+            "message": "I am Karin Marie that is really clever it caught my eye", 
+            "can_remove": false, 
+            "created_time": "2013-10-21T21:35:44+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151888258205677_27909091", 
+            "from": {
+              "name": "Cora Gray", 
+              "id": "1039162177"
+            }, 
+            "message": "This is one of my fav.store.", 
+            "can_remove": false, 
+            "created_time": "2013-10-21T21:50:31+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151888258205677_27909113", 
+            "from": {
+              "name": "Amy Eisen", 
+              "id": "100005113923031"
+            }, 
+            "message": "I used to like Loft when I was younger (once upon a time  - LoL", 
+            "can_remove": false, 
+            "created_time": "2013-10-21T21:52:38+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151888258205677_27909511", 
+            "from": {
+              "name": "Peggy Cole", 
+              "id": "1142625343"
+            }, 
+            "message": "I love Loft and I'm 57!", 
+            "can_remove": false, 
+            "created_time": "2013-10-21T22:38:17+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151888258205677_27909702", 
+            "from": {
+              "name": "Paula J. Dupriest", 
+              "id": "1669886856"
+            }, 
+            "message": "It is interesting that my daughter Angie Gallo and my niece Tammy Garrent both like Loft!", 
+            "can_remove": false, 
+            "created_time": "2013-10-21T23:01:12+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151888258205677_27909775", 
+            "from": {
+              "name": "Pamela Humes", 
+              "id": "711708895"
+            }, 
+            "message": "Not a fan of this seasons tops ;-(", 
+            "can_remove": false, 
+            "created_time": "2013-10-21T23:13:33+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151888258205677_27909788", 
+            "from": {
+              "name": "Ellen Coyle", 
+              "id": "1746418807"
+            }, 
+            "message": "OMG was just looking at this blouse online, and LOVING IT!", 
+            "can_remove": false, 
+            "created_time": "2013-10-21T23:15:08+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151888258205677_27909894", 
+            "from": {
+              "name": "Tina Sanchez Calsadillas", 
+              "id": "100003078640956"
+            }, 
+            "message": "Love Loft", 
+            "can_remove": false, 
+            "created_time": "2013-10-21T23:29:49+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "MjY=", 
+            "before": "MQ=="
+          }, 
+          "next": "https://graph.facebook.com/10151888258205677/comments?limit=25&after=MjY="
+        }
+      }
+    }, 
+    {
+      "id": "10151875977180677", 
+      "from": {
+        "category": "Clothing", 
+        "category_list": [
+          {
+            "id": "186230924744328", 
+            "name": "Clothing Store"
+          }
+        ], 
+        "name": "LOFT", 
+        "id": "26483215676"
+      }, 
+      "description": "Check out Giuliana Rancic on The View wearing LOFT’s Live in Pink necklace designed by Suzanna Dai, inspired by Giuliana in support of breast cancer awareness. “Like” this post if you’re loving the new Live In Pink Collection: http://bit.ly/1f2qxG4", 
+      "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15/1096452_10151875977465677_10151875977180677_17746_1796_t.jpg", 
+      "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10151875977180677\" width=\"400\" height=\"224\" frameborder=\"0\"></iframe>", 
+      "icon": "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yD/r/DggDhA4z4tO.gif", 
+      "source": "https://fbcdn-video-a.akamaihd.net/hvideo-ak-prn2/v/t42/1224843_10151875977425677_976102169_n.mp4?oh=d80d95a14665df8de93aa072f01dede6&oe=532574F9&__gda__=1394956909_a798314f1fd7c8b6ec281820b50c429f", 
+      "created_time": "2013-10-10T21:44:16+0000", 
+      "updated_time": "2013-10-10T21:44:16+0000", 
+      "format": [
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10151875977180677\" width=\"130\" height=\"73\" frameborder=\"0\"></iframe>", 
+          "width": 130, 
+          "height": 73, 
+          "filter": "130x130", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15/s130x130/1096452_10151875977465677_10151875977180677_17746_1796_t.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10151875977180677\" width=\"400\" height=\"224\" frameborder=\"0\"></iframe>", 
+          "width": 400, 
+          "height": 224, 
+          "filter": "native", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15/1096452_10151875977465677_10151875977180677_17746_1796_b.jpg"
+        }
+      ], 
+      "comments": {
+        "data": [
+          {
+            "id": "10151875977180677_27787208", 
+            "from": {
+              "name": "Tammy Berry Butler", 
+              "id": "1427713552"
+            }, 
+            "message": "Hate the view .", 
+            "can_remove": false, 
+            "created_time": "2013-10-10T21:59:46+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151875977180677_27787243", 
+            "from": {
+              "name": "Kristi Morrison", 
+              "id": "1185054163"
+            }, 
+            "message": "Not into the view crap, wouldn't matter if they were wearing crown jewels, they are still horrible.", 
+            "can_remove": false, 
+            "created_time": "2013-10-10T22:02:31+0000", 
+            "like_count": 2, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151875977180677_27787338", 
+            "from": {
+              "name": "Stephanie Choma McNabb", 
+              "id": "24402841"
+            }, 
+            "message": "I wish some people wouldn't focus in the negative. It's not about the show. \n\nI own this necklace and its beautiful, and I feel even better wearing it knowing that more than half the proceeds went to a good cause.", 
+            "can_remove": false, 
+            "created_time": "2013-10-10T22:11:57+0000", 
+            "like_count": 6, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151875977180677_27787467", 
+            "from": {
+              "name": "Cathy Lewis Kincaid", 
+              "id": "1022523993"
+            }, 
+            "message": "I hate the view, but love the bracelet.", 
+            "can_remove": false, 
+            "created_time": "2013-10-10T22:24:15+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151875977180677_27787582", 
+            "from": {
+              "name": "Nancy L Peters", 
+              "id": "1437531627"
+            }, 
+            "message": "Very beautiful necklace. How can you purchase this necklace love the view", 
+            "can_remove": false, 
+            "created_time": "2013-10-10T22:37:46+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151875977180677_27787630", 
+            "from": {
+              "name": "Annmarie Nichol-Listek", 
+              "id": "1544651233"
+            }, 
+            "message": "Duh - its from the Loft.  Buy it there", 
+            "can_remove": false, 
+            "created_time": "2013-10-10T22:42:53+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151875977180677_27788043", 
+            "from": {
+              "name": "Emily 'Henry' Cauthen", 
+              "id": "38701818"
+            }, 
+            "message": "Stunning piece of jewelry and stunning purpose :) Stop being negative!", 
+            "can_remove": false, 
+            "created_time": "2013-10-10T23:32:10+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151875977180677_27789235", 
+            "from": {
+              "name": "Elizabeth Hilling", 
+              "id": "100000030704781"
+            }, 
+            "message": "I purchased the necklace and earrings this past weekend!!  Wore them yesterday to work and received tons of compliments!   Beautiful pieces and felt great about supporting such a wonderful cause!!!!", 
+            "can_remove": false, 
+            "created_time": "2013-10-11T01:48:13+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151875977180677_27790730", 
+            "from": {
+              "name": "Karen Dawe", 
+              "id": "100000627981059"
+            }, 
+            "message": "Love that necklace.  Already bought it!  Beautiful and a good cause!", 
+            "can_remove": false, 
+            "created_time": "2013-10-11T05:00:32+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151875977180677_27800068", 
+            "from": {
+              "name": "Gerti Mozeris", 
+              "id": "100001362620259"
+            }, 
+            "message": "bought the necklace for myself and earrings as a gift.  Beautiful pieces and a great cause.  Thanks Loft for supporting this very important cause!", 
+            "can_remove": false, 
+            "created_time": "2013-10-11T22:52:37+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151875977180677_27814324", 
+            "from": {
+              "name": "Susan Schmidt Cataudella", 
+              "id": "1593132216"
+            }, 
+            "message": "I bought this beautiful necklace because I have just gone thru breast cancer and am a survivor.", 
+            "can_remove": false, 
+            "created_time": "2013-10-13T11:19:08+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "MTE=", 
+            "before": "MQ=="
+          }
+        }
+      }
+    }, 
+    {
+      "id": "10151842565130677", 
+      "from": {
+        "category": "Clothing", 
+        "category_list": [
+          {
+            "id": "186230924744328", 
+            "name": "Clothing Store"
+          }
+        ], 
+        "name": "LOFT", 
+        "id": "26483215676"
+      }, 
+      "description": "Finally pants that do the leg work for you: lifted rear, longer legs, thinner thighs. Find your perfect fit: http://bit.ly/1aQMdk1", 
+      "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15/1095261_10151842567115677_10151842565130677_23890_2294_t.jpg", 
+      "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10151842565130677\" width=\"1280\" height=\"720\" frameborder=\"0\"></iframe>", 
+      "icon": "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yD/r/DggDhA4z4tO.gif", 
+      "source": "https://fbcdn-video-a.akamaihd.net/hvideo-ak-ash2/v/t43/1146107_10151842567030677_1052456440_n.mp4?oh=bb5785e0f960408cd1f7101aaf8eedb3&oe=53257894&__gda__=1394946190_ce3be1ef46fd239bab66952a93ec47a8", 
+      "created_time": "2013-09-25T14:00:02+0000", 
+      "updated_time": "2013-09-25T14:00:02+0000", 
+      "format": [
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10151842565130677\" width=\"130\" height=\"73\" frameborder=\"0\"></iframe>", 
+          "width": 130, 
+          "height": 73, 
+          "filter": "130x130", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15/s130x130/1095261_10151842567115677_10151842565130677_23890_2294_t.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10151842565130677\" width=\"480\" height=\"270\" frameborder=\"0\"></iframe>", 
+          "width": 480, 
+          "height": 270, 
+          "filter": "480x480", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15/s480x480/1095261_10151842567115677_10151842565130677_23890_2294_b.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10151842565130677\" width=\"720\" height=\"405\" frameborder=\"0\"></iframe>", 
+          "width": 720, 
+          "height": 405, 
+          "filter": "720x720", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15/s720x720/1095261_10151842567115677_10151842565130677_23890_2294_b.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10151842565130677\" width=\"1280\" height=\"720\" frameborder=\"0\"></iframe>", 
+          "width": 1280, 
+          "height": 720, 
+          "filter": "native", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15/1095261_10151842567115677_10151842565130677_23890_2294_b.jpg"
+        }
+      ], 
+      "comments": {
+        "data": [
+          {
+            "id": "10151842565130677_27612555", 
+            "from": {
+              "name": "J.j. Storer Russo", 
+              "id": "7410662"
+            }, 
+            "message": "I was with you until thinner thighs, b/c what's really lacking in this skinny jean world is more pants that muscular-legged girls can't wear. :(", 
+            "can_remove": false, 
+            "created_time": "2013-09-25T14:13:29+0000", 
+            "like_count": 10, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151842565130677_27612577", 
+            "from": {
+              "name": "Eloisa Peralta", 
+              "id": "1459144301"
+            }, 
+            "message": "The secret of dressing up without breaking the bank.", 
+            "can_remove": false, 
+            "created_time": "2013-09-25T14:16:52+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151842565130677_27613441", 
+            "from": {
+              "name": "Alicia Monaco", 
+              "id": "1350218206"
+            }, 
+            "message": "Loving all the new styles :)", 
+            "can_remove": false, 
+            "created_time": "2013-09-25T15:33:13+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151842565130677_27613683", 
+            "from": {
+              "name": "Anne Moss Nimocks Rogers", 
+              "id": "1144556818"
+            }, 
+            "message": "Could not find this guide on the site. Thanks for the link.", 
+            "can_remove": false, 
+            "created_time": "2013-09-25T15:58:50+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151842565130677_27613973", 
+            "from": {
+              "name": "Heidi Rodriguez Menendez", 
+              "id": "604491563"
+            }, 
+            "message": "Want some :)", 
+            "can_remove": false, 
+            "created_time": "2013-09-25T16:22:32+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151842565130677_27615836", 
+            "from": {
+              "name": "Sherry Turley", 
+              "id": "613320132"
+            }, 
+            "message": "Love the new styles! The Julie is my fav! Hate that the previous pants and crops are all baggy and look terrible. lost their shape.", 
+            "can_remove": false, 
+            "created_time": "2013-09-25T19:14:32+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151842565130677_27618369", 
+            "from": {
+              "name": "Karen Williams Russo", 
+              "id": "1574046476"
+            }, 
+            "message": "Love the Zoe fit.  Waistband stays put. Pants don't bag in the knee!  Yay", 
+            "can_remove": false, 
+            "created_time": "2013-09-25T23:03:59+0000", 
+            "like_count": 2, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151842565130677_27619470", 
+            "from": {
+              "name": "Anne Moss Nimocks Rogers", 
+              "id": "1144556818"
+            }, 
+            "message": "I go in the store and see that the bootcut cords I need are size 6 but on the web it's only waist sizes (I need talls and the stores don't carry talls). I can't remember the corresponding waist size for the 4 and the 6. Can someone tell me? Thanks.", 
+            "can_remove": false, 
+            "created_time": "2013-09-26T01:17:58+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151842565130677_27623911", 
+            "from": {
+              "name": "Joyce Gurrieri Tutone", 
+              "id": "1247783357"
+            }, 
+            "message": "I believe a 4 is a 27 and a 6 is a 28.", 
+            "can_remove": false, 
+            "created_time": "2013-09-26T11:48:12+0000", 
+            "like_count": 3, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151842565130677_27631400", 
+            "from": {
+              "name": "Maggie Hamm", 
+              "id": "777607941"
+            }, 
+            "message": "Really disappointed in these pants. I picked the style that is supposed to fix the gaping waist problem for those of us with bigger hips. Instead, the problem is worse than ever! Who designed these??", 
+            "can_remove": false, 
+            "created_time": "2013-09-26T22:37:57+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151842565130677_27671184", 
+            "from": {
+              "name": "Charlene Vidalin", 
+              "id": "628741462"
+            }, 
+            "message": "No customer service at the Loft in Kingwood, Texas. young ladies working have no clue, I needed a different size, no one came into the dressing room, I had to get dressed to go out. Very disappointed, may go elsewhere!", 
+            "can_remove": false, 
+            "created_time": "2013-09-30T20:15:15+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151842565130677_27671343", 
+            "from": {
+              "name": "Patty McGinn Yerger", 
+              "id": "1416370633"
+            }, 
+            "message": "If you have a tummy but thin legs and no butt, which style is best?", 
+            "can_remove": false, 
+            "created_time": "2013-09-30T20:31:47+0000", 
+            "like_count": 2, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151842565130677_27671396", 
+            "from": {
+              "name": "Maureen Parker", 
+              "id": "545375497"
+            }, 
+            "message": "No service in the bellevue WA store either. They simply stood there as I walked back and forth from the change room to get sizes. I did buy things though but zero help, no greeting. Pretty poor.", 
+            "can_remove": false, 
+            "created_time": "2013-09-30T20:36:32+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151842565130677_27671463", 
+            "from": {
+              "name": "Jeanette Brooks Sherritze", 
+              "id": "1039230508"
+            }, 
+            "message": "Awesome store in Destin Florida!  And how I love the new pants. I have 4 pairs now.  Would love to see them offered in a warm sand color.", 
+            "can_remove": false, 
+            "created_time": "2013-09-30T20:41:40+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151842565130677_27671545", 
+            "from": {
+              "name": "Cheri Kiely Everhart", 
+              "id": "1271299386"
+            }, 
+            "message": "Love Loft!  Would really like to see models other than a size 2 actually modeling the clothes.  Let's see some of our size 10 & 12 sisters in your ads!", 
+            "can_remove": false, 
+            "created_time": "2013-09-30T20:48:15+0000", 
+            "like_count": 29, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151842565130677_27671580", 
+            "from": {
+              "name": "Michelle Lechner Kostek", 
+              "id": "1378320660"
+            }, 
+            "message": "Galleria mall in buffalo ny always has great service!", 
+            "can_remove": false, 
+            "created_time": "2013-09-30T20:51:30+0000", 
+            "like_count": 2, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151842565130677_27671665", 
+            "from": {
+              "name": "Felicia Richardson", 
+              "id": "1007823025"
+            }, 
+            "message": "What about flattening your tummy? LOL", 
+            "can_remove": false, 
+            "created_time": "2013-09-30T21:00:09+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151842565130677_27671674", 
+            "from": {
+              "name": "Karen Williams Russo", 
+              "id": "1574046476"
+            }, 
+            "message": "Patty Yerger, I have a shape like yours (no but and a tummy) and the Zoe fits perfectly.  No side tapering!", 
+            "can_remove": false, 
+            "created_time": "2013-09-30T21:01:01+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151842565130677_27671696", 
+            "from": {
+              "name": "Ruth Smith", 
+              "id": "100001861966139"
+            }, 
+            "message": "The pants look great bec the models are siZe 0, no muffin top, no flabby lower tummy, with bubbly butt and nice straight slender legs.\n\nIn order for the pants to look these good on us, We actually need to buy the body parts of those models and not the pants.", 
+            "can_remove": false, 
+            "created_time": "2013-09-30T21:04:18+0000", 
+            "like_count": 10, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151842565130677_27671740", 
+            "from": {
+              "name": "Julia Amezquita", 
+              "id": "100001685690898"
+            }, 
+            "message": "Beauty pants.", 
+            "can_remove": false, 
+            "created_time": "2013-09-30T21:09:00+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151842565130677_27671778", 
+            "from": {
+              "name": "Laura Kreinbring Simko", 
+              "id": "1633780554"
+            }, 
+            "message": "Pants work wonders! Try them... You'll like them!", 
+            "can_remove": false, 
+            "created_time": "2013-09-30T21:13:36+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151842565130677_27671806", 
+            "from": {
+              "name": "Gloryann Torres", 
+              "id": "100000367815684"
+            }, 
+            "message": "You mean they'll give me longer legs and a smaller tush?", 
+            "can_remove": false, 
+            "created_time": "2013-09-30T21:16:04+0000", 
+            "like_count": 5, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151842565130677_27671835", 
+            "from": {
+              "name": "Kathy Johnstone", 
+              "id": "1382769146"
+            }, 
+            "message": "Love that very cute and catchy!", 
+            "can_remove": false, 
+            "created_time": "2013-09-30T21:18:14+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151842565130677_27671858", 
+            "from": {
+              "name": "Santa Diomede", 
+              "id": "100000703620241"
+            }, 
+            "message": "Do they carry 16's?", 
+            "can_remove": false, 
+            "created_time": "2013-09-30T21:19:43+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }, 
+          {
+            "id": "10151842565130677_27671913", 
+            "from": {
+              "name": "Tracy Redd Kachur", 
+              "id": "1149915148"
+            }, 
+            "message": "Santa: Yes, they do.", 
+            "can_remove": false, 
+            "created_time": "2013-09-30T21:23:54+0000", 
+            "like_count": 2, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "MjY=", 
+            "before": "MQ=="
+          }, 
+          "next": "https://graph.facebook.com/10151842565130677/comments?limit=25&after=MjY="
+        }
+      }
+    }, 
+    {
+      "id": "10151664452690677", 
+      "from": {
+        "category": "Clothing", 
+        "category_list": [
+          {
+            "id": "186230924744328", 
+            "name": "Clothing Store"
+          }
+        ], 
+        "name": "LOFT", 
+        "id": "26483215676"
+      }, 
+      "name": "Party Pop-Out Dresses", 
+      "description": "Dancing around your social calendar this summer? Take “what to wear” off your to-do list with our amazing new collection of dresses. Find your plus one: http://bit.ly/14eGoL1", 
+      "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15/246087_10151664453185677_10151664452690677_21378_259_t.jpg", 
+      "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10151664452690677\" width=\"640\" height=\"360\" frameborder=\"0\"></iframe>", 
+      "icon": "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yD/r/DggDhA4z4tO.gif", 
+      "source": "https://scontent.xx.fbcdn.net/hvideo-ash3/v/t43.1792-2/874675_10151664453150677_167338005_n.mp4?oh=89fcb32ad225a7448472a911f8d8d2aa&oe=5325616D", 
+      "created_time": "2013-06-05T13:00:00+0000", 
+      "updated_time": "2013-06-05T13:00:00+0000", 
+      "format": [
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10151664452690677\" width=\"130\" height=\"73\" frameborder=\"0\"></iframe>", 
+          "width": 130, 
+          "height": 73, 
+          "filter": "130x130", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15/s130x130/246087_10151664453185677_10151664452690677_21378_259_t.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10151664452690677\" width=\"480\" height=\"270\" frameborder=\"0\"></iframe>", 
+          "width": 480, 
+          "height": 270, 
+          "filter": "480x480", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15/s480x480/246087_10151664453185677_10151664452690677_21378_259_b.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=10151664452690677\" width=\"640\" height=\"360\" frameborder=\"0\"></iframe>", 
+          "width": 640, 
+          "height": 360, 
+          "filter": "native", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15/246087_10151664453185677_10151664452690677_21378_259_b.jpg"
+        }
+      ]
+    }, 
+    {
+      "id": "1649290678206", 
+      "from": {
+        "category": "Clothing", 
+        "category_list": [
+          {
+            "id": "186230924744328", 
+            "name": "Clothing Store"
+          }
+        ], 
+        "name": "LOFT", 
+        "id": "26483215676"
+      }, 
+      "name": "Meet Our Designers!", 
+      "description": "Can't make our Times Square event tonight? You can meet our jewelry designers right here. Go behind-the-scenes with Anna Sheffield, Kara Ross and Robin Renzi for Me & Ro as they design their exclusive LOFT piece to benefit The Breast Cancer Awareness Foundation. With each jewelry piece purchase, $5 will be donated to the BCRF.", 
+      "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn1/t15.0-10/50629_1649313598779_1649290678206_56569_1363_t.jpg", 
+      "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=1649290678206\" width=\"1280\" height=\"720\" frameborder=\"0\"></iframe>", 
+      "icon": "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yD/r/DggDhA4z4tO.gif", 
+      "source": "https://fbcdn-video-a.akamaihd.net/hvideo-ak-prn2/v/t43/1216331_10201820793987609_21189_n.mp4?oh=b15a3264f9d5a7b385c80d10d2bf5bce&oe=5324FEEF&__gda__=1394966399_e0f5723ae64bcbe651ef1f5b28b78b6b", 
+      "created_time": "2010-10-12T21:14:54+0000", 
+      "updated_time": "2010-10-12T21:14:54+0000", 
+      "format": [
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=1649290678206\" width=\"130\" height=\"73\" frameborder=\"0\"></iframe>", 
+          "width": 130, 
+          "height": 73, 
+          "filter": "130x130", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn1/t15.0-10/s130x130/50629_1649313598779_1649290678206_56569_1363_t.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=1649290678206\" width=\"480\" height=\"270\" frameborder=\"0\"></iframe>", 
+          "width": 480, 
+          "height": 270, 
+          "filter": "480x480", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn1/t15.0-10/s480x480/50629_1649313598779_1649290678206_56569_1363_b.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=1649290678206\" width=\"720\" height=\"405\" frameborder=\"0\"></iframe>", 
+          "width": 720, 
+          "height": 405, 
+          "filter": "720x720", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn1/t15.0-10/s720x720/50629_1649313598779_1649290678206_56569_1363_b.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=1649290678206\" width=\"1280\" height=\"720\" frameborder=\"0\"></iframe>", 
+          "width": 1280, 
+          "height": 720, 
+          "filter": "native", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn1/t15.0-10/50629_1649313598779_1649290678206_56569_1363_b.jpg"
+        }
+      ], 
+      "comments": {
+        "data": [
+          {
+            "id": "1649290678206_5018929", 
+            "from": {
+              "name": "Maxim Scott", 
+              "id": "100003754861828"
+            }, 
+            "message": "SON UN ESCANTO SUS CREACIONES, dddddigan a aleyda zamorra en miami que magdalena ve su tabajo desde nicaragua", 
+            "can_remove": false, 
+            "created_time": "2012-06-17T12:29:43+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1649290678206_6305332", 
+            "from": {
+              "name": "Viva La Paz", 
+              "id": "100002201392395"
+            }, 
+            "message": "Loving all the lovely creative women !", 
+            "can_remove": false, 
+            "created_time": "2013-03-06T20:06:20+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "Mg==", 
+            "before": "MQ=="
+          }
+        }
+      }
+    }, 
+    {
+      "id": "587404379780", 
+      "from": {
+        "category": "Clothing", 
+        "category_list": [
+          {
+            "id": "186230924744328", 
+            "name": "Clothing Store"
+          }
+        ], 
+        "name": "LOFT", 
+        "id": "26483215676"
+      }, 
+      "name": "Accessorize With a Fresh Point of View", 
+      "description": "Accessories are the easiest way to transform any outfit and are the exciting extras that help complete every look. Use this season's collection of sparkling pink, orange, coral and gold jewelry along with our leather accessories to take your outfit from casual to dressy in an instant. ", 
+      "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash4/t15/246266_672851592880_587404379780_3380_1447_t.jpg", 
+      "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=587404379780\" width=\"1280\" height=\"720\" frameborder=\"0\"></iframe>", 
+      "icon": "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yD/r/DggDhA4z4tO.gif", 
+      "source": "https://fbcdn-video-a.akamaihd.net/hvideo-ak-ash2/v/t43/1326431_10100161965102460_7497_n.mp4?oh=26e33c4284d1e032f1c97eddc9852187&oe=53257222&__gda__=1394949068_caead2513a5a6a72432226c8e878ac73", 
+      "created_time": "2010-03-31T15:09:07+0000", 
+      "updated_time": "2010-03-31T15:09:07+0000", 
+      "format": [
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=587404379780\" width=\"130\" height=\"73\" frameborder=\"0\"></iframe>", 
+          "width": 130, 
+          "height": 73, 
+          "filter": "130x130", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash4/t15/s130x130/246266_672851592880_587404379780_3380_1447_t.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=587404379780\" width=\"480\" height=\"270\" frameborder=\"0\"></iframe>", 
+          "width": 480, 
+          "height": 270, 
+          "filter": "480x480", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash4/t15/s480x480/246266_672851592880_587404379780_3380_1447_b.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=587404379780\" width=\"720\" height=\"405\" frameborder=\"0\"></iframe>", 
+          "width": 720, 
+          "height": 405, 
+          "filter": "720x720", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash4/t15/s720x720/246266_672851592880_587404379780_3380_1447_b.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=587404379780\" width=\"1280\" height=\"720\" frameborder=\"0\"></iframe>", 
+          "width": 1280, 
+          "height": 720, 
+          "filter": "native", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash4/t15/246266_672851592880_587404379780_3380_1447_b.jpg"
+        }
+      ], 
+      "comments": {
+        "data": [
+          {
+            "id": "587404379780_317019", 
+            "from": {
+              "name": "Clara Cuevas-Alvarez", 
+              "id": "735822838"
+            }, 
+            "message": "I am a Loft addict!", 
+            "can_remove": false, 
+            "created_time": "2010-03-31T15:20:46+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "587404379780_317049", 
+            "from": {
+              "name": "Christina King", 
+              "id": "1073238174"
+            }, 
+            "message": "Loft is my obsession", 
+            "can_remove": false, 
+            "created_time": "2010-03-31T15:46:41+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "587404379780_317121", 
+            "from": {
+              "name": "Rj Light", 
+              "id": "528214052"
+            }, 
+            "message": "I love Loft, but I'll wear my Silpada jewelry with it instead! ", 
+            "can_remove": false, 
+            "created_time": "2010-03-31T16:46:57+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "587404379780_317126", 
+            "from": {
+              "name": "Geneva Green", 
+              "id": "1476515368"
+            }, 
+            "message": "I have to put myself on a LOFT restriction - I go in that store and lose my mind!!!", 
+            "can_remove": false, 
+            "created_time": "2010-03-31T16:50:25+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "587404379780_317166", 
+            "from": {
+              "name": "Tami Staley Sinclair", 
+              "id": "1503435083"
+            }, 
+            "message": " Hey Rj I am with you on the Silpada jewelry!!!!", 
+            "can_remove": false, 
+            "created_time": "2010-03-31T17:39:05+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "587404379780_317174", 
+            "from": {
+              "name": "Kelly Lyle", 
+              "id": "1644407319"
+            }, 
+            "message": "Just went this past weekend. I love the clothes but the T-shirts are too thin. You can totally see through them! Ended up buying white shorts, a black belt, and a navy belted jacket. I love LOFT!", 
+            "can_remove": false, 
+            "created_time": "2010-03-31T17:48:08+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "587404379780_317203", 
+            "from": {
+              "name": "Maryanne Matteo", 
+              "id": "1032428119"
+            }, 
+            "message": "Just went shopping there and bought some great pants and capris!  Their dress sale is awesome  -- I'll be back tomorrow! :)", 
+            "can_remove": false, 
+            "created_time": "2010-03-31T18:08:10+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "587404379780_317315", 
+            "from": {
+              "name": "Susan Bacon Martin", 
+              "id": "100000544651310"
+            }, 
+            "message": "I feel like Norm from cheers where they all know my name... I need LOFT therapy!!!", 
+            "can_remove": false, 
+            "created_time": "2010-03-31T20:10:45+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "587404379780_317345", 
+            "from": {
+              "name": "Elvie Bernal", 
+              "id": "100000518547998"
+            }, 
+            "message": "i just went shopping and bought a jacket and a belt.  It was such a good deal.. Couldn't resist..", 
+            "can_remove": false, 
+            "created_time": "2010-03-31T20:49:30+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "587404379780_317470", 
+            "from": {
+              "name": "Brenda Kersh Hogan", 
+              "id": "100000113004063"
+            }, 
+            "message": "Since I have been going to Loft for clothes, I get lots of compliments! Love it :-)", 
+            "can_remove": false, 
+            "created_time": "2010-03-31T22:36:27+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "587404379780_317692", 
+            "from": {
+              "name": "Laura Tidwell Brown", 
+              "id": "1228984207"
+            }, 
+            "message": "Too bad the LOFT's selections have changed so drastically!  My whole closet is full of LOFT clothes & shoes!  But, I'm very disappointed in them lately....the T-shirts you can see EVERYTHING thru them..I hope they will carry more business clothes like they used to.....I'm a size 2 and not everyone carries my size, I'm not petite!  I hope the LOFT will get better again!!", 
+            "can_remove": false, 
+            "created_time": "2010-04-01T01:14:24+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "587404379780_317752", 
+            "from": {
+              "name": "Susan Shea", 
+              "id": "748049143"
+            }, 
+            "message": "Laura- I feel the same way. I was just wondering if I was getting old or something.I just left LOFT empty handed. Why would I want a see through t-shirt?  I would say 80% of my closet is LOFT.  It is ok to have some trendy clothes but almost nothing is work appropriate anymore! :( ", 
+            "can_remove": false, 
+            "created_time": "2010-04-01T01:54:49+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "587404379780_317939", 
+            "from": {
+              "name": "Cheska Jackson", 
+              "id": "100000454869199"
+            }, 
+            "message": "Oh I thought it was just me! I don't understand their selection anymore. I'm only thirty and I don't feel like they are marketing towards me anymore. The clothers are either too basic or nothing I would wear to work or church. I'm at odds with the Loft!", 
+            "can_remove": false, 
+            "created_time": "2010-04-01T04:06:03+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "587404379780_317947", 
+            "from": {
+              "name": "Cheska Jackson", 
+              "id": "100000454869199"
+            }, 
+            "message": "They should peek over at WhiteHouse Black Market! I still shop the Loft but hoping next season is better.", 
+            "can_remove": false, 
+            "created_time": "2010-04-01T04:08:55+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "587404379780_317957", 
+            "from": {
+              "name": "Phyllis Gerben", 
+              "id": "1450562172"
+            }, 
+            "message": "Agree with the comment about the Tshirts.  Have to wear Spanx under them; they're just too revealing.  Disappointed in their collection this season.", 
+            "can_remove": false, 
+            "created_time": "2010-04-01T04:12:32+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "587404379780_318104", 
+            "from": {
+              "name": "Dania Mojena Garcia", 
+              "id": "1554529299"
+            }, 
+            "message": "A salesperson told me LOFT was trying to attract a \"younger\" crowd... Funny because when I'm at a store and I look around me, the majority of the Loft's customer base appears to be late 20's through 40's... So, I'm not sure that this is a smart move on the company's part.  They referred me to AT for suits and such... thanks, but AT is much more expensive and given our current economic conditions, thriftiness is a must!", 
+            "can_remove": false, 
+            "created_time": "2010-04-01T10:01:04+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "587404379780_318363", 
+            "from": {
+              "name": "Ami Robinson", 
+              "id": "1029309719"
+            }, 
+            "message": "I agree with all of you.  The t-shirts are like tissue paper.  The pants are cheap looking (what happened to nice pants mid-rise pants with a lining!).  They use to have cute/nice suits and jackets and lots of things could be mix-matched.  My closet is 80% Loft, it was almost 100% Loft but I haven't been able to find anything of good quality in a while. ", 
+            "can_remove": false, 
+            "created_time": "2010-04-01T15:28:29+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "587404379780_318428", 
+            "from": {
+              "name": "Bianca Chesimard", 
+              "id": "1533987496"
+            }, 
+            "message": "Most of my closet used to be loft, but as time goes by there are still some pieces I pick up here and there, but not as many as the old days.  I still love, love many of the Loft's items, and I don't mind them going more casual, I just wish the pricing would reflect that. The prices are as high as J. Crew on many things, but the quality is not. If they are going to more casual items, the price should go DOWN not UP! :-) ", 
+            "can_remove": false, 
+            "created_time": "2010-04-01T16:13:45+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "587404379780_319307", 
+            "from": {
+              "name": "Susan Lockwood Schartner", 
+              "id": "1221228987"
+            }, 
+            "message": "I agree...most of my dresses and skirts are from the Loft, but lately they are cheap and much too short. Not as great as it used to be!", 
+            "can_remove": false, 
+            "created_time": "2010-04-02T02:46:28+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "587404379780_320637", 
+            "from": {
+              "name": "Elaine Timmons Brown", 
+              "id": "100000653529116"
+            }, 
+            "message": "I love the loft but I make sure I have my coupon in hand when I visit.", 
+            "can_remove": false, 
+            "created_time": "2010-04-03T01:26:02+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "587404379780_373551", 
+            "from": {
+              "name": "Doubleclicklife Minors", 
+              "id": "1618427162"
+            }, 
+            "message": "Love this video! \nNote: Please do not neglect your core demographic. As an early thirtysomething, I am worried that everything caters to teenage and college girls.  Real women can't wear those low-rise mini-skirts and skimpy outfits.  ", 
+            "can_remove": false, 
+            "created_time": "2010-05-19T15:06:29+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "MjI=", 
+            "before": "MQ=="
+          }
+        }
+      }
+    }, 
+    {
+      "id": "586343585620", 
+      "from": {
+        "category": "Clothing", 
+        "category_list": [
+          {
+            "id": "186230924744328", 
+            "name": "Clothing Store"
+          }
+        ], 
+        "name": "LOFT", 
+        "id": "26483215676"
+      }, 
+      "name": "LOFT's Spring Love List", 
+      "description": "Want to know what the fashion industry is buzzing about this spring? Check out LOFT's Spring Love List with Alia. We are loving nude wedges, soft leather clutches with metal chains, flower bracelets, pastel ribbon belts, coral necklaces and floral scarves.", 
+      "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn2/t15/244625_672846922240_586343585620_22868_1481_t.jpg", 
+      "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=586343585620\" width=\"1280\" height=\"720\" frameborder=\"0\"></iframe>", 
+      "icon": "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yD/r/DggDhA4z4tO.gif", 
+      "source": "https://fbcdn-video-a.akamaihd.net/hvideo-ak-ash2/v/t43/1326312_10100161973246140_18773_n.mp4?oh=8bdff0a737d45d6af55c5875ce5d4188&oe=53257AF1&__gda__=1394929841_2bbb374dcdcab3686454c1d1b503d8cb", 
+      "created_time": "2010-03-19T22:05:11+0000", 
+      "updated_time": "2010-03-19T22:05:11+0000", 
+      "format": [
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=586343585620\" width=\"130\" height=\"73\" frameborder=\"0\"></iframe>", 
+          "width": 130, 
+          "height": 73, 
+          "filter": "130x130", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn2/t15/s130x130/244625_672846922240_586343585620_22868_1481_t.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=586343585620\" width=\"480\" height=\"270\" frameborder=\"0\"></iframe>", 
+          "width": 480, 
+          "height": 270, 
+          "filter": "480x480", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn2/t15/s480x480/244625_672846922240_586343585620_22868_1481_b.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=586343585620\" width=\"720\" height=\"405\" frameborder=\"0\"></iframe>", 
+          "width": 720, 
+          "height": 405, 
+          "filter": "720x720", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn2/t15/s720x720/244625_672846922240_586343585620_22868_1481_b.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=586343585620\" width=\"1280\" height=\"720\" frameborder=\"0\"></iframe>", 
+          "width": 1280, 
+          "height": 720, 
+          "filter": "native", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn2/t15/244625_672846922240_586343585620_22868_1481_b.jpg"
+        }
+      ]
+    }, 
+    {
+      "id": "586332208420", 
+      "from": {
+        "category": "Clothing", 
+        "category_list": [
+          {
+            "id": "186230924744328", 
+            "name": "Clothing Store"
+          }
+        ], 
+        "name": "LOFT", 
+        "id": "26483215676"
+      }, 
+      "name": "How To Wear Spring Brights", 
+      "description": "With spring around the corner, the LOFT team is starting to crave bright, cheery-colored clothing, but sometimes those bold shades can be a little intimidating. Here are top tips for working sunny shades into your end-of-winter wardrobe.", 
+      "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15/158850_672846792500_586332208420_50264_1405_t.jpg", 
+      "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=586332208420\" width=\"1280\" height=\"720\" frameborder=\"0\"></iframe>", 
+      "icon": "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yD/r/DggDhA4z4tO.gif", 
+      "source": "https://fbcdn-video-a.akamaihd.net/hvideo-ak-prn2/v/t43/1342444_10100162089338490_61303_n.mp4?oh=473e1599ec0208ebee21f2631d01d1fb&oe=53253515&__gda__=1394945861_7c9213f387865716e96cf4c1e0c4e1ad", 
+      "created_time": "2010-03-19T18:56:05+0000", 
+      "updated_time": "2010-03-19T18:56:05+0000", 
+      "format": [
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=586332208420\" width=\"130\" height=\"73\" frameborder=\"0\"></iframe>", 
+          "width": 130, 
+          "height": 73, 
+          "filter": "130x130", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15/s130x130/158850_672846792500_586332208420_50264_1405_t.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=586332208420\" width=\"480\" height=\"270\" frameborder=\"0\"></iframe>", 
+          "width": 480, 
+          "height": 270, 
+          "filter": "480x480", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15/s480x480/158850_672846792500_586332208420_50264_1405_b.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=586332208420\" width=\"720\" height=\"405\" frameborder=\"0\"></iframe>", 
+          "width": 720, 
+          "height": 405, 
+          "filter": "720x720", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15/s720x720/158850_672846792500_586332208420_50264_1405_b.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=586332208420\" width=\"1280\" height=\"720\" frameborder=\"0\"></iframe>", 
+          "width": 1280, 
+          "height": 720, 
+          "filter": "native", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15/158850_672846792500_586332208420_50264_1405_b.jpg"
+        }
+      ], 
+      "comments": {
+        "data": [
+          {
+            "id": "586332208420_2668734", 
+            "from": {
+              "name": "Maxim Scott", 
+              "id": "100003754861828"
+            }, 
+            "message": "super los diseños, saludes aleyda zamora nicararagua", 
+            "can_remove": false, 
+            "created_time": "2012-06-17T12:34:55+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "MQ==", 
+            "before": "MQ=="
+          }
+        }
+      }
+    }, 
+    {
+      "id": "586311489940", 
+      "from": {
+        "category": "Clothing", 
+        "category_list": [
+          {
+            "id": "186230924744328", 
+            "name": "Clothing Store"
+          }
+        ], 
+        "name": "LOFT", 
+        "id": "26483215676"
+      }, 
+      "name": "The Polished Casual Look", 
+      "description": "Discover the polished casual look. It's a stylish mix of versatile pieces to create a look that's polished enough for work, but still casual enough for the weekend.", 
+      "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15/246097_672846722640_586311489940_36836_1456_t.jpg", 
+      "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=586311489940\" width=\"1280\" height=\"720\" frameborder=\"0\"></iframe>", 
+      "icon": "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yD/r/DggDhA4z4tO.gif", 
+      "source": "https://fbcdn-video-a.akamaihd.net/hvideo-ak-prn2/v/t43/1351750_10100161992287980_24062_n.mp4?oh=81d0f80d492e32dd34b6739fcf2a7f0f&oe=53252535&__gda__=1394944613_b03520c09a0fb2328714aac608acf5ce", 
+      "created_time": "2010-03-19T14:37:41+0000", 
+      "updated_time": "2010-03-19T14:37:41+0000", 
+      "format": [
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=586311489940\" width=\"130\" height=\"73\" frameborder=\"0\"></iframe>", 
+          "width": 130, 
+          "height": 73, 
+          "filter": "130x130", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15/s130x130/246097_672846722640_586311489940_36836_1456_t.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=586311489940\" width=\"480\" height=\"270\" frameborder=\"0\"></iframe>", 
+          "width": 480, 
+          "height": 270, 
+          "filter": "480x480", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15/s480x480/246097_672846722640_586311489940_36836_1456_b.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=586311489940\" width=\"720\" height=\"405\" frameborder=\"0\"></iframe>", 
+          "width": 720, 
+          "height": 405, 
+          "filter": "720x720", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15/s720x720/246097_672846722640_586311489940_36836_1456_b.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=586311489940\" width=\"1280\" height=\"720\" frameborder=\"0\"></iframe>", 
+          "width": 1280, 
+          "height": 720, 
+          "filter": "native", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15/246097_672846722640_586311489940_36836_1456_b.jpg"
+        }
+      ], 
+      "comments": {
+        "data": [
+          {
+            "id": "586311489940_301801", 
+            "from": {
+              "name": "Mary Loch Batory", 
+              "id": "690969564"
+            }, 
+            "message": "Just bought several shirts  the other day. I  like the light weight cotton.", 
+            "can_remove": false, 
+            "created_time": "2010-03-19T14:47:10+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "586311489940_301807", 
+            "from": {
+              "name": "Ebony Murphy-Root", 
+              "id": "9012987"
+            }, 
+            "message": "I have told all my fellow teachers about the teacher discount.  It's much appreciated!", 
+            "can_remove": false, 
+            "created_time": "2010-03-19T14:52:47+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "586311489940_301966", 
+            "from": {
+              "name": "Jackie Garcia Medina", 
+              "id": "828683355"
+            }, 
+            "message": "Our clothes are the BEST!", 
+            "can_remove": false, 
+            "created_time": "2010-03-19T17:11:07+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "586311489940_302074", 
+            "from": {
+              "name": "Sherri Hamilton Hurn", 
+              "id": "1085247975"
+            }, 
+            "message": "Teacher discount?  Please tell me about it.", 
+            "can_remove": false, 
+            "created_time": "2010-03-19T18:45:58+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "586311489940_302122", 
+            "from": {
+              "category": "Clothing", 
+              "category_list": [
+                {
+                  "id": "186230924744328", 
+                  "name": "Clothing Store"
+                }
+              ], 
+              "name": "LOFT", 
+              "id": "26483215676"
+            }, 
+            "message": "Sherri,\n\nPlease visit LOFTLovesTeachers.com for more information. ", 
+            "can_remove": false, 
+            "created_time": "2010-03-19T19:23:51+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "586311489940_302131", 
+            "from": {
+              "name": "Rosa M Cabrera", 
+              "id": "1277920400"
+            }, 
+            "message": "Yes, the teacher discount is great! I got 15% off on sale items, the same day the store was having 30% off on full priced items. So basically, everything I bought that day had a discount!", 
+            "can_remove": false, 
+            "created_time": "2010-03-19T19:29:54+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "586311489940_302455", 
+            "from": {
+              "name": "Janet Banks Jermakian", 
+              "id": "1023382997"
+            }, 
+            "message": "I wish the Loft loved nurses as well :(", 
+            "can_remove": false, 
+            "created_time": "2010-03-20T00:16:20+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "586311489940_302473", 
+            "from": {
+              "name": "Kristen Taylor Kearnan", 
+              "id": "1491646922"
+            }, 
+            "message": "What about just plain old Moms...don't we get any discount?", 
+            "can_remove": false, 
+            "created_time": "2010-03-20T00:38:43+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "586311489940_302837", 
+            "from": {
+              "name": "Lisa Gianquitti", 
+              "id": "1058156152"
+            }, 
+            "message": "agree!", 
+            "can_remove": false, 
+            "created_time": "2010-03-20T11:42:00+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "586311489940_304694", 
+            "from": {
+              "name": "Liz Hudson", 
+              "id": "1194639498"
+            }, 
+            "message": "What about case managers?", 
+            "can_remove": false, 
+            "created_time": "2010-03-22T04:08:31+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "586311489940_338382", 
+            "from": {
+              "name": "Sandra Heywood Medley", 
+              "id": "1306117134"
+            }, 
+            "message": "Loft Loves College students now... that is new!", 
+            "can_remove": false, 
+            "created_time": "2010-04-19T02:57:10+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "MTI=", 
+            "before": "MQ=="
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1149944544447", 
+      "from": {
+        "category": "Clothing", 
+        "category_list": [
+          {
+            "id": "186230924744328", 
+            "name": "Clothing Store"
+          }
+        ], 
+        "name": "LOFT", 
+        "id": "26483215676"
+      }, 
+      "name": "Celebrity Stylist Mary Alice Stephenson on E! News", 
+      "description": "Check out celebrity stylist Mary Alice Stephenson on E! News", 
+      "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-frc3/t15/244532_1742308233169_1149944544447_3216_1452_t.jpg", 
+      "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=1149944544447\" width=\"320\" height=\"240\" frameborder=\"0\"></iframe>", 
+      "icon": "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yD/r/DggDhA4z4tO.gif", 
+      "source": "https://fbcdn-video-a.akamaihd.net/hvideo-ak-ash2/v/t42/1189289_10200377086405404_32164_n.mp4?oh=b4852998da5c74552e8c763cc94775b6&oe=532548E5&__gda__=1394935525_b3fbd46d3c0f7bd93e68ddbdcd8b6151", 
+      "created_time": "2009-11-07T15:35:42+0000", 
+      "updated_time": "2009-11-07T15:35:42+0000", 
+      "format": [
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=1149944544447\" width=\"130\" height=\"98\" frameborder=\"0\"></iframe>", 
+          "width": 130, 
+          "height": 98, 
+          "filter": "130x130", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-frc3/t15/s130x130/244532_1742308233169_1149944544447_3216_1452_t.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=1149944544447\" width=\"320\" height=\"240\" frameborder=\"0\"></iframe>", 
+          "width": 320, 
+          "height": 240, 
+          "filter": "native", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-frc3/t15/244532_1742308233169_1149944544447_3216_1452_b.jpg"
+        }
+      ], 
+      "comments": {
+        "data": [
+          {
+            "id": "1149944544447_104570", 
+            "from": {
+              "name": "Rashida Martin", 
+              "id": "11105468"
+            }, 
+            "message": "yeeeeeeeahhh LOFT", 
+            "can_remove": false, 
+            "created_time": "2009-11-07T15:56:19+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1149944544447_104587", 
+            "from": {
+              "name": "Ingrid Oelkrug Tauber", 
+              "id": "1611241132"
+            }, 
+            "message": "Go for it Loft!!", 
+            "can_remove": false, 
+            "created_time": "2009-11-07T16:22:42+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1149944544447_104596", 
+            "from": {
+              "name": "AnnMarie Casella Cardin", 
+              "id": "1631709208"
+            }, 
+            "message": "This is great! Sometimes you just need a little push in the right direction! Thanks for the tips!!", 
+            "can_remove": false, 
+            "created_time": "2009-11-07T16:40:19+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1149944544447_108266", 
+            "from": {
+              "name": "Sahar Al-Shaibani", 
+              "id": "721880525"
+            }, 
+            "message": "Cool!", 
+            "can_remove": false, 
+            "created_time": "2009-11-11T03:05:57+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "NA==", 
+            "before": "MQ=="
+          }
+        }
+      }
+    }, 
+    {
+      "id": "158536993876", 
+      "from": {
+        "category": "Clothing", 
+        "category_list": [
+          {
+            "id": "186230924744328", 
+            "name": "Clothing Store"
+          }
+        ], 
+        "name": "LOFT", 
+        "id": "26483215676"
+      }, 
+      "name": "Styling Your LBD in Atlanta: by LOFT & Katrina Szish", 
+      "description": "One last video from our Style Studio series! Watch Katrina Szish work with Jaime on getting creative with her LBD.", 
+      "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash4/t15/245644_10150190998018877_158536993876_26513_1288_t.jpg", 
+      "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=158536993876\" width=\"1280\" height=\"720\" frameborder=\"0\"></iframe>", 
+      "icon": "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yD/r/DggDhA4z4tO.gif", 
+      "source": "https://fbcdn-video-a.akamaihd.net/hvideo-ak-prn2/v/t43/1138177_10151569502838877_63507_n.mp4?oh=7e393700f4df19fca0246c280f04c326&oe=5325517E&__gda__=1394942318_5eed088327605d6cfeadc36ade897f36", 
+      "created_time": "2009-10-20T16:13:21+0000", 
+      "updated_time": "2009-10-20T16:13:21+0000", 
+      "format": [
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=158536993876\" width=\"130\" height=\"73\" frameborder=\"0\"></iframe>", 
+          "width": 130, 
+          "height": 73, 
+          "filter": "130x130", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash4/t15/s130x130/245644_10150190998018877_158536993876_26513_1288_t.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=158536993876\" width=\"480\" height=\"270\" frameborder=\"0\"></iframe>", 
+          "width": 480, 
+          "height": 270, 
+          "filter": "480x480", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash4/t15/s480x480/245644_10150190998018877_158536993876_26513_1288_b.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=158536993876\" width=\"720\" height=\"405\" frameborder=\"0\"></iframe>", 
+          "width": 720, 
+          "height": 405, 
+          "filter": "720x720", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash4/t15/s720x720/245644_10150190998018877_158536993876_26513_1288_b.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=158536993876\" width=\"1280\" height=\"720\" frameborder=\"0\"></iframe>", 
+          "width": 1280, 
+          "height": 720, 
+          "filter": "native", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash4/t15/245644_10150190998018877_158536993876_26513_1288_b.jpg"
+        }
+      ], 
+      "comments": {
+        "data": [
+          {
+            "id": "158536993876_6210267", 
+            "from": {
+              "name": "Tanya Mueller", 
+              "id": "583678971"
+            }, 
+            "message": "What happened to the styling part?? The video is cut off before the fun part.", 
+            "can_remove": false, 
+            "created_time": "2009-10-20T17:29:16+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "158536993876_6211106", 
+            "from": {
+              "name": "Charlee Nall Allen", 
+              "id": "581110822"
+            }, 
+            "message": "whats a LBD?", 
+            "can_remove": false, 
+            "created_time": "2009-10-20T17:49:37+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "158536993876_6211517", 
+            "from": {
+              "name": "Michelle Marquez", 
+              "id": "1072556932"
+            }, 
+            "message": "Little black dress.  I don't really like that look for myself, at all.  Jaime sounded as if she was on a budget for clothing.  I don't think the jacket fell into that realm.  I thought they would have used more pieces or would have shown more pieces--cheaper.   That jacket was probably over $200.  Hmmm...", 
+            "can_remove": false, 
+            "created_time": "2009-10-20T17:58:16+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "158536993876_6211622", 
+            "from": {
+              "name": "Jamie Dektas", 
+              "id": "618273592"
+            }, 
+            "message": "LBD-Little Black Dress", 
+            "can_remove": false, 
+            "created_time": "2009-10-20T18:00:42+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "158536993876_6214033", 
+            "from": {
+              "name": "Lisa Soukup", 
+              "id": "660636802"
+            }, 
+            "message": "Is that necklace still in stores? Cant find it at the loft website.", 
+            "can_remove": false, 
+            "created_time": "2009-10-20T18:58:43+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "158536993876_6215671", 
+            "from": {
+              "name": "Mary Ann Flowers", 
+              "id": "1686468903"
+            }, 
+            "message": "Love your ads and makeovers! Good taste is NOT limited by age...have you ever thought about matching your great fashions with us older ladies??", 
+            "can_remove": false, 
+            "created_time": "2009-10-20T19:37:16+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "158536993876_6217160", 
+            "from": {
+              "name": "DeAnna Renee Swiger", 
+              "id": "1015344897"
+            }, 
+            "message": "The necklace shown is also a belt!  It has a dual purpose.  I just checked the website and saw that it is now on there.  It is also in stores just this week!", 
+            "can_remove": false, 
+            "created_time": "2009-10-20T20:10:20+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "158536993876_6218849", 
+            "from": {
+              "name": "Katie Thompson Proctor", 
+              "id": "1575361664"
+            }, 
+            "message": "The necklace/belt is already off the site. :( Are they going to put it back?", 
+            "can_remove": false, 
+            "created_time": "2009-10-20T20:46:31+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "158536993876_6220196", 
+            "from": {
+              "name": "Amy Nicole", 
+              "id": "1680185986"
+            }, 
+            "message": "That jacket is actuall under $200. Not bad for a suede jacket ;)\nLOFT has GREAT fashion for someone at any age! I live in the product & buy lots of versatile pieces for my mother.\nThe necklace/belt should be in the stores soon... I feel like sometimes the product hits the website before it hits all stores :)", 
+            "can_remove": false, 
+            "created_time": "2009-10-20T21:17:28+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "158536993876_6233486", 
+            "from": {
+              "name": "Lisa Briganti Gilbert Rath", 
+              "id": "830998944"
+            }, 
+            "message": "The stylist is wearing my FAVORITE recent LOFT purchase -- the brown leather jacket!  I'd been looking for something like this for years! Soft, soft, soft, with cool edgy hardware and a bit of biker styling at the collar.  Use your 25% coupon!", 
+            "can_remove": false, 
+            "created_time": "2009-10-21T04:23:02+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "158536993876_6236170", 
+            "from": {
+              "name": "Karen Lindquist", 
+              "id": "1215641351"
+            }, 
+            "message": "LOFT Official Page people - When you show a video, could you give us the names and item numbers of the pieces featured in the video? This way, if we can't find them on line, we could try to find them in a store. Thanks.", 
+            "can_remove": false, 
+            "created_time": "2009-10-21T06:58:52+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "158536993876_6276982", 
+            "from": {
+              "name": "Amy Nicole", 
+              "id": "1680185986"
+            }, 
+            "message": "Just so you all know... The Necklace/Belt is in stores now & it's GORGEOUS!!! :)", 
+            "can_remove": false, 
+            "created_time": "2009-10-22T04:28:42+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "158536993876_6407113", 
+            "from": {
+              "name": "Maria Loreto Jaramillo Martinez", 
+              "id": "1606176695"
+            }, 
+            "message": "I like the dress!", 
+            "can_remove": false, 
+            "created_time": "2009-10-25T15:10:13+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "MTM=", 
+            "before": "MQ=="
+          }
+        }
+      }
+    }, 
+    {
+      "id": "154836608876", 
+      "from": {
+        "category": "Clothing", 
+        "category_list": [
+          {
+            "id": "186230924744328", 
+            "name": "Clothing Store"
+          }
+        ], 
+        "name": "LOFT", 
+        "id": "26483215676"
+      }, 
+      "name": "Sweater Dresses in NYC: by LOFT & Mary Alice Stephenson", 
+      "description": "Watch as stylist Mary Alice Stephenson shows Aly the versatility of the sweater dress!", 
+      "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15/158752_10150190958103877_154836608876_62641_1441_t.jpg", 
+      "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=154836608876\" width=\"1280\" height=\"720\" frameborder=\"0\"></iframe>", 
+      "icon": "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yD/r/DggDhA4z4tO.gif", 
+      "source": "https://fbcdn-video-a.akamaihd.net/hvideo-ak-ash2/v/t43/1222386_10151598697088877_3496_n.mp4?oh=c3edeaeb0ff2dbd9f245f464ee0d03ab&oe=5324EA46&__gda__=1394929000_e6a24e0882e03f839b66102e5b56e378", 
+      "created_time": "2009-10-15T17:01:44+0000", 
+      "updated_time": "2009-10-15T17:01:44+0000", 
+      "format": [
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=154836608876\" width=\"130\" height=\"73\" frameborder=\"0\"></iframe>", 
+          "width": 130, 
+          "height": 73, 
+          "filter": "130x130", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15/s130x130/158752_10150190958103877_154836608876_62641_1441_t.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=154836608876\" width=\"480\" height=\"270\" frameborder=\"0\"></iframe>", 
+          "width": 480, 
+          "height": 270, 
+          "filter": "480x480", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15/s480x480/158752_10150190958103877_154836608876_62641_1441_b.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=154836608876\" width=\"720\" height=\"405\" frameborder=\"0\"></iframe>", 
+          "width": 720, 
+          "height": 405, 
+          "filter": "720x720", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15/s720x720/158752_10150190958103877_154836608876_62641_1441_b.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=154836608876\" width=\"1280\" height=\"720\" frameborder=\"0\"></iframe>", 
+          "width": 1280, 
+          "height": 720, 
+          "filter": "native", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15/158752_10150190958103877_154836608876_62641_1441_b.jpg"
+        }
+      ], 
+      "comments": {
+        "data": [
+          {
+            "id": "154836608876_6007794", 
+            "from": {
+              "name": "Michelle Marquez", 
+              "id": "1072556932"
+            }, 
+            "message": "Very nice store!!!!!  WOW!!!  LOVE the sweater dress, may buy it very soon.  I really think the dress needed tights, though.  Black or grey tights would have been PERFECT.  LOFT makes the best socks and tights!", 
+            "can_remove": false, 
+            "created_time": "2009-10-15T17:32:02+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "154836608876_6007872", 
+            "from": {
+              "name": "Lisa Briganti Gilbert Rath", 
+              "id": "830998944"
+            }, 
+            "message": "ugh.  A belted sweater dress is \"perfect\" on a fairly small percentage of the population; especially layered over a blouse and under a shapeless cape.  DIdn't enjoy stylist, either -- \"so, basically, you have the Perfect Sweater Dress\" was said over and over, like she got paid for saying that phrase.", 
+            "can_remove": false, 
+            "created_time": "2009-10-15T17:34:01+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "154836608876_6008068", 
+            "from": {
+              "name": "Erin Woods Abbey", 
+              "id": "1020902681"
+            }, 
+            "message": "I'm pretty sure the stylist DID get paid for saying that!", 
+            "can_remove": false, 
+            "created_time": "2009-10-15T17:39:33+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "154836608876_6008155", 
+            "from": {
+              "name": "Michelle Marquez", 
+              "id": "1072556932"
+            }, 
+            "message": "I agree Lisa. :(", 
+            "can_remove": false, 
+            "created_time": "2009-10-15T17:41:52+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "154836608876_6008695", 
+            "from": {
+              "name": "Martina Vasil", 
+              "id": "505217093"
+            }, 
+            "message": "I like LOFT, but those capes completely overwhelm short people. Petites-beware!", 
+            "can_remove": false, 
+            "created_time": "2009-10-15T17:55:04+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "154836608876_6009573", 
+            "from": {
+              "name": "Stephanie Beauchamp", 
+              "id": "1480750021"
+            }, 
+            "message": "I have this dress and love it!!!  But did she say you could wear it with jeans?  I don't think so.  I wear mine with a white collared long sleeve shirt, black tights and black knee high boots.  It looks great!", 
+            "can_remove": false, 
+            "created_time": "2009-10-15T18:17:59+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "154836608876_6010656", 
+            "from": {
+              "name": "Alex Hurley", 
+              "id": "600420609"
+            }, 
+            "message": "I think that longer boots would've looked better with the dress.  I don't like the cape at all - too Sherlock Holmes!", 
+            "can_remove": false, 
+            "created_time": "2009-10-15T18:46:15+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "154836608876_6011301", 
+            "from": {
+              "name": "Trudi Rosson", 
+              "id": "1738763664"
+            }, 
+            "message": "Capes in CALI look out of place to me, 'specially on short people...but this is NEW YORK where they LOVE the heavy dark outerwear pieces! Having worked at BURBERRY for a short time grew an appreciation for fashion statement outerwear. but it's hard to embrace unless I'm going to S.F.in the winter : )", 
+            "can_remove": false, 
+            "created_time": "2009-10-15T19:01:09+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "154836608876_6015496", 
+            "from": {
+              "name": "Nicole Vickery", 
+              "id": "1062736549"
+            }, 
+            "message": "I have the dress & LOVE it!  The cape is only a 1 season item, but I could use the belt.  If you buy just one thing - get the dress - totally worth it!", 
+            "can_remove": false, 
+            "created_time": "2009-10-15T20:36:24+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "154836608876_6017947", 
+            "from": {
+              "name": "Michelle Marquez", 
+              "id": "1072556932"
+            }, 
+            "message": "LOFT's marketing is working quite well.  Bought a new sweater dress today.  Got an extra 20% of full-price purchases.  I bought the long sleeve sweater dress as opposed to the one shown in this video, though.  I bought a cute brown belt a couple of weeks ago from LOFT that will work great.  YAY!!!", 
+            "can_remove": false, 
+            "created_time": "2009-10-15T21:41:09+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "154836608876_6018499", 
+            "from": {
+              "name": "Bobbie Jeanette Neff", 
+              "id": "1581905797"
+            }, 
+            "message": "I have the sweater dress in black.  Just wore it with colored tights and got lots of compliment.  I love it!", 
+            "can_remove": false, 
+            "created_time": "2009-10-15T21:59:18+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "154836608876_6018686", 
+            "from": {
+              "name": "Christina Marks", 
+              "id": "689783242"
+            }, 
+            "message": "I shop at LOFT often...this dress/outfit would not look good on me!", 
+            "can_remove": false, 
+            "created_time": "2009-10-15T22:05:58+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "154836608876_6019559", 
+            "from": {
+              "name": "Jennifer Polo", 
+              "id": "1446048250"
+            }, 
+            "message": "I can't get over the shoes that they are pairing up with dresses this fall!", 
+            "can_remove": false, 
+            "created_time": "2009-10-15T22:31:27+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "154836608876_6020242", 
+            "from": {
+              "name": "Kristy Garvey", 
+              "id": "1324241467"
+            }, 
+            "message": "What's the deal with the capes?  Are those flattering on anybody?  The Loft is getting a little too trendy which is unfortunate because I used to always be able to count on them for timeless style.  Did they change designers or something?", 
+            "can_remove": false, 
+            "created_time": "2009-10-15T22:51:05+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "154836608876_6020364", 
+            "from": {
+              "name": "Mary Wasiel Siegl", 
+              "id": "1828410057"
+            }, 
+            "message": "I agree the coat is hideous and makes the model like very wide!", 
+            "can_remove": false, 
+            "created_time": "2009-10-15T22:54:29+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "154836608876_6022715", 
+            "from": {
+              "name": "Ginger Smart", 
+              "id": "1318358835"
+            }, 
+            "message": "NOt working for me either ladies....", 
+            "can_remove": false, 
+            "created_time": "2009-10-16T00:11:00+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "154836608876_6028598", 
+            "from": {
+              "name": "Danita Day", 
+              "id": "695586332"
+            }, 
+            "message": "Bought this dress and the belt to wear with my knee high brown boots and tights. It's very flattering due to the gathered waist. Can't wait till the weather gets cool so I can wear them.", 
+            "can_remove": false, 
+            "created_time": "2009-10-16T03:14:18+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "154836608876_6039458", 
+            "from": {
+              "name": "Michelle Marquez", 
+              "id": "1072556932"
+            }, 
+            "message": "Danita, I've been looking for a good pair of brown boots.  Any suggestions?", 
+            "can_remove": false, 
+            "created_time": "2009-10-16T12:06:58+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "154836608876_6067508", 
+            "from": {
+              "name": "Cynthia Cheng Mintz", 
+              "id": "28101721"
+            }, 
+            "message": "She looks like things were piled on her.  If she didn't have the blouse or the cape thing, she'd look fine.", 
+            "can_remove": false, 
+            "created_time": "2009-10-17T02:29:04+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }, 
+          {
+            "id": "154836608876_6102544", 
+            "from": {
+              "name": "Kim J Nicholas", 
+              "id": "1520592559"
+            }, 
+            "message": "I agree the cape was hideous!  She looked like a box.  She looked great before the stylist got to her!", 
+            "can_remove": false, 
+            "created_time": "2009-10-18T02:16:27+0000", 
+            "like_count": 1, 
+            "user_likes": false
+          }, 
+          {
+            "id": "154836608876_7080418", 
+            "from": {
+              "name": "Sonia Fields-De Pass", 
+              "id": "1381376862"
+            }, 
+            "message": "Tee hee, I am still laughing at Sherlock Holmes comment!  Dress is great but I like with long boots or tights.", 
+            "can_remove": false, 
+            "created_time": "2009-11-11T01:33:50+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "154836608876_12899276", 
+            "from": {
+              "name": "Maribel Rivera", 
+              "id": "1161908678"
+            }, 
+            "message": "I LOVE DRESS", 
+            "can_remove": false, 
+            "created_time": "2010-04-19T19:35:33+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "154836608876_13505021", 
+            "from": {
+              "name": "Zargos Lotfi", 
+              "id": "100001006690112"
+            }, 
+            "message": "god", 
+            "can_remove": false, 
+            "created_time": "2010-06-21T10:43:42+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "MjU=", 
+            "before": "MQ=="
+          }
+        }
+      }
+    }, 
+    {
+      "id": "153421853876", 
+      "from": {
+        "category": "Clothing", 
+        "category_list": [
+          {
+            "id": "186230924744328", 
+            "name": "Clothing Store"
+          }
+        ], 
+        "name": "LOFT", 
+        "id": "26483215676"
+      }, 
+      "name": "Denim Mix & Match in Dallas: by LOFT & Katrina Szish", 
+      "description": "Watch stylist Katrina Szish help out Lauren with denim and details!", 
+      "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn1/t15/158815_10150190952813877_153421853876_51689_1531_t.jpg", 
+      "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=153421853876\" width=\"1280\" height=\"720\" frameborder=\"0\"></iframe>", 
+      "icon": "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yD/r/DggDhA4z4tO.gif", 
+      "source": "https://fbcdn-video-a.akamaihd.net/hvideo-ak-ash2/v/t43/1223781_10151596126238877_5384_n.mp4?oh=0aef4c95cebb32214a082e761acbddd4&oe=53252F8A&__gda__=1394946596_9e4a2497eac131adb34c5daadd631655", 
+      "created_time": "2009-10-13T17:42:26+0000", 
+      "updated_time": "2009-10-13T17:42:26+0000", 
+      "format": [
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=153421853876\" width=\"130\" height=\"73\" frameborder=\"0\"></iframe>", 
+          "width": 130, 
+          "height": 73, 
+          "filter": "130x130", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn1/t15/s130x130/158815_10150190952813877_153421853876_51689_1531_t.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=153421853876\" width=\"480\" height=\"270\" frameborder=\"0\"></iframe>", 
+          "width": 480, 
+          "height": 270, 
+          "filter": "480x480", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn1/t15/s480x480/158815_10150190952813877_153421853876_51689_1531_b.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=153421853876\" width=\"720\" height=\"405\" frameborder=\"0\"></iframe>", 
+          "width": 720, 
+          "height": 405, 
+          "filter": "720x720", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn1/t15/s720x720/158815_10150190952813877_153421853876_51689_1531_b.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=153421853876\" width=\"1280\" height=\"720\" frameborder=\"0\"></iframe>", 
+          "width": 1280, 
+          "height": 720, 
+          "filter": "native", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-prn1/t15/158815_10150190952813877_153421853876_51689_1531_b.jpg"
+        }
+      ], 
+      "comments": {
+        "data": [
+          {
+            "id": "153421853876_5928646", 
+            "from": {
+              "name": "Gina StMaur Foody", 
+              "id": "1209751635"
+            }, 
+            "message": "cute, but if you are going to take three and half minutes to show me the skinny jeans and belt, then show me them!!! They give a quick two second scan of her and then show her from a distance at the very end. I want to look at it and see how she really looks!", 
+            "can_remove": false, 
+            "created_time": "2009-10-13T19:46:12+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "153421853876_5929788", 
+            "from": {
+              "name": "Amy Evans", 
+              "id": "1545188355"
+            }, 
+            "message": "I would prefer a 2x a week post not daily.", 
+            "can_remove": false, 
+            "created_time": "2009-10-13T20:14:41+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "153421853876_5930783", 
+            "from": {
+              "name": "Michelle Marquez", 
+              "id": "1072556932"
+            }, 
+            "message": "It would be nice if a text box is provided along with the videos giving us the style numbers to the outfit pieces, problem solved!", 
+            "can_remove": false, 
+            "created_time": "2009-10-13T20:38:42+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "153421853876_5936644", 
+            "from": {
+              "name": "Stephanie Robinson", 
+              "id": "745078672"
+            }, 
+            "message": "I agree with Gina.  It was a cute outfit but they barely showed the look head to toe.  I would also like to see some comments about what body type can wear what looks.", 
+            "can_remove": false, 
+            "created_time": "2009-10-13T23:40:44+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "153421853876_6011706", 
+            "from": {
+              "name": "Trudi Rosson", 
+              "id": "1738763664"
+            }, 
+            "message": "good stuff actually- iLike her advice on wearing the skinny jeans NOT too long so as to show the ankle and heels your wearing...it's a silhouette we aren't all accustomed to but it really is stylish with a longer boyfriend cardigan or sweater dress - come to LOFT I'll show you! : )", 
+            "can_remove": false, 
+            "created_time": "2009-10-15T19:10:24+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "Ng==", 
+            "before": "MQ=="
+          }
+        }
+      }
+    }, 
+    {
+      "id": "152554658876", 
+      "from": {
+        "category": "Clothing", 
+        "category_list": [
+          {
+            "id": "186230924744328", 
+            "name": "Clothing Store"
+          }
+        ], 
+        "name": "LOFT", 
+        "id": "26483215676"
+      }, 
+      "name": "Modern Feminine in Chicago: by LOFT & Stacy London", 
+      "description": "Watch as Stacy styles Anne Elise, a Chicago attorney with Palm Beach tendencies.", 
+      "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15.0-10/245589_10150190948383877_152554658876_55489_1430_t.jpg", 
+      "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=152554658876\" width=\"1280\" height=\"720\" frameborder=\"0\"></iframe>", 
+      "icon": "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yD/r/DggDhA4z4tO.gif", 
+      "source": "https://fbcdn-video-a.akamaihd.net/hvideo-ak-prn2/v/t43/1218002_10151598871218877_19966_n.mp4?oh=b090c43082543cc99275d213867076f2&oe=53251026&__gda__=1394928374_c737959e57f9c560acad7444ee2cc488", 
+      "created_time": "2009-10-12T14:54:59+0000", 
+      "updated_time": "2009-10-12T14:54:59+0000", 
+      "format": [
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=152554658876\" width=\"130\" height=\"73\" frameborder=\"0\"></iframe>", 
+          "width": 130, 
+          "height": 73, 
+          "filter": "130x130", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15.0-10/s130x130/245589_10150190948383877_152554658876_55489_1430_t.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=152554658876\" width=\"480\" height=\"270\" frameborder=\"0\"></iframe>", 
+          "width": 480, 
+          "height": 270, 
+          "filter": "480x480", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15.0-10/s480x480/245589_10150190948383877_152554658876_55489_1430_b.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=152554658876\" width=\"720\" height=\"405\" frameborder=\"0\"></iframe>", 
+          "width": 720, 
+          "height": 405, 
+          "filter": "720x720", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15.0-10/s720x720/245589_10150190948383877_152554658876_55489_1430_b.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=152554658876\" width=\"1280\" height=\"720\" frameborder=\"0\"></iframe>", 
+          "width": 1280, 
+          "height": 720, 
+          "filter": "native", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15.0-10/245589_10150190948383877_152554658876_55489_1430_b.jpg"
+        }
+      ], 
+      "comments": {
+        "data": [
+          {
+            "id": "152554658876_5876673", 
+            "from": {
+              "name": "Michelle Germann Reynolds", 
+              "id": "1505712252"
+            }, 
+            "message": "Oooohhh Stacy London and The Loft together....two of my favs!", 
+            "can_remove": false, 
+            "created_time": "2009-10-12T15:44:36+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "152554658876_5876740", 
+            "from": {
+              "name": "Lisa Briganti Gilbert Rath", 
+              "id": "830998944"
+            }, 
+            "message": "where is this blouse??", 
+            "can_remove": false, 
+            "created_time": "2009-10-12T15:46:29+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "152554658876_5876771", 
+            "from": {
+              "name": "David Dea", 
+              "id": "553230059"
+            }, 
+            "message": "LOFT Chicago! Shops At Northbridge! Looks Amazing!!!!  =)", 
+            "can_remove": false, 
+            "created_time": "2009-10-12T15:47:15+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "152554658876_5876891", 
+            "from": {
+              "name": "Angie Vega Asturias", 
+              "id": "1553643913"
+            }, 
+            "message": "Love The Loft / Love Stacy !!!\n=)", 
+            "can_remove": false, 
+            "created_time": "2009-10-12T15:50:50+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "152554658876_5877223", 
+            "from": {
+              "name": "Michelle Marquez", 
+              "id": "1072556932"
+            }, 
+            "message": "I saw a ruffled white woven on the LOFT website.  I wonder if that is the blouse?", 
+            "can_remove": false, 
+            "created_time": "2009-10-12T15:58:51+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "152554658876_5877227", 
+            "from": {
+              "name": "Jessica Robinette Veitch", 
+              "id": "699294832"
+            }, 
+            "message": "Stacy and the Loft - love them both.  LOVE them together!", 
+            "can_remove": false, 
+            "created_time": "2009-10-12T15:58:53+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "152554658876_5877471", 
+            "from": {
+              "name": "Lisa Kulp", 
+              "id": "100000191535686"
+            }, 
+            "message": "love Stacy, love the Loft!", 
+            "can_remove": false, 
+            "created_time": "2009-10-12T16:05:41+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "152554658876_5877671", 
+            "from": {
+              "name": "Stacie Worthington", 
+              "id": "1032911160"
+            }, 
+            "message": "I feel as though my closet is now approved! Almost every tag reads LOFT. I LOVE IT!", 
+            "can_remove": false, 
+            "created_time": "2009-10-12T16:10:37+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "152554658876_5877758", 
+            "from": {
+              "name": "Isela Sanchez", 
+              "id": "539429553"
+            }, 
+            "message": "I love Stacy!!! and Loft too!!!", 
+            "can_remove": false, 
+            "created_time": "2009-10-12T16:12:55+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "152554658876_5878036", 
+            "from": {
+              "name": "Jamie Dektas", 
+              "id": "618273592"
+            }, 
+            "message": "I have the ruffled blouse & I LOVE it. It has some ruching that makes it very form fitting & flattering. LOFT is my #1 store <3", 
+            "can_remove": false, 
+            "created_time": "2009-10-12T16:21:10+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "152554658876_5878523", 
+            "from": {
+              "name": "Kim Reichenbach Steadman", 
+              "id": "1468350141"
+            }, 
+            "message": "i am wearing my ruffle shirt today with my long sweater vest!", 
+            "can_remove": false, 
+            "created_time": "2009-10-12T16:34:23+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "152554658876_5878653", 
+            "from": {
+              "name": "Ingrid Oelkrug Tauber", 
+              "id": "1611241132"
+            }, 
+            "message": "Go Stacy!!! We love you at the Loft!", 
+            "can_remove": false, 
+            "created_time": "2009-10-12T16:37:46+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "152554658876_5879717", 
+            "from": {
+              "name": "Jennifer Sanderson", 
+              "id": "1304120673"
+            }, 
+            "message": "Love it!", 
+            "can_remove": false, 
+            "created_time": "2009-10-12T17:02:57+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "152554658876_5879727", 
+            "from": {
+              "name": "Darlynn Monastrial Villegas", 
+              "id": "1489474580"
+            }, 
+            "message": "waiting for that ruffled blouse to go on sale....soon i hope!", 
+            "can_remove": false, 
+            "created_time": "2009-10-12T17:03:10+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "152554658876_5880500", 
+            "from": {
+              "name": "Jessie Salazar Martinez", 
+              "id": "1117159891"
+            }, 
+            "message": "Great look! I just love Ann Taylor!", 
+            "can_remove": false, 
+            "created_time": "2009-10-12T17:21:53+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "152554658876_5880893", 
+            "from": {
+              "name": "Shauna McCord Nelson", 
+              "id": "555914615"
+            }, 
+            "message": "Ooh, I need Stacy's sweater.  Immediately.", 
+            "can_remove": false, 
+            "created_time": "2009-10-12T17:31:01+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "152554658876_5881353", 
+            "from": {
+              "name": "Maria Loreto Jaramillo Martinez", 
+              "id": "1606176695"
+            }, 
+            "message": "Excelent it´s a great comercial I like it very much", 
+            "can_remove": false, 
+            "created_time": "2009-10-12T17:42:24+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "152554658876_5889213", 
+            "from": {
+              "name": "Maritza Mejia", 
+              "id": "1306725730"
+            }, 
+            "message": "Love it!! was going to take back that sweater Stacy is wearing but now I think its a keeper!", 
+            "can_remove": false, 
+            "created_time": "2009-10-12T20:44:20+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "152554658876_5891379", 
+            "from": {
+              "name": "Deirdre Kilroy-Shea", 
+              "id": "758814125"
+            }, 
+            "message": "love it, we sold thru that shirt 3 times over don't wait get it now...its such a basic must-have", 
+            "can_remove": false, 
+            "created_time": "2009-10-12T21:39:51+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "152554658876_5902644", 
+            "from": {
+              "name": "David Dea", 
+              "id": "553230059"
+            }, 
+            "message": "Ladies that are curious... Stacy is wearing style #232379 Splitneck Ruffle Shell (Wineberry) with Style #236131 Open Front Tab Detail Cardigan (Pebble Melange Grey)... They're still available at anntaylorloft.com... she paired em up with some cute cropped black pants that are no longer up on the site and some of her own little fall ankle boots!", 
+            "can_remove": false, 
+            "created_time": "2009-10-13T03:38:36+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "152554658876_5929753", 
+            "from": {
+              "name": "Randy Weade", 
+              "id": "153800658"
+            }, 
+            "message": "the store looks great good job northbridge!!!!!", 
+            "can_remove": false, 
+            "created_time": "2009-10-13T20:13:52+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "152554658876_5931050", 
+            "from": {
+              "name": "Kayla Foor", 
+              "id": "551402840"
+            }, 
+            "message": "So glad I met Stacy at this event, it was life altering! Then I got abit of quality time w. her after the event was over. A true hero she is! LOFT is a great store w. affordable chic styles, absolutely love it.", 
+            "can_remove": false, 
+            "created_time": "2009-10-13T20:45:14+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "152554658876_5968281", 
+            "from": {
+              "name": "Christine Bonfardino Wilkins", 
+              "id": "667144594"
+            }, 
+            "message": "I bought the ballet flats in grey yesterday... they are sooo comfy, which I can't say for a lot of ballet flats.  For all those of you interested in them, they run about a 1/2 size big... so you'll have to go a 1/2 size smaller than you usually would.", 
+            "can_remove": false, 
+            "created_time": "2009-10-14T18:47:44+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "152554658876_6039497", 
+            "from": {
+              "name": "Michelle Marquez", 
+              "id": "1072556932"
+            }, 
+            "message": "Wanted to dito on the 1/2 size too big.  I always have to wear a 7 1/2 as opposed to an 8 in LOFT shoes.", 
+            "can_remove": false, 
+            "created_time": "2009-10-16T12:08:20+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "MjQ=", 
+            "before": "MQ=="
+          }
+        }
+      }
+    }, 
+    {
+      "id": "134680578876", 
+      "from": {
+        "category": "Clothing", 
+        "category_list": [
+          {
+            "id": "186230924744328", 
+            "name": "Clothing Store"
+          }
+        ], 
+        "name": "LOFT", 
+        "id": "26483215676"
+      }, 
+      "name": "Stacy London aboard the Mobile Style Studio", 
+      "description": "In Chicago yesterday with our Mobile Style Studio, Stacy London appeared on TV to talk about what's new with LOFT for the fall season. Check it out!", 
+      "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15/162195_10150190453443877_134680578876_55393_430_t.jpg", 
+      "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=134680578876\" width=\"320\" height=\"240\" frameborder=\"0\"></iframe>", 
+      "icon": "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yD/r/DggDhA4z4tO.gif", 
+      "source": "https://fbcdn-video-a.akamaihd.net/hvideo-ak-prn2/v/t42/1194866_10151597551678877_50582_n.mp4?oh=2ca6cc87a75d0abc19271419a08d3928&oe=53259113&__gda__=1394970371_b925e5e4a91d2f36b54b5b18a68d9368", 
+      "created_time": "2009-09-16T18:23:13+0000", 
+      "updated_time": "2009-09-16T18:23:13+0000", 
+      "format": [
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=134680578876\" width=\"130\" height=\"98\" frameborder=\"0\"></iframe>", 
+          "width": 130, 
+          "height": 98, 
+          "filter": "130x130", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15/s130x130/162195_10150190453443877_134680578876_55393_430_t.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=134680578876\" width=\"320\" height=\"240\" frameborder=\"0\"></iframe>", 
+          "width": 320, 
+          "height": 240, 
+          "filter": "native", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15/162195_10150190453443877_134680578876_55393_430_b.jpg"
+        }
+      ], 
+      "comments": {
+        "data": [
+          {
+            "id": "134680578876_4937119", 
+            "from": {
+              "name": "Machelle Kerr", 
+              "id": "1074627441"
+            }, 
+            "message": "looks like stacy's in my closet.", 
+            "can_remove": false, 
+            "created_time": "2009-09-16T19:10:59+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "134680578876_4939939", 
+            "from": {
+              "name": "Karla Albrecht Hosey", 
+              "id": "1213059152"
+            }, 
+            "message": "I love Stacy and I love LOFT!  What a perfect combination!", 
+            "can_remove": false, 
+            "created_time": "2009-09-16T20:28:41+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "134680578876_4941659", 
+            "from": {
+              "name": "Joni Keller Lane", 
+              "id": "1198489419"
+            }, 
+            "message": "My TWO FAVORITE style coordinators!!!!  Wish Stacy wsa coming to Tyler too!!!!!!!", 
+            "can_remove": false, 
+            "created_time": "2009-09-16T21:17:09+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "134680578876_4942680", 
+            "from": {
+              "name": "Michelle Marquez", 
+              "id": "1072556932"
+            }, 
+            "message": "LOVE IT!!!", 
+            "can_remove": false, 
+            "created_time": "2009-09-16T21:44:30+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "134680578876_4947974", 
+            "from": {
+              "name": "Lori L Coleman Glaser", 
+              "id": "1326606935"
+            }, 
+            "message": "Ladies  - Come see these fabulous pieces at Eastland Mall, Evansville, IN!!", 
+            "can_remove": false, 
+            "created_time": "2009-09-17T00:50:20+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "134680578876_4948782", 
+            "from": {
+              "name": "Jen Fishbein Croston", 
+              "id": "1472457223"
+            }, 
+            "message": "LOVE IT!!!!!", 
+            "can_remove": false, 
+            "created_time": "2009-09-17T01:15:34+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "134680578876_5117556", 
+            "from": {
+              "name": "Jean Bauer Rees", 
+              "id": "1260490095"
+            }, 
+            "message": "I own ALL of those news pants and they are awesome!!!!!", 
+            "can_remove": false, 
+            "created_time": "2009-09-22T05:48:46+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "134680578876_7243743", 
+            "from": {
+              "name": "Dominique Redfearn", 
+              "id": "100000200781991"
+            }, 
+            "message": "she needs 2 come 2 rancho cucamonga talking 2 her through twitter isnt enough!", 
+            "can_remove": false, 
+            "created_time": "2009-11-15T01:59:54+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "MTA=", 
+            "before": "MQ=="
+          }
+        }
+      }
+    }, 
+    {
+      "id": "1070577760327", 
+      "from": {
+        "category": "Clothing", 
+        "category_list": [
+          {
+            "id": "186230924744328", 
+            "name": "Clothing Store"
+          }
+        ], 
+        "name": "LOFT", 
+        "id": "26483215676"
+      }, 
+      "name": "LOFT - A Stylish Equation", 
+      "description": "LOFT's Fashion Director, Alia Ahmed-Yahia, provides insider tips and style ideas for summer.", 
+      "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15/245418_1736653371801_1070577760327_45536_506_t.jpg", 
+      "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=1070577760327\" width=\"576\" height=\"324\" frameborder=\"0\"></iframe>", 
+      "icon": "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yD/r/DggDhA4z4tO.gif", 
+      "source": "https://fbcdn-video-a.akamaihd.net/hvideo-ak-prn2/v/t42/1128810_10200379109335976_12920_n.mp4?oh=4cb0a2bfe31dc3542369318ae66d8272&oe=5324EC2A&__gda__=1394966010_948333d36dd43f0b7809cb54cd9a73bc", 
+      "created_time": "2009-05-20T15:11:15+0000", 
+      "updated_time": "2009-05-20T15:11:15+0000", 
+      "format": [
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=1070577760327\" width=\"130\" height=\"73\" frameborder=\"0\"></iframe>", 
+          "width": 130, 
+          "height": 73, 
+          "filter": "130x130", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15/s130x130/245418_1736653371801_1070577760327_45536_506_t.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=1070577760327\" width=\"480\" height=\"270\" frameborder=\"0\"></iframe>", 
+          "width": 480, 
+          "height": 270, 
+          "filter": "480x480", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15/s480x480/245418_1736653371801_1070577760327_45536_506_b.jpg"
+        }, 
+        {
+          "embed_html": "<iframe src=\"https://www.facebook.com/video/embed?video_id=1070577760327\" width=\"576\" height=\"324\" frameborder=\"0\"></iframe>", 
+          "width": 576, 
+          "height": 324, 
+          "filter": "native", 
+          "picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-ash3/t15/245418_1736653371801_1070577760327_45536_506_b.jpg"
+        }
+      ], 
+      "comments": {
+        "data": [
+          {
+            "id": "1070577760327_19238", 
+            "from": {
+              "name": "Deanna Weinstein", 
+              "id": "1454173814"
+            }, 
+            "message": "come join us at the Mansfileld Ma location this Sunday the 24th from 1-3 for a Mary Kay event. Great prizes and consultations.", 
+            "can_remove": false, 
+            "created_time": "2009-05-20T15:58:51+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1070577760327_19408", 
+            "from": {
+              "name": "Lori L Coleman Glaser", 
+              "id": "1326606935"
+            }, 
+            "message": "Come to Evansville's Eastland Mall Loft for great fashion and lots of fun!! See you all there!!", 
+            "can_remove": false, 
+            "created_time": "2009-05-21T03:01:35+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1070577760327_19419", 
+            "from": {
+              "name": "Mary Lynn Bryan", 
+              "id": "551432782"
+            }, 
+            "message": "Colonial mall loft in Auburn, al....AWESOME....great girls that work there....", 
+            "can_remove": false, 
+            "created_time": "2009-05-21T04:12:52+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1070577760327_20330", 
+            "from": {
+              "name": "Alicia Lopez-Soto", 
+              "id": "685284037"
+            }, 
+            "message": "Visit LOFT @ Dana Park in Mesa, AZ, great people, very friendly and always provide great ideas for your outfits, love that store!!!", 
+            "can_remove": false, 
+            "created_time": "2009-05-24T18:05:00+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }, 
+          {
+            "id": "1070577760327_5044322", 
+            "from": {
+              "name": "Cindy Bonner", 
+              "id": "100003565366970"
+            }, 
+            "message": "I  agree 100% ,use a real women who needs corrective clothing then we will talk money!", 
+            "can_remove": false, 
+            "created_time": "2013-10-02T22:27:14+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "NQ==", 
+            "before": "MQ=="
+          }
+        }
+      }
+    }
+  ], 
+  "paging": {
+    "previous": "https://graph.facebook.com/26483215676/videos?type=uploaded&limit=25&since=1394063303", 
+    "next": "https://graph.facebook.com/26483215676/videos?type=uploaded&limit=25&until=1242832274"
+  }
+}
+Response received in 826 ms
+Save Session

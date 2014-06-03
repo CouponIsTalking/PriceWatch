@@ -99,11 +99,15 @@ class AppController extends Controller {
 	public function only_admin_can_see(){
 		$is_admin = $this->UserData->isAdmin();
 		if (empty($is_admin)){
-			$this->redirect(array(
-				'controller' => 'pages',
-				'action' => 'restricted'
-			));
+			$this->goto_restricted_page();
 		}
+	}
+	
+	public function goto_restricted_page(){
+		$this->redirect(array(
+			'controller' => 'pages',
+			'action' => 'restricted'
+		));
 	}
 	
 }

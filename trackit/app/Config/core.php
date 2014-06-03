@@ -20,19 +20,45 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
+ 
 // App Constants	
-define('GENERIC_APPNAME', 'UseMeNot');
-define('FBAPPID', '394542280676856');
-define('FBAPPSECRET', '63f9dc4fa63e4df48b65573d4cc41eaf');
-define('IMGUR_CLIENTID', 'd063a98620fb96d');
-define('IMGUR_CLIENTSECRET', '854a666be82878b0ffa14a13f1b9728d8ce2370d');
-define('SITE_TEXT_NAME', 'TrackIt');
-define('SITE_NAME', 'http://localhost/trackit/');
-define('SITE_DOMAIN', 'localhost');
-define('CONTENT_IMG_FOLDER', 'http://localhost/trackit/img/contents/');
-define('CONTENT_IMG_FOLDER_LOCAL_PATH', 'C:/wamp/www/trackit/app/webroot/img/contents/');
-define('CONTENT_IMG_FOLDER_ALIAS', '/trackit_content_upload_folder');
-define('PYTHON_SCRIPTS_FOLDER', 'C:/wamp/www/trackit/app/webroot/py/trackit/PythonApplication1/PythonApplication1/');
+define('GENERIC_APPNAME', 'CouponIsTalking');
+define('SITE_TEXT_NAME', 'CouponIsTalking');
+
+if ('localhost' == $_SERVER['HTTP_HOST']){
+	define('FBAPPID', '394542280676856');
+	define('FBAPPSECRET', '63f9dc4fa63e4df48b65573d4cc41eaf');
+	define('IMGUR_CLIENTID', 'd063a98620fb96d');
+	define('IMGUR_CLIENTSECRET', '854a666be82878b0ffa14a13f1b9728d8ce2370d');
+	define('SITE_NAME', 'http://localhost/trackit/');
+	//define('SITE_NAME', 'http://dev.couponistalking.com/');
+	define('SITE_DOMAIN', 'localhost');
+	//define('SITE_DOMAIN', 'dev.couponistalking.com');
+	define('CONTENT_IMG_FOLDER', 'http://localhost/trackit/img/contents/');
+	//define('CONTENT_IMG_FOLDER', 'http://dev.couponistalking.com/img/contents/');
+	define('CONTENT_IMG_FOLDER_LOCAL_PATH', 'C:/wamp/www/trackit/app/webroot/img/contents/');
+	define('CONTENT_IMG_FOLDER_ALIAS', '/trackit_content_upload_folder');
+	define('PYTHON_SCRIPTS_FOLDER', 'C:/wamp/www/trackit/app/webroot/py/trackit/PythonApplication1/PythonApplication1/');
+	
+	// enable debug
+	Configure::write('debug', 2);
+
+}else if('alpha.couponistalking.com' == $_SERVER['HTTP_HOST']){
+	define('FBAPPID', '267327333448965');
+	define('FBAPPSECRET', '9da344d687ec615c039c13dbe7f0bf37');
+	define('IMGUR_CLIENTID', 'd063a98620fb96d');
+	define('IMGUR_CLIENTSECRET', '854a666be82878b0ffa14a13f1b9728d8ce2370d');
+	define('SITE_NAME', 'http://alpha.couponistalking.com/');
+	define('SITE_DOMAIN', 'alpha.couponistalking.com');
+	define('CONTENT_IMG_FOLDER', 'http://alpha.couponistalking/img/contents/');
+	define('CONTENT_IMG_FOLDER_LOCAL_PATH', '/home/savethis/public_html/cit/alpha/app/webroot/img/contents/');
+	define('CONTENT_IMG_FOLDER_ALIAS', '/trackit_content_upload_folder');
+	define('PYTHON_SCRIPTS_FOLDER', '/home/savethis/public_html/cit/alpha/app/webroot/py/trackit/PythonApplication1/');
+	
+	// disable debug
+	Configure::write('debug', 0);
+}
+
 
 $maintainance_mode = 0;
 if ($maintainance_mode && $_SERVER['REMOTE_ADDR'] !== '')
@@ -54,8 +80,9 @@ if ($maintainance_mode && $_SERVER['REMOTE_ADDR'] !== '')
  * In production mode, flash messages redirect after a time interval.
  * In development mode, you need to click the flash message to continue.
  */
-	Configure::write('debug', 2);
-
+	
+	//Configure::write('debug', 2);
+	
 /**
  * Configure the Error handler used to handle errors for your application. By default
  * ErrorHandler::handleError() is used. It will display errors using Debugger, when debug > 0
@@ -303,16 +330,48 @@ Configure::write('Routing.prefixes', array('admin'));
  *
  * File storage engine.
  *
- * 	 Cache::config('default', array(
- *		'engine' => 'File', //[required]
- *		'duration' => 3600, //[optional]
- *		'probability' => 100, //[optional]
- * 		'path' => CACHE, //[optional] use system tmp directory - remember to use absolute path
- * 		'prefix' => 'cake_', //[optional]  prefix every cache file with this string
- * 		'lock' => false, //[optional]  use file locking
- * 		'serialize' => true, [optional]
- *	));
- *
+ */	
+	Cache::config('memcache_24hr', array(
+ 		'engine' => 'File', //[required]
+ 		'duration' => 24*3600, //[optional]
+ 		'probability' => 100, //[optional]
+  		'path' => CACHE, //[optional] use system tmp directory - remember to use absolute path
+  		'prefix' => 'citcache_memcache_24hr_', //[optional]  prefix every cache file with this string
+  		'lock' => false, //[optional]  use file locking
+  		'serialize' => true, //[optional]
+ 	));
+
+	Cache::config('memcache_1hr', array(
+ 		'engine' => 'File', //[required]
+ 		'duration' => 24*3600, //[optional]
+ 		'probability' => 100, //[optional]
+  		'path' => CACHE, //[optional] use system tmp directory - remember to use absolute path
+  		'prefix' => 'citcache_memcache_1hr_', //[optional]  prefix every cache file with this string
+  		'lock' => false, //[optional]  use file locking
+  		'serialize' => true, //[optional]
+ 	));
+	
+	Cache::config('file_24hr', array(
+ 		'engine' => 'File', //[required]
+ 		'duration' => 24*3600, //[optional]
+ 		'probability' => 100, //[optional]
+  		'path' => CACHE, //[optional] use system tmp directory - remember to use absolute path
+  		'prefix' => 'citcache_file_24hr_', //[optional]  prefix every cache file with this string
+  		'lock' => false, //[optional]  use file locking
+  		'serialize' => true, //[optional]
+ 	));
+	
+	Cache::config('file_1hr', array(
+ 		'engine' => 'File', //[required]
+ 		'duration' => 3600, //[optional]
+ 		'probability' => 100, //[optional]
+  		'path' => CACHE, //[optional] use system tmp directory - remember to use absolute path
+  		'prefix' => 'citcache_file_1hr_', //[optional]  prefix every cache file with this string
+  		'lock' => false, //[optional]  use file locking
+  		'serialize' => true, //[optional]
+ 	));
+	
+ /*
  * APC (http://pecl.php.net/package/APC)
  *
  * 	 Cache::config('default', array(
@@ -356,7 +415,7 @@ Configure::write('Routing.prefixes', array('admin'));
  *		'prefix' => Inflector::slug(APP_DIR) . '_', //[optional]  prefix every cache file with this string
  *	));
  */
-
+	
 /**
  * Configure the cache handlers that CakePHP will use for internal
  * metadata like class maps, and model schema.
@@ -403,7 +462,17 @@ Cache::config('_cake_model_', array(
 	'duration' => $duration
 ));
 
-Configure::write('PYTHON_VERIFICATION_CODE', 'fksdfosdofolekrw7etgf474r234');
+if ('localhost' == $_SERVER['HTTP_HOST']){
+	Configure::write('PYTHON_VERIFICATION_CODE', 'fksdfosdofolekrw7etgf474r234');
+	//twitter info
+	Configure::write('Twitter.consumerKey', 'm7VNr9THroknDAJMTJm1g');
+	Configure::write('Twitter.consumerSecret', 'pmPj4c5RJ3XVyWyy1SHCSFdwwPbE5f12rt2hazpYFQ');
+}else{
+	Configure::write('PYTHON_VERIFICATION_CODE', 'fasdja34eawklaq34474r234');
+	//twitter info
+	Configure::write('Twitter.consumerKey', 'abUbV1kRU5PRRx9D6p85caz7m');
+	Configure::write('Twitter.consumerSecret', 'lsO8IApsJZGzvdCsqFKU1HUmIGDml8nD6b0P1SEFbK1x1S21e6');
+}
 
 // Backend ops types
 Configure::write('GET_RELATED_PROD', 'get_rp');
@@ -440,7 +509,9 @@ class CUR_CODES
 		);
 };
 
-//twitter info
-Configure::write('Twitter.consumerKey', 'm7VNr9THroknDAJMTJm1g');
-Configure::write('Twitter.consumerSecret', 'pmPj4c5RJ3XVyWyy1SHCSFdwwPbE5f12rt2hazpYFQ');
-//echo Configure::version();
+
+// Configure::version();
+// Python Keys
+// Postmark keys stuff
+// Twitter keys stuff
+// FB keys stuff

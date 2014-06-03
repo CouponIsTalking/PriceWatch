@@ -62,6 +62,10 @@ class AopsController extends AppController {
 		$menus["Users' Products"] = array();
 		$menus["Users' Products"]['List'] = SITE_NAME . "user_products/view_all";
 		$menus["Users' Products"]['Update empty user-id from user-email'] = SITE_NAME . "fixer_userproducts/userid_useremail";
+		$menus['Caching'] = array();
+		$menus['Caching']['Cache Recent Price Drop Data'] = SITE_NAME . "cache_data/cache_recent_pdrop_data";
+		$menus['Caching']['Cache Discount Coupons Page'] = SITE_NAME . "cache_data/cache_discount_page";
+		$menus['Caching']["Cache CompanyIDs with Fast Tracker for 'Track an item' page"] = SITE_NAME . "cache_data/cache_company_ids_with_fast_tracker";
 		
 		$this->set('menus', $menus);
 	}

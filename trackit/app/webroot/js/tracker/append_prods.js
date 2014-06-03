@@ -8,7 +8,7 @@ function checkAndAttachMore($am_selector) {
 
 function setupAttachMoreOnHome($am_selector){
 	attachMoreOnHome.am_selector = $am_selector;
-	attachMoreOnHome.pub = 0;
+	attachMoreOnHome.pub = 2;
 	attachMoreOnHome.set_up = 1;
 }
 
@@ -22,8 +22,10 @@ function attachMoreOnHome(){
 	formLoaderIcon(1,1,0);
 	$.ajax({
 		type:'POST',
-		data:{forhmpg:1,type:1,pub:$pub,pua:0,adb:0,ada:0,cid:0,lmt:0,mhi:1},
-		url:$S_N + "collections/ajax_get_prod_list",
+		//data:{forhmpg:1,type:1,pub:$pub,pua:0,adb:0,ada:0,cid:0,lmt:0,mhi:1},
+		//url:$S_N + "collections/ajax_get_prod_list",
+		data:{forhmpg:1,key:'none',from:$pub},
+		url:$S_N+"discounts/ajax_get_prod_list",
 		success:function(data){ $d = IsJsonString(data);
 			var m = 0;
 			if($d&&$d['s']){
@@ -33,7 +35,7 @@ function attachMoreOnHome(){
 					attachMoreOnHome.pub = $d['nk'];
 				}else{
 					//pass
-					m = "No more items.";
+					m = "<a onclick=\"moveTo($S_N+'socials/add_collectit_btn');\" style='cursor:pointer;text-decoration:none;'>Know Collectit Button.</a>";
 					attachMoreOnHome.nomore = 1;
 				}
 			}else{
@@ -67,7 +69,7 @@ function formLoaderIcon($s,$si,$m){
 		$lmp.fadeTo('fast', 1);
 	}
 	else if($m){
-		$lmpd.text($m);$lmpd.show();$lmpi.hide();
+		$lmpd.html($m);$lmpd.show();$lmpi.hide();
 		$lmp.fadeTo('fast', 1);
 	}
 }

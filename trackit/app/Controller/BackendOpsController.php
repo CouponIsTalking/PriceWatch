@@ -107,6 +107,8 @@ class BackendOpsController extends AppController {
  * @return void
  */
 	public function index() {
+		$this->only_admin_can_see();
+		
 		$this->BackendOp->recursive = 0;
 		$this->set('backendOps', $this->Paginator->paginate());
 	}
@@ -119,6 +121,8 @@ class BackendOpsController extends AppController {
  * @return void
  */
 	public function view($id = null) {
+		$this->only_admin_can_see();
+		
 		if (!$this->BackendOp->exists($id)) {
 			throw new NotFoundException(__('Invalid backend op'));
 		}
@@ -132,6 +136,8 @@ class BackendOpsController extends AppController {
  * @return void
  */
 	public function add() {
+		$this->only_admin_can_see();
+		
 		if ($this->request->is('post')) {
 			$this->BackendOp->create();
 			if ($this->BackendOp->save($this->request->data)) {
@@ -150,6 +156,8 @@ class BackendOpsController extends AppController {
  * @return void
  */
 	public function edit($id = null) {
+		$this->only_admin_can_see();
+		
 		if (!$this->BackendOp->exists($id)) {
 			throw new NotFoundException(__('Invalid backend op'));
 		}
@@ -173,6 +181,8 @@ class BackendOpsController extends AppController {
  * @return void
  */
 	public function delete($id = null) {
+		$this->only_admin_can_see();
+		
 		$this->BackendOp->id = $id;
 		if (!$this->BackendOp->exists()) {
 			throw new NotFoundException(__('Invalid backend op'));
@@ -186,88 +196,4 @@ class BackendOpsController extends AppController {
 		return $this->redirect(array('action' => 'index'));
 	}
 
-/**
- * admin_index method
- *
- * @return void
- */
-	public function admin_index() {
-		$this->BackendOp->recursive = 0;
-		$this->set('backendOps', $this->Paginator->paginate());
-	}
-
-/**
- * admin_view method
- *
- * @throws NotFoundException
- * @param string $id
- * @return void
- */
-	public function admin_view($id = null) {
-		if (!$this->BackendOp->exists($id)) {
-			throw new NotFoundException(__('Invalid backend op'));
-		}
-		$options = array('conditions' => array('BackendOp.' . $this->BackendOp->primaryKey => $id));
-		$this->set('backendOp', $this->BackendOp->find('first', $options));
-	}
-
-/**
- * admin_add method
- *
- * @return void
- */
-	public function admin_add() {
-		if ($this->request->is('post')) {
-			$this->BackendOp->create();
-			if ($this->BackendOp->save($this->request->data)) {
-				$this->Session->setFlash(__('The backend op has been saved'));
-				return $this->redirect(array('action' => 'index'));
-			}
-			$this->Session->setFlash(__('The backend op could not be saved. Please, try again.'));
-		}
-	}
-
-/**
- * admin_edit method
- *
- * @throws NotFoundException
- * @param string $id
- * @return void
- */
-	public function admin_edit($id = null) {
-		if (!$this->BackendOp->exists($id)) {
-			throw new NotFoundException(__('Invalid backend op'));
-		}
-		if ($this->request->is('post') || $this->request->is('put')) {
-			if ($this->BackendOp->save($this->request->data)) {
-				$this->Session->setFlash(__('The backend op has been saved'));
-				return $this->redirect(array('action' => 'index'));
-			}
-			$this->Session->setFlash(__('The backend op could not be saved. Please, try again.'));
-		} else {
-			$options = array('conditions' => array('BackendOp.' . $this->BackendOp->primaryKey => $id));
-			$this->request->data = $this->BackendOp->find('first', $options);
-		}
-	}
-
-/**
- * admin_delete method
- *
- * @throws NotFoundException
- * @param string $id
- * @return void
- */
-	public function admin_delete($id = null) {
-		$this->BackendOp->id = $id;
-		if (!$this->BackendOp->exists()) {
-			throw new NotFoundException(__('Invalid backend op'));
-		}
-		$this->request->onlyAllow('post', 'delete');
-		if ($this->BackendOp->delete()) {
-			$this->Session->setFlash(__('Backend op deleted'));
-			return $this->redirect(array('action' => 'index'));
-		}
-		$this->Session->setFlash(__('Backend op was not deleted'));
-		return $this->redirect(array('action' => 'index'));
-	}
 }

@@ -106,10 +106,26 @@ class SocialsController extends AppController {
 		
 		App::uses('TrackerInfo', 'Model');
 		App::uses('Company', 'Model');
+		App::uses('CacheData', 'Model');
 		$this->TrackerInfo = new TrackerInfo();
 		$this->Company = new Company();
-		$company_ids = $this->TrackerInfo->get_company_ids_with_fast_tracker();
-		$this->set('companies', $this->Company->getBrosableCompaniesList($company_ids));
+		$this->CacheData = new CacheData();
+		
+		$company_ids = $this->CacheData->get_data_by_key(
+						'company_ids_with_fast_tracker', 
+						false, 
+						'memcache_24hr', 
+						true);
+		//$company_ids = $this->TrackerInfo->get_company_ids_with_fast_tracker();
+				
+		$brosable_companies = $this->CacheData->get_data_by_key(
+						'comps_select_list_with_fast_tracker', 
+						false, 
+						'memcache_24hr', 
+						true);
+		//$brosable_companies = $this->Company->getBrosableCompaniesList($company_ids);
+		
+		$this->set('companies', $brosable_companies);
 		
 		$this->set('user_logged_in', $user_logged_in);
 	}

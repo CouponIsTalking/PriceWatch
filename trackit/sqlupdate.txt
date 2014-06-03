@@ -113,3 +113,9 @@ ALTER TABLE  `backend_ops` ADD  `pid` BIGINT( 22 ) NOT NULL DEFAULT  '0' AFTER  
 ADD INDEX (  `pid` ) ;
 ALTER TABLE  `backend_ops` CHANGE  `type`  `type` ENUM(  'gen_pr_notf',  'get_rp',  'get_prod_detail',  'classify_page' ) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL ;
 ALTER TABLE  `priceupdate_notifications` CHANGE  `id`  `id` VARCHAR( 50 ) NOT NULL ;
+
+// price timestamps
+ALTER TABLE  `products` CHANGE  `lastpriceupdate_timestamp`  `lastpriceupdate_timestamp` INT( 11 ) NOT NULL DEFAULT  '-1';
+ALTER TABLE  `products` CHANGE  `add_timestamp`  `add_timestamp` INT( 11 ) NOT NULL DEFAULT  '-1';
+ALTER TABLE  `products` CHANGE  `lastpricedrop_timestamp`  `lastpricedrop_timestamp` INT( 11 ) NOT NULL DEFAULT  '-1';
+ALTER TABLE  `products` CHANGE  `lastpriceup_timestamp`  `lastpriceup_timestamp` INT( 11 ) NOT NULL DEFAULT  '-1';

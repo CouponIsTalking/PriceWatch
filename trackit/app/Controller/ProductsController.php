@@ -92,13 +92,13 @@ class ProductsController extends AppController {
 			$this->ConfigConst = new ConfigConst();
 			$last_pid = $this->ConfigConst->get_val_by_key('last_plist_end_pid');
 			
-			$seconds_in_an_hour = 60*60;
+			$seconds_in_six_hour = 6*60*60;
 			
 			$products = $this->Product->find('all', array(
 					'recursive' => -1,
 					'conditions' => array(
 						'id >'=>$last_pid,
-						'lastpriceupdate_timestamp' < strval(time()- $seconds_in_an_hour)
+						'lastpriceupdate_timestamp <' => strval(time()- $seconds_in_six_hour)
 						),
 					'fields' => array('id', 'purl'),
 					'limit' => 100,

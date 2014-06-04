@@ -1,11 +1,4 @@
-<?php
-if ($noperm)
-{
-	return;
-}
-?>
-
-<div class="companies index">
+<div class="companies">
 	<h2><?php echo __('Companies'); ?></h2>
 	<table cellpadding="0" cellspacing="0">
 	<tr>
@@ -50,10 +43,4 @@ if ($noperm)
 		echo $this->Paginator->next(__('next') . ' >', array(), null, array('class' => 'next disabled'));
 	?>
 	</div>
-</div>
-<div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
-		<li><?php echo $this->Html->link(__('New Company'), array('action' => 'add')); ?></li>
-	</ul>
 </div>

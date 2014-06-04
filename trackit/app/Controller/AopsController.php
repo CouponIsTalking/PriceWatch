@@ -53,6 +53,7 @@ class AopsController extends AppController {
 		$menus['Companies'] = array();
 		$menus['Companies']['List' ] = SITE_NAME . "companies/index";
 		$menus['Companies']['Add' ] = SITE_NAME . "companies/add";
+		$menus['Companies']['Search By Website' ] = SITE_NAME . "companies/search_by_website";
 		$menus['UserTrackedProducts'] = array();
 		$menus['UserTrackedProducts']['List' ] = SITE_NAME . "user_products/view_all";
 		$menus['Products'] = array();

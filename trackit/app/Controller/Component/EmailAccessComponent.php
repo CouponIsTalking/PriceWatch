@@ -7,11 +7,16 @@
  * @version 1.0
  * @category Components 
  */
+ 
+App::uses('email', 'Config');
+App::uses('EmailOptionConfig', 'Config');
+
 class EmailAccessComponent extends Component {
 	
-	const TEAM_EMAIL = "team@usemenot.com";
-	const NO_REPLY_EMAIL = "team@usemenot.com";
+	//static TEAM_EMAIL; //"team@usemenot.com";
+	//static NO_REPLY_EMAIL; //"team@usemenot.com";
 	
+	var $email_addresses = array();
 	var $name = 'EmailAccess'; // the name of your component
 	/*
 	var $components = array('Email',
@@ -311,73 +316,73 @@ class EmailAccessComponent extends Component {
 		if ('contact_initiated' == $reason)
 		{
 			$data['subject'] = $data['subject'];
-			$data['from'] = EmailAccessComponent::TEAM_EMAIL;
+			$data['from'] = $this->email_addresses['team_email'];
 			$data['fromName'] = GENERIC_APPNAME;
-			$data['replyTo'] = EmailAccessComponent::TEAM_EMAIL;
+			$data['replyTo'] = $this->email_addresses['team_email'];
 			$data['replyToName'] = GENERIC_APPNAME;
 		}
 		else if ('confirmation_for_contact_initiation' == $reason)
 		{
 			$data['subject'] = 'Thank you for reaching out.';
-			$data['from'] = EmailAccessComponent::TEAM_EMAIL;
+			$data['from'] = $this->email_addresses['team_email'];
 			$data['fromName'] = GENERIC_APPNAME;
-			$data['replyTo'] = EmailAccessComponent::TEAM_EMAIL;
+			$data['replyTo'] = $this->email_addresses['team_email'];
 			$data['replyToName'] = GENERIC_APPNAME;
 		}
 		else if($reason == 'confirmation_email_to_user_from_contact_us_page') {
 			
 			$data['subject'] = 'Thank you for contacting us';
-			$data['from'] = EmailAccessComponent::TEAM_EMAIL;
+			$data['from'] = $this->email_addresses['team_email'];
 			$data['fromName'] = GENERIC_APPNAME;
-			$data['replyTo'] = EmailAccessComponent::TEAM_EMAIL;
+			$data['replyTo'] = $this->email_addresses['team_email'];
 			$data['replyToName'] = GENERIC_APPNAME;
 		}
 		else if($reason == 'contact_request') {
 			
 			$data['subject'] = 'Contact Request';
-			$data['from'] = EmailAccessComponent::TEAM_EMAIL;
+			$data['from'] = $this->email_addresses['team_email'];
 			$data['fromName'] = GENERIC_APPNAME;
-			$data['replyTo'] = EmailAccessComponent::TEAM_EMAIL;
+			$data['replyTo'] = $this->email_addresses['team_email'];
 			$data['replyToName'] = GENERIC_APPNAME;
 		}
 		else if($reason == 'thankyou') {
 		
 			$data['subject'] = 'Thank you from '.GENERIC_APPNAME;
-			$data['from'] = EmailAccessComponent::TEAM_EMAIL;
+			$data['from'] = $this->email_addresses['team_email'];
 			$data['fromName'] = GENERIC_APPNAME;
-			$data['replyTo'] = EmailAccessComponent::TEAM_EMAIL;
+			$data['replyTo'] = $this->email_addresses['team_email'];
 			$data['replyToName'] = GENERIC_APPNAME;
 		}
 		else if($reason == 'welcome_after_registration') {
 		
 			$data['subject'] = 'Welcome from '.GENERIC_APPNAME;
-			$data['from'] = EmailAccessComponent::TEAM_EMAIL;
+			$data['from'] = $this->email_addresses['team_email'];
 			$data['fromName'] = GENERIC_APPNAME;
-			$data['replyTo'] = EmailAccessComponent::TEAM_EMAIL;
+			$data['replyTo'] = $this->email_addresses['team_email'];
 			$data['replyToName'] = GENERIC_APPNAME;
 		}
 		else if($reason == 'reset_password') {
 		
 			$data['subject'] = 'Reset Password for '.GENERIC_APPNAME;
-			$data['from'] = EmailAccessComponent::TEAM_EMAIL;
+			$data['from'] = $this->email_addresses['team_email'];
 			$data['fromName'] = GENERIC_APPNAME;
-			$data['replyTo'] = EmailAccessComponent::TEAM_EMAIL;
+			$data['replyTo'] = $this->email_addresses['team_email'];
 			$data['replyToName'] = GENERIC_APPNAME;
 		}
 		else if($reason == 'confirm_email') {
 		
 			$data['subject'] = 'Confirm Your Email for '.GENERIC_APPNAME;
-			$data['from'] = EmailAccessComponent::TEAM_EMAIL;
+			$data['from'] = $this->email_addresses['team_email'];
 			$data['fromName'] = GENERIC_APPNAME;
-			$data['replyTo'] = EmailAccessComponent::TEAM_EMAIL;
+			$data['replyTo'] = $this->email_addresses['team_email'];
 			$data['replyToName'] = GENERIC_APPNAME;
 		}
 		else if($reason == 'confirm_email_extra_email') {
 		
 			$data['subject'] = 'Confirm Your Email for '.GENERIC_APPNAME;
-			$data['from'] = EmailAccessComponent::TEAM_EMAIL;
+			$data['from'] = $this->email_addresses['team_email'];
 			$data['fromName'] = GENERIC_APPNAME;
-			$data['replyTo'] = EmailAccessComponent::TEAM_EMAIL;
+			$data['replyTo'] = $this->email_addresses['team_email'];
 			$data['replyToName'] = GENERIC_APPNAME;
 		}
 		
@@ -410,7 +415,7 @@ class EmailAccessComponent extends Component {
 				$from = $data_for_email['from'];
 			}
 			else {
-				$from = EmailAccessComponent::NO_REPLY_EMAIL;
+				$from = $this->email_addresses['no_reply_email'];
 			}
 			
 			if(!empty($data_for_email['fromName'])) {
@@ -424,7 +429,7 @@ class EmailAccessComponent extends Component {
 				$replyTo = $data_for_email['replyTo'];
 			}
 			else {
-				$replyTo = EmailAccessComponent::NO_REPLY_EMAIL;
+				$replyTo = $this->email_addresses['no_reply_email'];
 			}
 			
 			if(!empty($data_for_email['replyToName'])) {
@@ -642,7 +647,7 @@ class EmailAccessComponent extends Component {
 		
 		App::uses('CakeEmail', 'Network/Email');
 		$this->email = new CakeEmail();
-				
+		$this->email_addresses = EmailOptionConfig::$addresses;
 	}
 	
 	

@@ -58,7 +58,7 @@ function update_fb_user_info(){}
 function action_fb_login(){
 show_message_in_div('.users .success_msg1', "Logging you in with facebook, just a sec..", 0, 0);
 var $p = [];$p['params'] = []; $p['params']["permissions"] = 'email, read_stream, read_friendlists, publish_stream';
-$p['params']['get_all_perms'] = true;
+$p['params']['get_all_perms'] = false;//true;
 $p['scn'] = "show_successful_login_msg_with_page_refresh"; $p['sp'] = "";
 $p['ecn'] = "fb_show_error_msg"; $p['ep'] = "We couldn't log you in. This may happen if you did give us proper permissions. In case you had hesitation providing permissions, please be informed that we do not access and use any of your facebook data at all for purposes other than login.  <a style='color:white; cursor:pointer;' onclick='cb_clk(); action_fb_login();'>Grant This Permission</a>;";
 fb_login_cb_arg($p);

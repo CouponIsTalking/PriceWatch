@@ -1,5 +1,7 @@
 <?php
 
+App::uses('ProdApiConfig', 'Config');
+
 class ProdAPIComponent extends Component {
 	
 	var $api_key = "";
@@ -7,7 +9,8 @@ class ProdAPIComponent extends Component {
 	
 	private function configure_keys(){
 		$this->configured_python_ver_code = Configure::read('PYTHON_VERIFICATION_CODE');
-		$this->api_key = "adadad348jqdj2~!@!!@";
+		$this->api_key = ProdApiConfig::$keys['api_key'];
+		//$this->api_key = "adadad348jqdj2~!@!!@";
 	}
 	
 	public function get_python_ver_code(){

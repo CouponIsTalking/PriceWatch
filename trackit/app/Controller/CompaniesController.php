@@ -32,6 +32,7 @@ class CompaniesController extends AppController {
 		$this->Auth->allow('get_list_for_parsing');
 		$this->Auth->allow('get_cinfo_for_parsing');
 		$this->Auth->allow('index');
+		$this->Auth->allow('search_by_website');
 		$this->Auth->allow('user_view');
 		$this->Auth->allow('coupons');
 		$this->Auth->allow('all_view');
@@ -164,21 +165,32 @@ class CompaniesController extends AppController {
  * @return void
  */
 	public function index() {
-		$is_admin = $this->UserData->isAdmin();
+		$this->only_admin_can_see();
 		
-		$this->set('noperm', false);
-		if (!$is_admin)
-		{
-			$this->set('noperm', true);
-			$this->Session->setFlash("You don't have permission to see this location. Did you drop here by some broken link. Let us know.");
-			return;
-		}
 		$this->Company->recursive = 0;
 		$this->set('companies', $this->Paginator->paginate());
 
 		$topic_data = $this->Topic->getTopicList();
 		$this->set('topic_data', $topic_data);
 	
+	}
+	
+	public function search_by_website(){
+		
+		$this->only_admin_can_see();
+		if($this->request->ispost()){
+			$data = $this->request->data;
+			$company_website = $data['Company']['company_website'];
+			
+			$company = $this->Company->getRawCompanyInfoBySiteName($company_website);
+			if (empty($company)){
+				$this->Session->setFlash("No match found for {$company_website}.");
+			}else{
+				$this->set('company', $company);
+			}
+		}else{
+			$this->set('company', false);
+		}
 	}
 	
 	public function coupons() {
@@ -253,6 +265,9 @@ class CompaniesController extends AppController {
  * @return void
  */
 	public function view($company_id = null) {
+		
+		$this->only_admin_can_see();
+		
 		if (!$this->Company->exists($company_id)) {
 			throw new NotFoundException(__('Invalid company'));
 		}
@@ -485,8 +500,15 @@ class CompaniesController extends AppController {
 		
 		$is_admin = $this->UserData->isAdmin();
 		$this->set('is_admin', $is_admin);
+		
 		if (empty($is_admin)){
 			$id = $this->UserData->getCompanyId();
+		}
+		// If admin, then take ID from the post request.
+		else{
+			if(!empty($this->request->data['Company']['id'])){
+				$id=$this->request->data['Company']['id'];
+			}
 		}
 		
 		if(empty($id)){
@@ -502,7 +524,7 @@ class CompaniesController extends AppController {
 			
 			if ($this->Company->save($this->request->data)) {
 				$this->Session->setFlash(__('Your company profile is updated.'));
-				return $this->redirect(array('action' => 'edit'));
+				return $this->redirect(array('action' => 'edit', $id));
 			}
 			$this->Session->setFlash(__('The company could not be saved. Please, try again.'));
 		} else {

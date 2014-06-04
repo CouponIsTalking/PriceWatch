@@ -40,9 +40,53 @@ if ('localhost' == $_SERVER['HTTP_HOST']){
 	define('CONTENT_IMG_FOLDER_ALIAS', '/trackit_content_upload_folder');
 	define('PYTHON_SCRIPTS_FOLDER', 'C:/wamp/www/trackit/app/webroot/py/trackit/PythonApplication1/PythonApplication1/');
 	
+	Configure::write('PYTHON_VERIFICATION_CODE', 'fksdfosdofolekrw7etgf474r234');
+	//twitter info
+	Configure::write('Twitter.consumerKey', 'm7VNr9THroknDAJMTJm1g');
+	Configure::write('Twitter.consumerSecret', 'pmPj4c5RJ3XVyWyy1SHCSFdwwPbE5f12rt2hazpYFQ');
+	
+	/**
+	 * A random string used in security hashing methods.
+	 */
+		Configure::write('Security.salt', 'DYadadada483274AKJDAJAK%&%^%WwvniR2G0FgaC9mi');
+
+	/**
+	 * A random numeric string (digits only) used to encrypt/decrypt strings.
+	 */
+		Configure::write('Security.cipherSeed', '2423444442424272742429482984');
+
 	// enable debug
 	Configure::write('debug', 2);
 
+}else if ('devapi.smarthaggler.com' == $_SERVER['HTTP_HOST']){
+	define('FBAPPID', '776624369037926');
+	define('FBAPPSECRET', 'e1d8091e67e28967e8611e6a2212091e');
+	define('IMGUR_CLIENTID', 'd063a98620fb96d');
+	define('IMGUR_CLIENTSECRET', '854a666be82878b0ffa14a13f1b9728d8ce2370d');
+	define('SITE_NAME', 'http://devapi.smarthaggler.com/');
+	define('SITE_DOMAIN', 'devapi.smarthaggler.com');
+	define('CONTENT_IMG_FOLDER', 'http://devapi.smarthaggler.com/img/contents/');
+	define('CONTENT_IMG_FOLDER_LOCAL_PATH', '/home/devapish/public_html/');
+	define('CONTENT_IMG_FOLDER_ALIAS', '/trackit_content_upload_folder');
+	define('PYTHON_SCRIPTS_FOLDER', '/home/devapish/public_html/');
+	
+	Configure::write('PYTHON_VERIFICATION_CODE', 'fksdfosdofolekrw7etgf474r234');
+	//twitter info
+	Configure::write('Twitter.consumerKey', 'm7VNr9THroknDAJMTJm1g');
+	Configure::write('Twitter.consumerSecret', 'pmPj4c5RJ3XVyWyy1SHCSFdwwPbE5f12rt2hazpYFQ');
+	
+	/**
+	 * A random string used in security hashing methods.
+	 */
+		Configure::write('Security.salt', 'devapi.smarthaggler.com.AKJDAJAK%&%^%WwvniR2G0FgaC9mi');
+
+	/**
+	 * A random numeric string (digits only) used to encrypt/decrypt strings.
+	 */
+		Configure::write('Security.cipherSeed', '242324242472742429482984');
+
+	// disable debug
+	Configure::write('debug', 2);
 }else if('alpha.couponistalking.com' == $_SERVER['HTTP_HOST']){
 	define('FBAPPID', '267327333448965');
 	define('FBAPPSECRET', '9da344d687ec615c039c13dbe7f0bf37');
@@ -55,6 +99,22 @@ if ('localhost' == $_SERVER['HTTP_HOST']){
 	define('CONTENT_IMG_FOLDER_ALIAS', '/trackit_content_upload_folder');
 	define('PYTHON_SCRIPTS_FOLDER', '/home/savethis/public_html/cit/alpha/app/webroot/py/trackit/PythonApplication1/');
 	
+	Configure::write('PYTHON_VERIFICATION_CODE', 'fasdja34eawklaq34474r234');
+	//twitter info
+	Configure::write('Twitter.consumerKey', 'abUbV1kRU5PRRx9D6p85caz7m');
+	Configure::write('Twitter.consumerSecret', 'lsO8IApsJZGzvdCsqFKU1HUmIGDml8nD6b0P1SEFbK1x1S21e6');
+	
+	/**
+	 * A random string used in security hashing methods.
+	 */
+		Configure::write('Security.salt', 'DYadadada483274AKJDAJAK%&%^%WwvniR2G0FgaC9mi');
+
+	/**
+	 * A random numeric string (digits only) used to encrypt/decrypt strings.
+	 */
+		Configure::write('Security.cipherSeed', '2423444442424272742429482984');
+
+		
 	// disable debug
 	Configure::write('debug', 0);
 }
@@ -274,16 +334,6 @@ Configure::write('Routing.prefixes', array('admin'));
 	Configure::write('Session.save', 'php');
 
 /**
- * A random string used in security hashing methods.
- */
-	Configure::write('Security.salt', 'DYadadada483274AKJDAJAK%&%^%WwvniR2G0FgaC9mi');
-
-/**
- * A random numeric string (digits only) used to encrypt/decrypt strings.
- */
-	Configure::write('Security.cipherSeed', '2423444442424272742429482984');
-
-/**
  * Apply timestamps with the last modified time to static assets (js, css, images).
  * Will append a query string parameter containing the time the file was modified. This is
  * useful for invalidating browser caches.
@@ -461,18 +511,6 @@ Cache::config('_cake_model_', array(
 	'serialize' => ($engine === 'File'),
 	'duration' => $duration
 ));
-
-if ('localhost' == $_SERVER['HTTP_HOST']){
-	Configure::write('PYTHON_VERIFICATION_CODE', 'fksdfosdofolekrw7etgf474r234');
-	//twitter info
-	Configure::write('Twitter.consumerKey', 'm7VNr9THroknDAJMTJm1g');
-	Configure::write('Twitter.consumerSecret', 'pmPj4c5RJ3XVyWyy1SHCSFdwwPbE5f12rt2hazpYFQ');
-}else{
-	Configure::write('PYTHON_VERIFICATION_CODE', 'fasdja34eawklaq34474r234');
-	//twitter info
-	Configure::write('Twitter.consumerKey', 'abUbV1kRU5PRRx9D6p85caz7m');
-	Configure::write('Twitter.consumerSecret', 'lsO8IApsJZGzvdCsqFKU1HUmIGDml8nD6b0P1SEFbK1x1S21e6');
-}
 
 // Backend ops types
 Configure::write('GET_RELATED_PROD', 'get_rp');

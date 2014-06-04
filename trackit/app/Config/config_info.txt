@@ -4,3 +4,5 @@ database.php
 email.php
 emailaccess component
 pythoninf component
+
+twitter.php in config folder in twitter plugin

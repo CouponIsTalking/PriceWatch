@@ -269,7 +269,7 @@ echo "<div style='float:right;'>
 		$set_admin_mode_link = SITE_NAME . "aops/setamode";
 		$admin_menu_link = SITE_NAME . "aops/menu";
 		echo "<a style='font-size:12px;display:none;color:black;' class='_welcome_sub_logout_btn' href=\"{$set_admin_mode_link}\">Set Admin Mode</a><br/>";
-		echo "<a style='font-size:12px;display:none;color:black;' class='_welcome_sub_logout_btn' target='_blank' href=\"{$admin_menu_link}\">Admin Menu</a><br/>";
+		echo "<a style='font-size:12px;display:none;color:black;' class='_welcome_sub_logout_btn' href=\"{$admin_menu_link}\">Admin Menu</a><br/>";
 	}
 	
 	echo "

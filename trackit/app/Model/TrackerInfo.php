@@ -27,7 +27,12 @@ class TrackerInfo extends AppModel {
 	
 	public function get_company_ids_with_fast_tracker()
 	{
-		$trackers = $this->find('all', array('recursive' => -1, 'conditions' => array ('urllib2_pimg_xpath1 !=' => "")));
+		$trackers = $this->find('all', array('recursive' => -1, 
+			'conditions' => array (
+				'urllib2_pimg_xpath1 !=' => "",
+				'enabled' => 1
+			)
+		));
 		$company_ids = array();
 		foreach ($trackers as $index => $tracker)
 		{

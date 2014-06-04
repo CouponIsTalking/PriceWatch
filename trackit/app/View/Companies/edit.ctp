@@ -26,6 +26,9 @@
 			echo $this->Form->input('topic2', array(
 				'options' => $topic_data_select_list
 			));
+			
+			echo $this->Form->input('enabled');
+		
 		}
 		
 		//echo $this->Form->input('topic1');

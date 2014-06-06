@@ -29,8 +29,7 @@ class TrackerInfo extends AppModel {
 	{
 		$trackers = $this->find('all', array('recursive' => -1, 
 			'conditions' => array (
-				'urllib2_pimg_xpath1 !=' => "",
-				'enabled' => 1
+				'urllib2_pimg_xpath1 !=' => ""
 			)
 		));
 		$company_ids = array();

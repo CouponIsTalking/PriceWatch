@@ -119,3 +119,6 @@ ALTER TABLE  `products` CHANGE  `lastpriceupdate_timestamp`  `lastpriceupdate_ti
 ALTER TABLE  `products` CHANGE  `add_timestamp`  `add_timestamp` INT( 11 ) NOT NULL DEFAULT  '-1';
 ALTER TABLE  `products` CHANGE  `lastpricedrop_timestamp`  `lastpricedrop_timestamp` INT( 11 ) NOT NULL DEFAULT  '-1';
 ALTER TABLE  `products` CHANGE  `lastpriceup_timestamp`  `lastpriceup_timestamp` INT( 11 ) NOT NULL DEFAULT  '-1';
+
+//manage foreign coupon
+ALTER TABLE  `open_campaigns` CHANGE  `type`  `type` ENUM(  'foreign',  'yelp_review',  'giveaway',  'single_email_ns_signup',  'dual_email_ns_signup',  'blog',  'fb_post', 'reddit',  'imgur',  'mixed',  'tweet',  'fb_like_page',  'fb_like_pic',  'fb_like_video',  'fb_post_video',  'fb_event_share',  'fb_event_join',  'fb_status_update' ) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL ;

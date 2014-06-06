@@ -1,6 +1,15 @@
 <span class='blk_underline' style="font-size:18px;margin-bottom:15px;color:red;cursor:pointer;" onclick="moveTo('<?php echo $edit_link;?>')">Edit it</span>
 <br/><br/><br/><br/>
 <?php
+if(!empty($links)){
+	foreach($links as $t=>$l){
+		echo "<span class='blk_underline' style=\"font-size:18px;margin-bottom:15px;color:red;cursor:pointer;\" onclick=\"moveTo('{$l}')\">{$t}</span>";
+	}
+	echo "<br/><br/><br/><br/>";
+}
+?>
+
+<?php
 
 echo "<div style='font-style:Helvetica sans-serif; font-size:16px;width:800px;'>";
 foreach($data as $key => $val){

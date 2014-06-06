@@ -46,6 +46,10 @@ class AopsController extends AppController {
 	public function menu(){
 		$this->only_admin_can_see();
 		$menus = array();
+		$menus['Users'] = array();
+		$menus['Users']['List' ] = SITE_NAME . "users/view_all";
+		$menus['Users']['Find By Email' ] = SITE_NAME . "users/find_by_email";
+		$menus['Users']["To \"Logout and Login As\", find user by email first" ] = "";
 		$menus['Tracker'] = array();
 		$menus['Tracker']['List'] = SITE_NAME . "tracker_infos/index";
 		$menus['Tracker']['Add'] = SITE_NAME . "tracker_infos/add";

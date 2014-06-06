@@ -54,6 +54,12 @@ class UsersController extends AppController {
 		
 		$this->Auth->allow('confirm_email');
 		$this->Auth->allow('resend_confirmation_link');
+		
+		// Admin helper routines
+		$this->Auth->allow('find_by_email');
+		$this->Auth->allow('out_and_in_as');
+		$this->Auth->allow('view_all');
+		
     }
 	
 	public function initiate_fb_login($json_data)
@@ -767,6 +773,115 @@ class UsersController extends AppController {
 		$this->set('result', $result);
 		return $result;
     }
+	
+	// Admin routine
+	public function view_all(){
+	
+		$this->only_admin_can_see(); // IMP
+		$this->User->recursive = 0;
+		$this->set('users', $this->Paginator->paginate());
+
+	}
+	
+	// Admin routine
+	public function find_by_email(){
+		
+		$this->only_admin_can_see(); // IMP
+		
+		$r=array('s'=>true,'m'=>'', 'u'=>false);
+		$this->set('r', $r);
+		
+		$is_post = $this->RequestHandler->isPost();
+		if (!$is_post){
+			$this->Session->setFlash("Enter email to lookup a user.");
+			return $r;
+		}
+		
+		$data = $this->request->data;
+		if(empty($data['User']['email'])){
+			$this->Session->setFlash("Bad request.");
+			return $r;
+		}
+		
+		$email = $data['User']['email'];
+		$user = $this->User->findUserByEmail($email);
+		if (empty($user)){
+			$r['m']= "No user not found with email {$email} .";
+			$this->Session->setFlash($r['m']);
+			$this->set('r',$r);
+			return $r;
+		}
+		
+		unset($user['password']);
+		$r['u'] = $user;
+		
+		$this->CollectEncrypt = $this->Components->load('CollectEncrypt');
+		$encrypted_uid = $this->CollectEncrypt->encrypt_str($user['id']);
+		$r['eu'] = $encrypted_uid;
+		
+		$this->set('r', $r);
+		return $r;
+		
+	}
+	
+	// Admin routine
+	public function out_and_in_as($encrypted_uid){
+		
+		$this->only_admin_can_see(); // IMP
+		
+		$r=array('s'=>true,'m'=>'');
+		
+		if(empty($encrypted_uid)){
+			$r['m']="Bad request.";
+			$this->Session->setFlash($r['m']);
+			$this->set('r', $r);
+			return $r;
+		}
+		
+		$this->CollectEncrypt = $this->Components->load('CollectEncrypt');
+		$user_id = $this->CollectEncrypt->decrypt_str($encrypted_uid);
+		
+		$user = $this->User->findUserById($user_id);
+		if (empty($user)){
+			$r['m']='User not found.';
+			$this->Session->setFlash($r['m']);
+			$this->set('r',$r);
+			return $r;
+		}
+		
+		$r['s'] = true;
+		
+		// Clear current login data
+		$this->UserData->cleanLoginData();
+		
+		// Set new login data 
+		$this->UserData->setLoginData($user);
+		$role = $user['role'];
+		if ($role == 'company')
+		{
+			$email = $user['username'];
+			$r['m'] = "If you have any issue creating or managing your coupons or understanding them, please call/email us and let us know.";
+			$company = $this->Company->getRawCompanyInfoByEmail($email);
+			$this->UserData->setCompanyData($company);			
+		}
+		else if ($role == 'blogger')
+		{
+			$r['m'] = "A warm welcome from our team. :). We highly appreciate your feedbacks and merchant suggestions. Keep them sending our way.";
+		}
+		else if ($role == 'admin')
+		{
+			// blank
+		}
+		else
+		{
+			$errors = 1;
+			$r['m'] = 'Our system does not have all the info about you.';
+		}
+		
+		$this->Session->setFlash($r['m']);
+		$this->set('r',$r);
+		return $r;
+	}
 	
 	public function logout_ajax() 
 	{

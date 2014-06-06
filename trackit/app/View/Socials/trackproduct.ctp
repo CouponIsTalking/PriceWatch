@@ -1,3 +1,7 @@
+<?php
+echo $this->Html->css('company_tags');
+?>
+
 <script type="text/javascript">
 
 function RunOnLoad(){
@@ -35,7 +39,7 @@ if (!empty($companies)){
 		$i = $i+1;
 		//$encoded_url = urlencode($company['Company']['website']);
 		$encoded_url = urlencode($company['website']);
-		echo "<div class='tag' style='float:left; width:400px; margin:10px;' onclick=\"OpenInNewTab(addhttp('{$company['website']}'));\">";
+		echo "<div class='company_discount_tag ' style='float:left; width:400px; margin:10px;color:white;border-bottom-color:white;' onclick=\"OpenInNewTab(addhttp('{$company['website']}'));\">";
 			//echo $company['Company']['name'];
 			echo $company['name'];
 		echo "</div>";

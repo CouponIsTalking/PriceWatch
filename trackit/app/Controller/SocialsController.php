@@ -156,6 +156,7 @@ class SocialsController extends AppController {
 		
 		if(!empty($this->request->query['t'])){
 			$title=$this->request->query['t'];
+			if(!empty($title)){$title = urldecode($title);}
 		}
 		
 		//debug($prodlink);

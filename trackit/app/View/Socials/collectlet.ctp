@@ -2,8 +2,8 @@
 
 function RunOnLoad(){
 	//$("#trackit1234567890A").find("#form1").css('display','block');
-	var $title = "<?php echo $title;?>";
-	var $prodlink = "<?php echo $prodlink;?>";
+	var $title = "<?php echo addslashes($title);?>";
+	var $prodlink = "<?php echo addslashes($prodlink);?>";
 	$("#trackit1234567890title").val($title);
 	$("#trackit1234567890pageurihidden").val($prodlink);
 	//$("#trackit1234567890email").val($uemail);

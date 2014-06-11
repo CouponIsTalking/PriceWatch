@@ -23,6 +23,19 @@ transition: background-color 300ms linear;
 font-family: Helvetica sans-serif;font-size: 18px;cursor:pointer;	
 }
 
+*.no_collection_msg{margin: 10px;background:rgb(170,70,70);color: white;
+font-family: Helvetica sans-serif;cursor:pointer;
+font-size:30px;padding:20px;text-align:center;padding-left:100px;padding-right:100px;
+}
+* .no_collection_msg:hover{ 
+color: rgb(7,7,7); background:rgb(220,220,220);
+-webkit-transition: background-color 300ms linear;
+-moz-transition: background-color 300ms linear;
+-o-transition: background-color 300ms linear;
+-ms-transition: background-color 300ms linear;
+transition: background-color 300ms linear;
+}
+
 * .share_tag{
 	letter-spacing:2px;
 	border-bottom:1px dotted #333;
@@ -54,6 +67,13 @@ st.css('opacity','0').css('display', 'block').fadeTo(500, 0.95);
 </script>
 
 <?php
+
+if (empty($collection_names)){
+	$tracker_page = SITE_NAME . "socials/trackproduct";
+	echo "<div class='no_collection_msg' style='' onclick=\"moveTo('{$tracker_page}');\">You haven't built any collections yet. Start by tracking some products and adding them in your collection first :).</div>";
+	return;
+}
+
 echo "<div class='content_news_box' style='width:100%;border:none;'>";
 echo "<br/>";
 ?>

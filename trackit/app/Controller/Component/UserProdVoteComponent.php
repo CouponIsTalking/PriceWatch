@@ -9,6 +9,9 @@ class UserProdVoteComponent extends Component {
 	
 	
 	public function get_user_votes_on_prod($controller,$product_ids){
+		if (empty($product_ids)){
+			return array();
+		}
 		$user_id = $controller->UserData->getUserId();
 		$prod_votes = $controller->ProdVote->find_vote($user_id, $product_ids);
 		

@@ -1,8 +1,7 @@
 This website uses CakePHP and JQuery. Please refer to following links for specific documentation of the version used by this site.
-
+---
 
 CakePHP
-
 
 [![CakePHP](http://cakephp.org/img/cake-logo.png)](http://www.cakephp.org)
 

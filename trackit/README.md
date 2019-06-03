@@ -1,5 +1,8 @@
+This website uses CakePHP and JQuery. Please refer to following links for specific documentation of the version used by this site.
+
+
 CakePHP
-=======
+
 
 [![CakePHP](http://cakephp.org/img/cake-logo.png)](http://www.cakephp.org)
 
@@ -7,7 +10,6 @@ CakePHP is a rapid development framework for PHP which uses commonly known desig
 Our primary goal is to provide a structured framework that enables PHP users at all levels to rapidly develop robust web applications, without any loss to flexibility.
 
 Some Handy Links
-----------------
 
 [CakePHP](http://www.cakephp.org) - The rapid development PHP framework
 
@@ -24,7 +26,6 @@ Some Handy Links
 [The Cake Software Foundation](http://cakefoundation.org/) - promoting development related to CakePHP
 
 Get Support!
-------------
 
 [Our Google Group](https://groups.google.com/group/cake-php) - community mailing list and forum
 
